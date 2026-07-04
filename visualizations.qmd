@@ -1,0 +1,7 @@
+---
+title: "Visualizations"
+---
+
+# Visualizations
+
+Interactive figures, dashboards, and data stories will appear here.
