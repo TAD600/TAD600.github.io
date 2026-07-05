@@ -2,8 +2,6 @@
 title: "About"
 ---
 
-::: {.content}
-
 ::: {.grid}
 
 ::: {.g-col-4}
@@ -25,8 +23,6 @@ Currently I study global migration networks, international trade networks, and g
 - International Trade
 - Social Network Analysis
 - Text as Data / Computational Methods
-
-:::
 
 :::
 

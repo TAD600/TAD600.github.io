@@ -1,44 +1,84 @@
 /* =========================
-   Global layout fix (important)
+   Typography & Base Layout
 ========================= */
 
-.content {
-    max-width: 900px;
-    margin: auto;
-    padding-top: 40px;
-}
-
-/* Typography */
 body {
-    font-family: "Source Sans 3", sans-serif;
-    background: #fafafa;
-    color: #222222;
-    font-size: 18px;
-    line-height: 1.8;
+  font-family: "Source Sans 3", sans-serif;
+  background: #fafafa;
+  color: #222222;
+  font-size: 18px;
+  line-height: 1.8;
 }
 
-/* Headings */
-h1, h2, h3 {
-    font-family: "Lora", serif;
-    font-weight: 600;
+/* Main content width control (stable Quarto selector) */
+#quarto-document-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 40px;
 }
 
-/* Accent color */
+/* =========================
+   Headings
+========================= */
+
+h1, h2, h3, h4 {
+  font-family: "Lora", serif;
+  font-weight: 600;
+  color: #222222;
+}
+
+/* Section spacing */
+h2 {
+  margin-top: 2em;
+}
+
+/* =========================
+   Links (accent color)
+========================= */
+
 a {
-    color: #6A9A78;
+  color: #6A9A78;
+  text-decoration: none;
 }
 
 a:hover {
-    color: #4f7d5f;
+  color: #4f7d5f;
+  text-decoration: underline;
 }
 
-/* Navbar clean look */
+/* =========================
+   Navbar styling
+========================= */
+
 .navbar {
-    background: white;
-    border-bottom: 1px solid #e8e8e8;
+  background: white;
+  border-bottom: 1px solid #e8e8e8;
 }
 
-/* Smooth spacing between sections */
-h2 {
-    margin-top: 2em;
+.navbar-nav .nav-link.active {
+  color: #6A9A78 !important;
+  font-weight: 600;
+}
+
+/* =========================
+   Image styling (profile photo)
+========================= */
+
+img {
+  border-radius: 12px;
+}
+
+/* Optional subtle hover effect */
+img:hover {
+  transform: scale(1.01);
+  transition: 0.2s ease;
+}
+
+/* =========================
+   Grid spacing improvement
+========================= */
+
+.grid {
+  align-items: center;
+  gap: 2rem;
 }
