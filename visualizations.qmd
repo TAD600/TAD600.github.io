@@ -1,6 +1,6 @@
 ## Word Cloud from YouTube Comments on Bangladeshi Artists' contents
 
-![](images/wordcloud.png){width="500px" fig-align="center"}
+![](wordcloud.png){width="500px" fig-align="center"}
 
 It seems 'song' is the most uttered word in my current corpus. It will definitely get changed once the final corpus is ready. 
 
