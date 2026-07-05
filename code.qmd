@@ -6,7 +6,6 @@ title: "Code"
 This page contains selected code snippets from my research projects. Full reproducible workflows are available on GitHub repositories.
 
 
-
 ```Stata code sample
 import delimited "data/cleaned/panel_complete.csv", clear
 
