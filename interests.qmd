@@ -1,12 +1,8 @@
----
-title: "Elsewhere"
----
 
-# Elsewhere
 
 Research is the way I have chosen to run the machine.
 
-The machine, however, runs toward elsewhere.
+But the machine sometimes runs toward elsewhere.
 
 I maintain a separate website dedicated entirely to my artistic practice and portfolio work.
 

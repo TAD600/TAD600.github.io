@@ -9,30 +9,30 @@
   {
     "objectID": "interests.html",
     "href": "interests.html",
-    "title": "Elsewhere",
+    "title": "Tahia Anan Dhira",
     "section": "",
-    "text": "Elsewhere\nResearch is the way I have chosen to run the machine.\nThe machine, however, runs toward elsewhere.\nI maintain a separate website dedicated entirely to my artistic practice and portfolio work."
+    "text": "Research is the way I have chosen to run the machine.\nBut the machine sometimes runs toward elsewhere.\nI maintain a separate website dedicated entirely to my artistic practice and portfolio work."
   },
   {
     "objectID": "cv.html",
     "href": "cv.html",
-    "title": "Home",
+    "title": "Tahia Anan Dhira",
     "section": "",
-    "text": "CV will be uploaded here."
+    "text": "Updated CV"
   },
   {
     "objectID": "code.html",
     "href": "code.html",
-    "title": "Code",
+    "title": "Tahia Anan Dhira",
     "section": "",
-    "text": "Code\nThis page will host my open-source projects, software, and reproducible research."
+    "text": "– This page will host my open-source projects, software, and reproducible research."
   },
   {
     "objectID": "contact.html",
     "href": "contact.html",
-    "title": "Contact",
+    "title": "Tahia Anan Dhira",
     "section": "",
-    "text": "Contact\nEmail: dhiraanan3@gmail.com GitHub: https://github.com/TAD600 ORCID: https://orcid.org/0000-0001-7403-9862 LinkedIn: https://www.linkedin.com/in/dhiraanan/ University Profile: https://www.du.ac.bd/body/faculty_details/ECO/2459"
+    "text": "Email: dhiraanan3@gmail.com\nGitHub: https://github.com/TAD600\nORCID: https://orcid.org/0000-0001-7403-9862\nLinkedIn: https://www.linkedin.com/in/dhiraanan/\nUniversity Profile: https://www.du.ac.bd/body/faculty_details/ECO/2459"
   },
   {
     "objectID": "index.html",
@@ -58,22 +58,15 @@
   {
     "objectID": "research.html",
     "href": "research.html",
-    "title": "Research",
+    "title": "Tahia Anan Dhira",
     "section": "",
-    "text": "My research focuses on\n\nMigration\nInternational Trade\nPlatformed phenomena\nSocial Network Analysis\nText Analysis\nDevelopment Economics\n\n\n\nComing soon…\n\n\n\nComing soon…"
+    "text": "Bilateral Convergence across the World: Does International Migration Matter? (working paper, 2026)\n- Constructed a panel of directed weighted bilateral migration networks spanning 23 years.\n- Developed reproducible workflows for network construction, visualization, and manuscript figures.\n- Contributed to the conceptual framework and manuscript preparation.\n\nGendered Cultural Hierarchies in Social Media Audience Discourse: Evidence from Bangladeshi Artists (working paper, 2026)\n- Developed a Python pipeline using the YouTube Data API v3 to collect and process more than 8 million comments.\n- Translated almost 2.3 million Bangla texts to English.\n- Transliterated almost 1.6 million Romanized Bangla texts to Bangla and then translated to English.\n- Constructed a cleaned corpus of over 7 million YouTube comments for computational text analysis.\n- Implemented reproducible data processing and analysis workflows in Python and R.\n\nProduct Reproducibility and Trade Patterns: Evidence from Cultural Goods (submitted, 2026)\n- Constructed global trade networks for unique and reproducible cultural products, and non-cultural products.\n- Estimated augmented gravity models using STERGMs and PPML regressions."
   },
   {
     "objectID": "research.html#working-papers",
     "href": "research.html#working-papers",
-    "title": "Research",
+    "title": "Tahia Anan Dhira",
     "section": "",
-    "text": "Coming soon…"
-  },
-  {
-    "objectID": "research.html#publications",
-    "href": "research.html#publications",
-    "title": "Research",
-    "section": "",
-    "text": "Coming soon…"
+    "text": "Bilateral Convergence across the World: Does International Migration Matter? (working paper, 2026)\n- Constructed a panel of directed weighted bilateral migration networks spanning 23 years.\n- Developed reproducible workflows for network construction, visualization, and manuscript figures.\n- Contributed to the conceptual framework and manuscript preparation.\n\nGendered Cultural Hierarchies in Social Media Audience Discourse: Evidence from Bangladeshi Artists (working paper, 2026)\n- Developed a Python pipeline using the YouTube Data API v3 to collect and process more than 8 million comments.\n- Translated almost 2.3 million Bangla texts to English.\n- Transliterated almost 1.6 million Romanized Bangla texts to Bangla and then translated to English.\n- Constructed a cleaned corpus of over 7 million YouTube comments for computational text analysis.\n- Implemented reproducible data processing and analysis workflows in Python and R.\n\nProduct Reproducibility and Trade Patterns: Evidence from Cultural Goods (submitted, 2026)\n- Constructed global trade networks for unique and reproducible cultural products, and non-cultural products.\n- Estimated augmented gravity models using STERGMs and PPML regressions."
   }
 ]

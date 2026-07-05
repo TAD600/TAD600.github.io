@@ -8,7 +8,7 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: About
+        text: Home
 
       - href: research.qmd
         text: Research
@@ -33,3 +33,4 @@ format:
     theme: cosmo
     css: styles.css
     toc: false
+    title-block-banner: false

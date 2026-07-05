@@ -1,4 +1,2 @@
----
-title: "Home"
----
-CV will be uploaded here.
+
+[Updated CV](CV_TAD.pdf)

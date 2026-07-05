@@ -1,22 +1,22 @@
----
-title: "Research"
----
-
-# Research
-
-My research focuses on
-
-- Migration
-- International Trade
-- Platformed phenomena
-- Social Network Analysis
-- Text Analysis
-- Development Economics
 
 ## Working Papers
 
-Coming soon...
+**Bilateral Convergence across the World: Does International Migration Matter?** (working paper, 2026)  
+- Constructed a panel of directed weighted bilateral migration networks spanning 23 years.  
+- Developed reproducible workflows for network construction, visualization, and manuscript figures.  
+- Contributed to the conceptual framework and manuscript preparation.  
 
-## Publications
+---
 
-Coming soon...
+**Gendered Cultural Hierarchies in Social Media Audience Discourse: Evidence from Bangladeshi Artists** (working paper, 2026)  
+- Developed a Python pipeline using the YouTube Data API v3 to collect and process more than 8 million comments.  
+- Translated almost 2.3 million Bangla texts to English.  
+- Transliterated almost 1.6 million Romanized Bangla texts to Bangla and then translated to English.  
+- Constructed a cleaned corpus of over 7 million YouTube comments for computational text analysis.  
+- Implemented reproducible data processing and analysis workflows in Python and R.  
+
+---
+
+**Product Reproducibility and Trade Patterns: Evidence from Cultural Goods** (submitted, 2026)  
+- Constructed global trade networks for unique and reproducible cultural products, and non-cultural products.  
+- Estimated augmented gravity models using STERGMs and PPML regressions.  
