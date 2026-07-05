@@ -8,17 +8,23 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: About
+
       - href: research.qmd
         text: Research
-      - href: visualizations.qmd
-        text: Visualizations
-      - href: code.qmd
-        text: Code
+
       - href: cv.qmd
         text: CV
+
+      - href: visualizations.qmd
+        text: Visualizations
+
+      - href: code.qmd
+        text: Code
+
       - href: interests.qmd
         text: Elsewhere
+
       - href: contact.qmd
         text: Contact
 

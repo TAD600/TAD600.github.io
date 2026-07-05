@@ -1,1 +1,44 @@
-/* css styles */
+/* =========================
+   Global layout fix (important)
+========================= */
+
+.content {
+    max-width: 900px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+/* Typography */
+body {
+    font-family: "Source Sans 3", sans-serif;
+    background: #fafafa;
+    color: #222222;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-family: "Lora", serif;
+    font-weight: 600;
+}
+
+/* Accent color */
+a {
+    color: #6A9A78;
+}
+
+a:hover {
+    color: #4f7d5f;
+}
+
+/* Navbar clean look */
+.navbar {
+    background: white;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+/* Smooth spacing between sections */
+h2 {
+    margin-top: 2em;
+}
