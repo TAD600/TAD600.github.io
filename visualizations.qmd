@@ -1,7 +1,30 @@
----
-title: "Visualizations"
+## Word Cloud from YouTube Comments on Bangladeshi Artists' contents
+
+![](images/wordcloud.png){width=75% fig-align="center"}
+
+It seems song is the most uttered word in my current corpus. It will definitely get changed once the final corpus is ready. 
+
 ---
 
-# Visualizations
+## Exporters of cultural products
 
-Interactive figures, dashboards, and data stories will appear here.
+![](images/map.png){width=75% fig-align="center"}
+
+The above map compares Weighted outdegree centrality of exporting countries for unique cultural products, reproducible cultural products, and non-cultural products in 2000 and 2023. Darker shades indicate greater export centrality. The figure illustrates the evolution of global trade networks, highlighting the increasing prominence of China alongside the United States over time. While reproducible cultural products such as books, music CDs have seen new exporters, unique cultural product export still remains concentrated in a very few European countries and in US. 
+
+
+---
+
+## Importers of pollution
+
+![](images/importers_pollution.png){width=75% fig-align="center"}
+
+Ranking trajectories of the top 10 importers of CO₂ embodied in international trade. Countries are classified as advanced (blue) or emerging (orange) according to the IMF. The figure shows that advanced economies consistently comprise nearly nine of the ten largest importers, indicating their dominant role in outsourcing carbon emissions through international trade.
+
+---
+
+## Importers and Pollution
+
+![](images/exporter_pollution.png){width=75% fig-align="center"}
+
+This bump chart illustrates the changing rankings of the top 10 exporters of CO₂ embodied in international trade. Blue lines represent advanced economies and orange lines represent emerging market economies, following the IMF classification. Throughout the study period, emerging market economies consistently account for approximately eight of the ten largest exporters of embodied CO₂.
