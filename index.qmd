@@ -1,7 +1,19 @@
 ---
-title: "website"
+title: "Home"
 ---
 
-This is a Quarto website.
+# Tahia Anan Dhira
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+## Research Interests
+
+- Migration
+- International Trade
+- Platformed Phenomena
+- Social Network Analysis
+- Text Analysis
+- Development Economics
+
+---
+
+This website is currently under construction.
