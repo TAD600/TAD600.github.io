@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Code – Tahia Anan Dhira</title>
+<title>code – Tahia Anan Dhira</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -129,56 +129,13 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Code</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>This page contains selected code snippets from my research projects. Full reproducible workflows are available on GitHub repositories.</p>
-<p>```Stata code sample import delimited “data/cleaned/panel_complete.csv”, clear</p>
-<ul>
-<li>Summary statistics</li>
-</ul>
-<p>unique dyad unique year</p>
-<ul>
-<li>GDP transformations</li>
-</ul>
-<p>gen sum_gdp_pc = log_gdp_pc_d + log_gdp_pc gen abs_gdp_pc = abs(log_gdp_pc - log_gdp_pc_d)</p>
-<ul>
-<li>Landlocked indicator</li>
-</ul>
-<p>gen landlock = (landlocked == 1 &amp; landlocked_d == 1) label variable landlock “1 both countries are landlocked, 0 any of them or both have seaports”</p>
-<ul>
-<li>Development classification</li>
-</ul>
-<p>gen dev = (development == 1) + 2*(development_d == 1) label variable dev “1 developing-developing, 2 developed-developing, 3 developing-developed, 4 developed-developed”</p>
-<p>ssc install reghdfe</p>
-<p>ssc install ppmlhdfe, replace</p>
-<p>local outcomes unique reproducible noncultural_trade</p>
-<p>foreach y of local outcomes { ppmlhdfe `y’ sum_gdp_pc abs_gdp_pc rta contig comlang_off colony comcol log_dist landlock i.dev, /// a(year) vce(cluster dyad) }</p>
-<p>foreach y of local outcomes { ppmlhdfe <code>y' sum_gdp_pc abs_gdp_pc hysteresis_</code>y’ /// rta contig comlang_off colony comcol log_dist landlock i.dev, /// a(year) vce(cluster dyad) }</p>
-<p>foreach y of local outcomes { ppmlhdfe `y’ sum_gdp_pc abs_gdp_pc rta contig comlang_off colony comcol log_dist landlock i.dev, /// a(dyad year) vce(cluster dyad) }</p>
-<p>egen exp_year = group(iso_o year) egen imp_year = group(iso_d year)</p>
-<p>foreach y of local outcomes { ppmlhdfe <code>y' sum_gdp_pc abs_gdp_pc hysteresis_</code>y’ /// rta contig comlang_off colony comcol log_dist landlock i.dev, /// a(exp_year imp_year) vce(cluster dyad) }</p>
-<p>local outcomes unique reproducible noncultural_trade</p>
-<p>foreach y of local outcomes { ppmlhdfe <code>y' sum_gdp_pc abs_gdp_pc hysteresis_</code>y’ /// rta contig comlang_off colony comcol log_dist landlock i.dev , /// a(dyad exp_year imp_year) vce(cluster dyad)</p>
-<p>}</p>
+<p>Here I am uploading three of my favourite code snippets those I have tried my level best to polish. Full reproducible workflows are available on GitHub repositories.</p>
+<p><a href="Code_Sample_R.pdf">R Code Sample</a> <a href="Code_Sample_Python.pdf">Python Code Sample</a> <a href="code_sample_STATA.pdf">STATA Code Sample</a></p>
 
 
 

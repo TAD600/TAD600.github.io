@@ -4,42 +4,42 @@
     "href": "visualizations.html",
     "title": "Tahia Anan Dhira",
     "section": "",
-    "text": "It seems ‘song’ is the most uttered word in my current corpus. It will definitely get changed once the final corpus is ready."
+    "text": "Word cloud generated from a preliminary corpus of YouTube comments on Bangladeshi artists. The visualization provides an initial overview of the most frequently occurring words in the dataset. The vocabulary and relative frequencies will evolve as the corpus is expanded and finalized."
   },
   {
-    "objectID": "visualizations.html#word-cloud-from-youtube-comments-on-bangladeshi-artists-contents",
-    "href": "visualizations.html#word-cloud-from-youtube-comments-on-bangladeshi-artists-contents",
+    "objectID": "visualizations.html#word-cloud-from-youtube-comments-on-bangladeshi-artists",
+    "href": "visualizations.html#word-cloud-from-youtube-comments-on-bangladeshi-artists",
     "title": "Tahia Anan Dhira",
     "section": "",
-    "text": "It seems ‘song’ is the most uttered word in my current corpus. It will definitely get changed once the final corpus is ready."
+    "text": "Word cloud generated from a preliminary corpus of YouTube comments on Bangladeshi artists. The visualization provides an initial overview of the most frequently occurring words in the dataset. The vocabulary and relative frequencies will evolve as the corpus is expanded and finalized."
+  },
+  {
+    "objectID": "visualizations.html#global-migration-network",
+    "href": "visualizations.html#global-migration-network",
+    "title": "Tahia Anan Dhira",
+    "section": "Global Migration Network",
+    "text": "Global Migration Network\n\n\n\n\n\nEvolution of the global migration network’s core–periphery structure from 1990 to 2020. Core countries (orange) are identified using the Ma and Mondragón algorithm based on the incoming core–periphery (in-CP) measure, while peripheral countries are shown in blue. Node size represents weighted indegree (node strength). The migration system exhibits a highly persistent core, indicating that the world’s principal destination countries have remained largely unchanged despite the expansion of international migration."
   },
   {
     "objectID": "visualizations.html#exporters-of-cultural-products",
     "href": "visualizations.html#exporters-of-cultural-products",
     "title": "Tahia Anan Dhira",
-    "section": "Exporters of cultural products",
-    "text": "Exporters of cultural products\n\n\n\n\n\nThe above map compares Weighted outdegree centrality of exporting countries for unique cultural products, reproducible cultural products, and non-cultural products in 2000 and 2023. Darker shades indicate greater export centrality. The figure illustrates the evolution of global trade networks, highlighting the increasing prominence of China alongside the United States over time. While reproducible cultural products such as books, music CDs have seen new exporters, unique cultural product export still remains concentrated in a very few European countries and in US."
+    "section": "Exporters of Cultural Products",
+    "text": "Exporters of Cultural Products\n\n\n\n\n\nComparison of weighted outdegree centrality for exporters of unique cultural products, reproducible cultural products, and non-cultural products in 2000 and 2023. Darker shades indicate greater export centrality. The maps illustrate the evolution of global trade networks, highlighting the increasing prominence of China alongside the United States over time. While reproducible cultural products (e.g., books and recorded music) have seen the emergence of new exporters, exports of unique cultural products remain concentrated in a small number of European countries and the United States."
   },
   {
-    "objectID": "visualizations.html#importers-of-pollution",
-    "href": "visualizations.html#importers-of-pollution",
+    "objectID": "visualizations.html#co₂-embodied-in-international-trade",
+    "href": "visualizations.html#co₂-embodied-in-international-trade",
     "title": "Tahia Anan Dhira",
-    "section": "Importers of pollution",
-    "text": "Importers of pollution\n\n\n\n\n\nRanking trajectories of the top 10 importers of CO₂ embodied in international trade. Countries are classified as advanced (blue) or emerging (orange) according to the IMF. The figure shows that advanced economies consistently comprise nearly nine of the ten largest importers, indicating their dominant role in outsourcing carbon emissions through international trade."
-  },
-  {
-    "objectID": "visualizations.html#importers-and-pollution",
-    "href": "visualizations.html#importers-and-pollution",
-    "title": "Tahia Anan Dhira",
-    "section": "Importers and Pollution",
-    "text": "Importers and Pollution\n\n\n\n\n\nThis bump chart illustrates the changing rankings of the top 10 exporters of CO₂ embodied in international trade. Blue lines represent advanced economies and orange lines represent emerging market economies, following the IMF classification. Throughout the study period, emerging market economies consistently account for approximately eight of the ten largest exporters of embodied CO₂."
+    "section": "CO₂ Embodied in International Trade",
+    "text": "CO₂ Embodied in International Trade\n\n\n(a) Importers\n\n\n\n(b) Exporters\n\n\n\nFigure. Ranking trajectories of the top 10 importers (a) and exporters (b) of CO₂ embodied in international trade. Countries are classified as advanced economies (blue) and emerging market economies (orange) according to the IMF classification. Advanced economies consistently account for approximately nine of the ten largest importers of embodied CO₂, whereas emerging market economies comprise around eight of the ten largest exporters, highlighting the geographical separation between the consumption and production of carbon-intensive goods."
   },
   {
     "objectID": "visualizations.html#measures-of-health-insurance-satisfaction-in-bangladesh",
     "href": "visualizations.html#measures-of-health-insurance-satisfaction-in-bangladesh",
     "title": "Tahia Anan Dhira",
     "section": "Measures of Health Insurance Satisfaction in Bangladesh",
-    "text": "Measures of Health Insurance Satisfaction in Bangladesh\n\n\n\n\n\nSatisfaction levels with major health insurance service attributes in Bangladesh, including quality of service, claim settlement, premium, coverage, deductible, insurance co-payment, documentation, and cooperation from insurance providers. The figure compares the distributions for individual and group insurance schemes."
+    "text": "Measures of Health Insurance Satisfaction in Bangladesh\n\n\n\n\n\nDistribution of satisfaction levels across major dimensions of health insurance services in Bangladesh, including quality of service, claim settlement, premium, coverage, deductible, insurance co-payment, documentation, and cooperation from insurance providers. The figure compares responses from individual and group insurance policyholders. Adapted from our published study in SSM – Health Systems."
   },
   {
     "objectID": "interests.html",
@@ -58,16 +58,16 @@
   {
     "objectID": "code.html",
     "href": "code.html",
-    "title": "Code",
+    "title": "Tahia Anan Dhira",
     "section": "",
-    "text": "This page contains selected code snippets from my research projects. Full reproducible workflows are available on GitHub repositories.\n```Stata code sample import delimited “data/cleaned/panel_complete.csv”, clear\n\nSummary statistics\n\nunique dyad unique year\n\nGDP transformations\n\ngen sum_gdp_pc = log_gdp_pc_d + log_gdp_pc gen abs_gdp_pc = abs(log_gdp_pc - log_gdp_pc_d)\n\nLandlocked indicator\n\ngen landlock = (landlocked == 1 & landlocked_d == 1) label variable landlock “1 both countries are landlocked, 0 any of them or both have seaports”\n\nDevelopment classification\n\ngen dev = (development == 1) + 2*(development_d == 1) label variable dev “1 developing-developing, 2 developed-developing, 3 developing-developed, 4 developed-developed”\nssc install reghdfe\nssc install ppmlhdfe, replace\nlocal outcomes unique reproducible noncultural_trade\nforeach y of local outcomes { ppmlhdfe `y’ sum_gdp_pc abs_gdp_pc rta contig comlang_off colony comcol log_dist landlock i.dev, /// a(year) vce(cluster dyad) }\nforeach y of local outcomes { ppmlhdfe y' sum_gdp_pc abs_gdp_pc hysteresis_y’ /// rta contig comlang_off colony comcol log_dist landlock i.dev, /// a(year) vce(cluster dyad) }\nforeach y of local outcomes { ppmlhdfe `y’ sum_gdp_pc abs_gdp_pc rta contig comlang_off colony comcol log_dist landlock i.dev, /// a(dyad year) vce(cluster dyad) }\negen exp_year = group(iso_o year) egen imp_year = group(iso_d year)\nforeach y of local outcomes { ppmlhdfe y' sum_gdp_pc abs_gdp_pc hysteresis_y’ /// rta contig comlang_off colony comcol log_dist landlock i.dev, /// a(exp_year imp_year) vce(cluster dyad) }\nlocal outcomes unique reproducible noncultural_trade\nforeach y of local outcomes { ppmlhdfe y' sum_gdp_pc abs_gdp_pc hysteresis_y’ /// rta contig comlang_off colony comcol log_dist landlock i.dev , /// a(dyad exp_year imp_year) vce(cluster dyad)\n}"
+    "text": "Here I am uploading three of my favourite code snippets those I have tried my level best to polish. Full reproducible workflows are available on GitHub repositories.\nR Code Sample Python Code Sample STATA Code Sample"
   },
   {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Tahia Anan Dhira",
     "section": "",
-    "text": "Email: dhiraanan3@gmail.com\nGitHub: https://github.com/TAD600\nORCID: https://orcid.org/0000-0001-7403-9862\nLinkedIn: https://www.linkedin.com/in/dhiraanan/\nUniversity Profile: https://www.du.ac.bd/body/faculty_details/ECO/2459"
+    "text": "dhiraanan3@gmail.com\n GitHub\n ORCID\n LinkedIn\n University of Dhaka Profile"
   },
   {
     "objectID": "index.html",
