@@ -42,27 +42,6 @@
     "text": "Measures of Health Insurance Satisfaction in Bangladesh\n\n\n\n\n\nDistribution of satisfaction levels across major dimensions of health insurance services in Bangladesh, including quality of service, claim settlement, premium, coverage, deductible, insurance co-payment, documentation, and cooperation from insurance providers. The figure compares responses from individual and group insurance policyholders. Adapted from our published study in SSM – Health Systems."
   },
   {
-    "objectID": "interests.html",
-    "href": "interests.html",
-    "title": "Tahia Anan Dhira",
-    "section": "",
-    "text": "Research is the way I have chosen to run the machine.\nBut the machine sometimes runs toward elsewhere.\nI maintain a separate website dedicated entirely to my artistic practice and portfolio work."
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Tahia Anan Dhira",
-    "section": "",
-    "text": "Updated CV"
-  },
-  {
-    "objectID": "code.html",
-    "href": "code.html",
-    "title": "Tahia Anan Dhira",
-    "section": "",
-    "text": "Here I am uploading three of my favourite code snippets those I have tried my level best to polish. Full reproducible workflows are available on GitHub repositories.\nHere are three reproducible code samples from my research projects.\n\n📄 R Code Sample\n📄 Python Code Sample\n📄 STATA Code Sample"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "About",
@@ -82,6 +61,20 @@
     "title": "About",
     "section": "",
     "text": "Migration & Development\nInternational Trade\nSocial Network Analysis\nText as Data / Computational Methods"
+  },
+  {
+    "objectID": "code.html",
+    "href": "code.html",
+    "title": "Tahia Anan Dhira",
+    "section": "",
+    "text": "Here I am uploading three of my favourite code snippets those I have tried my level best to polish. Full reproducible workflows are available on GitHub repositories.\nHere are three reproducible code samples from my research projects.\n\n📄 R Code Sample\n📄 Python Code Sample\n📄 STATA Code Sample"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Tahia Anan Dhira",
+    "section": "",
+    "text": "Updated CV"
   },
   {
     "objectID": "research.html",
