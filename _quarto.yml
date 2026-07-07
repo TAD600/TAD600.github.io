@@ -22,8 +22,18 @@ website:
       - href: interests.qmd
         text: Elsewhere
 
-      - href: contact.qmd
-        text: Contact
+    right:
+      - icon: envelope-fill
+        href: mailto:dhiraanan3@gmail.com
+
+      - icon: github
+        href: https://github.com/TAD600
+
+      - icon: linkedin
+        href: https://www.linkedin.com/in/dhiraanan/
+
+      - text: ORCID
+        href: https://orcid.org/0000-0001-7403-9862
 
 format:
   html:

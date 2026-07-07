@@ -32,7 +32,7 @@
     "href": "visualizations.html#co₂-embodied-in-international-trade",
     "title": "Tahia Anan Dhira",
     "section": "CO₂ Embodied in International Trade",
-    "text": "CO₂ Embodied in International Trade\n\n\n(a) Importers\n\n\n\n(b) Exporters\n\n\n\nFigure. Ranking trajectories of the top 10 importers (a) and exporters (b) of CO₂ embodied in international trade. Countries are classified as advanced economies (blue) and emerging market economies (orange) according to the IMF classification. Advanced economies consistently account for approximately nine of the ten largest importers of embodied CO₂, whereas emerging market economies comprise around eight of the ten largest exporters, highlighting the geographical separation between the consumption and production of carbon-intensive goods."
+    "text": "CO₂ Embodied in International Trade\n\n\n(a) Importers\n\n\n\n(b) Exporters\n\n\n\nRanking trajectories of the top 10 importers (a) and exporters (b) of CO₂ embodied in international trade. Countries are classified as advanced economies (blue) and emerging market economies (orange) according to the IMF classification. Advanced economies consistently account for approximately nine of the ten largest importers of embodied CO₂, whereas emerging market economies comprise around eight of the ten largest exporters, highlighting the geographical separation between the consumption and production of carbon-intensive goods."
   },
   {
     "objectID": "visualizations.html#measures-of-health-insurance-satisfaction-in-bangladesh",
@@ -60,14 +60,7 @@
     "href": "code.html",
     "title": "Tahia Anan Dhira",
     "section": "",
-    "text": "Here I am uploading three of my favourite code snippets those I have tried my level best to polish. Full reproducible workflows are available on GitHub repositories.\nR Code Sample\nPython Code Sample\nSTATA Code Sample"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Tahia Anan Dhira",
-    "section": "",
-    "text": "dhiraanan3@gmail.com\n GitHub\n ORCID\n LinkedIn\n University of Dhaka Profile"
+    "text": "Here I am uploading three of my favourite code snippets those I have tried my level best to polish. Full reproducible workflows are available on GitHub repositories.\nHere are three reproducible code samples from my research projects.\n\n📄 R Code Sample\n📄 Python Code Sample\n📄 STATA Code Sample"
   },
   {
     "objectID": "index.html",

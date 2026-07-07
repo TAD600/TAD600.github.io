@@ -1,8 +1,8 @@
 
 Here I am uploading three of my favourite code snippets those I have tried my level best to polish. Full reproducible workflows are available on GitHub repositories.
 
-[R Code Sample](Code_Sample_R.pdf)
+Here are three reproducible code samples from my research projects.
 
-[Python Code Sample](Code_Sample_Python.pdf)
-
-[STATA Code Sample](code_sample_STATA.pdf)
+- 📄 [R Code Sample](Code_Sample_R.pdf)
+- 📄 [Python Code Sample](Code_Sample_Python.pdf)
+- 📄 [STATA Code Sample](code_sample_STATA.pdf)

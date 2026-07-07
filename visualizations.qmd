@@ -40,7 +40,7 @@ Comparison of weighted outdegree centrality for exporters of unique cultural pro
 
 :::
 
-*Figure.* Ranking trajectories of the top 10 importers (a) and exporters (b) of CO₂ embodied in international trade. Countries are classified as advanced economies (blue) and emerging market economies (orange) according to the IMF classification. Advanced economies consistently account for approximately nine of the ten largest importers of embodied CO₂, whereas emerging market economies comprise around eight of the ten largest exporters, highlighting the geographical separation between the consumption and production of carbon-intensive goods.
+Ranking trajectories of the top 10 importers (a) and exporters (b) of CO₂ embodied in international trade. Countries are classified as advanced economies (blue) and emerging market economies (orange) according to the IMF classification. Advanced economies consistently account for approximately nine of the ten largest importers of embodied CO₂, whereas emerging market economies comprise around eight of the ten largest exporters, highlighting the geographical separation between the consumption and production of carbon-intensive goods.
 
 ---
 
