@@ -8,6 +8,7 @@ project:
 
 website:
   title: "Tahia Anan Dhira"
+  site-url: https://tahiaanandhira.com
 
   navbar:
     left:
@@ -23,7 +24,7 @@ website:
       - href: code.qmd
         text: Code
 
-      - href: https://tad600.github.io/painting-portfolio/
+      - href: https://tahiaanandhira.com/painting-portfolio/
         text: Elsewhere
 
     right:
