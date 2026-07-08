@@ -2,6 +2,10 @@ project:
   type: website
   output-dir: docs
 
+  resources:
+    - robots.txt
+    - sitemap.xml
+
 website:
   title: "Tahia Anan Dhira"
 
