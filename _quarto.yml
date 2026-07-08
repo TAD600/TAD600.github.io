@@ -1,11 +1,3 @@
-project:
-  type: website
-  output-dir: docs
-
-  resources:
-    - robots.txt
-    - sitemap.xml
-
 website:
   title: "Tahia Anan Dhira"
   site-url: https://tahiaanandhira.com
@@ -24,7 +16,7 @@ website:
       - href: code.qmd
         text: Code
 
-      - href: https://tahiaanandhira.com/painting-portfolio/
+      - href: https://art.tahiaanandhira.com
         text: Elsewhere
 
     right:
