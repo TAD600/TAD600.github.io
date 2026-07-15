@@ -1,7 +1,6 @@
 
 Here I am uploading three of my favourite code snippets those I have tried my level best to polish. Full reproducible workflows are available on GitHub repositories.
 
-Here are three reproducible code samples from my research projects.
 
 - 📄 [R Code Sample](Code_Sample_R.pdf)
 - 📄 [Python Code Sample](Code_Sample_Python.pdf)
