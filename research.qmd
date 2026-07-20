@@ -1,22 +1,29 @@
 
 ## Working Papers
 
-**Bilateral Convergence across the World: Does International Migration Matter?** (working paper, 2026)  
-- Constructed a panel of directed weighted bilateral migration networks spanning 23 years.  
-- Developed reproducible workflows for network construction, visualization, and manuscript figures.  
-- Contributed to the conceptual framework and manuscript preparation.  
+**Trading Carbon Through Global Supply Chains: Network Structure and the Environmental Kuznets Curve (working paper, 2026)
+- Compiled and harmonized multi-country datasets on embodied carbon emissions, trade, and macroeconomic indicators. 
+- Constructed weighted embodied carbon trade networks and computed network statistics for longitudinal analysis.
+Combined structural gravity modelling, network analysis, and panel econometrics to study embodied carbon trade and environmental outcomes.
 
 ---
 
-**Gendered Cultural Hierarchies in Social Media Audience Discourse: Evidence from Bangladeshi Artists** (working paper, 2026)  
-- Developed a Python pipeline using the YouTube Data API v3 to collect and process more than 8 million comments.  
-- Translated almost 2.3 million Bangla texts to English.  
-- Transliterated almost 1.6 million Romanized Bangla texts to Bangla and then translated to English.  
-- Constructed a cleaned corpus of over 7 million YouTube comments for computational text analysis.  
-- Implemented reproducible data processing and analysis workflows in Python and R.  
+**Product Reproducibility and International Trade Patterns: Evidence from Cultural Goods (submitted, 2026)
+- Constructed and analysed global trade networks for unique, reproducible, and non-cultural products.
+- Estimated structural gravity models (PPML) and dynamic network models (STERGM) to analyse bilateral trade relationships across 190 countries.
+- Prepared the manuscript and submitted it as the corresponding author.
+- Developed, validated, and debugged reproducible research pipelines using GitHub, Claude Code, and GitHub Copilot for data processing, estimation, and visualization.
 
 ---
 
-**Product Reproducibility and Trade Patterns: Evidence from Cultural Goods** (submitted, 2026)  
-- Constructed global trade networks for unique and reproducible cultural products, and non-cultural products.  
-- Estimated augmented gravity models using STERGMs and PPML regressions.  
+**Who converges with whom? Global migration network and the geography of development (working paper, 2026)
+- Constructed a panel of directed weighted bilateral migration networks spanning 23 years.
+- Developed reproducible workflows for network construction, visualization, and manuscript figures.
+- Contributed to the conceptual framework and manuscript preparation.
+
+---
+
+**Gendered Cultural Hierarchies in Social Media Audience Discourse: Evidence from Bangladeshi Artists (working paper, 2026)
+- Developed a Python pipeline using the YouTube Data API v3 to collect and process over 8 million comments.
+- Conducted sentiment analysis using VADER and topic modelling using the quanteda package in R
+- Implemented reproducible data processing and analysis workflows in Python and R.
