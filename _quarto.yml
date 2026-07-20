@@ -1,3 +1,7 @@
+project:
+  type: website
+  output-dir: docs
+
 website:
   title: "Tahia Anan Dhira"
   site-url: https://tahiaanandhira.com
