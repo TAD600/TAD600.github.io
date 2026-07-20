@@ -20,7 +20,7 @@
 
 **Who converges with whom? Global migration network and the geography of development** (working paper, 2026)
 
-- Constructed a panel of directed weighted bilateral migration networks spanning 23 years.
+- Constructed a panel of directed weighted bilateral migration networks spanning 31 years.
 - Developed reproducible workflows for network construction, visualization, and manuscript figures.
 - Contributed to the conceptual framework and manuscript preparation.
 
