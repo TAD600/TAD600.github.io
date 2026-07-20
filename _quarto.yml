@@ -2,6 +2,9 @@ project:
   type: website
   output-dir: docs
 
+resources:
+  - CNAME
+
 website:
   title: "Tahia Anan Dhira"
   site-url: https://tahiaanandhira.com
