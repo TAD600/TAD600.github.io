@@ -1,21 +1,29 @@
 ---
-title: "About"
+title: ""
 ---
 
-::: {.grid}
+::: {.columns}
 
-::: {.g-col-4}
-![](pic1.jpg){width=100% style="border-radius:12px;"}
+::: {.column width="30%"}
+
+![](pic1.jpg){.profile-img}
+
 :::
 
-::: {.g-col-8}
+::: {.column width="70%"}
 
 ## Tahia Anan Dhira
 
 Assistant Professor  
-Department of Economics, University of Dhaka  
+Department of Economics, University of Dhaka
 
 Currently I study global migration networks, international trade networks, and gendered platform discourse using computational methods.
+
+:::
+
+:::
+
+---
 
 ## Research Interests
 
@@ -23,7 +31,3 @@ Currently I study global migration networks, international trade networks, and g
 - International Trade
 - Social Network Analysis
 - Text as Data / Computational Methods
-
-:::
-
-:::

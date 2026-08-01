@@ -94,7 +94,17 @@ img:hover {
    Grid spacing improvement
 ========================= */
 
-.grid {
-  align-items: center;
-  gap: 2rem;
+.profile-img {
+    width: 200px;
+    max-width: 100%;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto;
 }
+
+.columns {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
