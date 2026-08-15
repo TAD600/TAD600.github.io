@@ -1,32 +1,32 @@
 ## Working Papers
 
-**Trading Carbon Through Global Supply Chains: Network Structure and the Environmental Kuznets Curve** (working paper, 2026)
+**Economic Development and Trade-Embodied CO₂ Emissions: The Moderating Role of Network Position** (working paper, 2026)
 
-- Compiled and harmonized multi-country datasets on embodied carbon emissions, trade, and macroeconomic indicators. 
-- Constructed weighted embodied carbon trade networks and computed network statistics for longitudinal analysis.
-- Combined structural gravity modelling, network analysis, and panel econometrics to study embodied carbon trade and environmental outcomes.
-
----
-
-**Product Reproducibility and International Trade Patterns: Evidence from Cultural Goods** (submitted, 2026)
-
-- Constructed and analysed global trade networks for unique, reproducible, and non-cultural products.
-- Estimated structural gravity models (PPML) and dynamic network models (STERGM) to analyse bilateral trade relationships across 190 countries.
-- Prepared the manuscript and submitted it as the corresponding author.
-- Developed, validated, and debugged reproducible research pipelines using GitHub, Claude Code, and GitHub Copilot for data processing, estimation, and visualization.
+- Developed reproducible computational workflows for integrating and processing large-scale international datasets on embodied carbon emissions, trade, and macroeconomic indicators.
+- Constructed weighted global trade networks and implemented longitudinal network analyses to characterize the evolution of global embodied carbon trade networks.
+- Integrated network analysis and panel econometrics to examine how economic development and network position shape domestic and trade-embodied CO₂ emissions across advanced and developing economies.
 
 ---
 
-**Who converges with whom? Global migration network and the geography of development** (working paper, 2026)
+**Global migration network and the geography of development ** (working paper, 2026)
 
-- Constructed a panel of directed weighted bilateral migration networks spanning 31 years.
-- Developed reproducible workflows for network construction, visualization, and manuscript figures.
-- Contributed to the conceptual framework and manuscript preparation.
+- Created a longitudinal panel of directed, weighted bilateral migration networks spanning 23 years to examine global migration dynamics. 
+- Developed reproducible computational workflows for network construction, visualization, and longitudinal analysis using R. 
+- Contributed to network model development, core-periphery detection, interpretation of network statistics, and manuscript preparation.
 
+---
+
+**Product Reproducibility and International Trade Patterns: Evidence from Cultural Goods** (under review, 2026)
+
+- Constructed computational pipelines for harmonizing, processing, and analyzing large-scale international trade data covering 190 countries. 
+- Combined structural gravity modelling (PPML) with dynamic network modelling (STERGM) to examine the formation and persistence of international trade relationships.
+- Developed reproducible research workflows integrating data processing, statistical modelling, visualization, version control, and documentation using Python, R, and Git.
+- Prepared and submitted the manuscript as the corresponding author.
 ---
 
 **Gendered Cultural Hierarchies in Social Media Audience Discourse: Evidence from Bangladeshi Artists** (working paper, 2026)
 
-- Developed a Python pipeline using the YouTube Data API v3 to collect and process over 8 million comments.
-- Conducted sentiment analysis using VADER and topic modelling using the quanteda package in R
-- Implemented reproducible data processing and analysis workflows in Python and R.
+- Developed scalable Python pipelines using the YouTube Data API v3 for automated collection, preprocessing, and analysis of over 8 million multilingual social media comments. 
+- Applied computational text mining and natural language processing techniques, including sentiment analysis (VADER) and structural topic modelling (quanteda/STM), to identify patterns in audience discourse and sentiment across artists, genders, and artistic categories.
+- Developed a human-in-the-loop classification workflow for a large-scale YouTube video dataset, using the Gemini API for preliminary classification of artist gender and artistic category from video titles, followed by manual validation and correction of approximately 48,000 videos. 
+- Built reproducible computational pipelines integrating automated data collection, preprocessing, statistical modelling, visualization, and documentation using Python and R.
