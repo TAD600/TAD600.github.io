@@ -22,6 +22,7 @@
 - Combined structural gravity modelling (PPML) with dynamic network modelling (STERGM) to examine the formation and persistence of international trade relationships.
 - Developed reproducible research workflows integrating data processing, statistical modelling, visualization, version control, and documentation using Python, R, and Git.
 - Prepared and submitted the manuscript as the corresponding author.
+
 ---
 
 **Gendered Cultural Hierarchies in Social Media Audience Discourse: Evidence from Bangladeshi Artists** (working paper, 2026)
