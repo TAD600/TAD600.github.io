@@ -1,6 +1,6 @@
 ## Working Papers
 
-**Economic Development and Trade-Embodied CO₂ Emissions: The Moderating Role of Network Position** (working paper, 2026)
+**Rethinking the Income-Emissions Relationship: Evidence from Trade-Embodied  CO₂ Emissions Networks** (working paper, 2026)
 
 - Developed reproducible computational workflows for integrating and processing large-scale international datasets on embodied carbon emissions, trade, and macroeconomic indicators.
 - Constructed weighted global trade networks and implemented longitudinal network analyses to characterize the evolution of global embodied carbon trade networks.
