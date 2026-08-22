@@ -22,6 +22,16 @@ Comparison of weighted outdegree centrality for exporters of unique cultural pro
 
 ---
 
+
+## Evolution of Emission Outsourcing and Domestic Per Capita CO₂ Emissions Across Countries (1995–2020)
+
+![](map_pollution.png){width=70% fig-align="center"}
+
+The map shows the evolution of countries’ net imports of CO₂ embodied in traded goods (left) and domestic per capita CO₂ emissions (right) between 1995 and 2020. Net embodied carbon imports are increasingly concentrated in advanced economies, particularly in North America, Western Europe, and Australia, indicating a growing reliance on carbon-intensive production located abroad. In contrast, domestic per capita emissions remain highest in many of these countries despite some moderation over time. The comparison highlights the growing disconnect between where emissions are produced and where the associated goods are consumed, reflecting the increasing globalization of carbon-intensive production.
+
+---
+
+
 ## CO₂ Embodied in International Trade
 
 ::: {.grid}
