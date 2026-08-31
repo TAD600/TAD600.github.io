@@ -4,6 +4,8 @@ project:
 
 resources:
   - CNAME
+  - images
+  - visualizations.js
 
 website:
   title: "Tahia Anan Dhira"

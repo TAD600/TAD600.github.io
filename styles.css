@@ -1,8 +1,8 @@
-/* =========================
-   Typography & Base Layout
-========================= */
+```css
+/* ==========================================================
+   TYPOGRAPHY & BASE LAYOUT
+========================================================== */
 
-/* Base typography smaller academic style */
 body {
   font-family: "Source Sans 3", sans-serif;
   font-size: 14px;
@@ -10,7 +10,9 @@ body {
   color: #222;
 }
 
-/* Headings smaller */
+
+/* Headings */
+
 h1 {
   font-size: 18px;
 }
@@ -23,19 +25,22 @@ h3 {
   font-size: 14px;
 }
 
-/* Navbar spacing clean */
+
 .navbar {
   font-size: 14px;
 }
 
-/* Reduce page title clutter */
+
+/* Hide Quarto title block */
+
 .quarto-title-block {
   display: none;
 }
 
-/* =========================
-   Headings
-========================= */
+
+/* ==========================================================
+   HEADINGS
+========================================================== */
 
 h1, h2, h3, h4 {
   font-family: "Lora", serif;
@@ -43,14 +48,14 @@ h1, h2, h3, h4 {
   color: #222222;
 }
 
-/* Section spacing */
 h2 {
   margin-top: 2em;
 }
 
-/* =========================
-   Links (accent color)
-========================= */
+
+/* ==========================================================
+   LINKS
+========================================================== */
 
 a {
   color: #6A9A78;
@@ -62,9 +67,10 @@ a:hover {
   text-decoration: underline;
 }
 
-/* =========================
-   Navbar styling
-========================= */
+
+/* ==========================================================
+   NAVBAR
+========================================================== */
 
 .navbar {
   background: white;
@@ -76,35 +82,421 @@ a:hover {
   font-weight: 600;
 }
 
-/* =========================
-   Image styling (profile photo)
-========================= */
+
+/* ==========================================================
+   GENERAL IMAGE STYLING
+========================================================== */
 
 img {
   border-radius: 12px;
 }
 
-/* Optional subtle hover effect */
 img:hover {
   transform: scale(1.01);
   transition: 0.2s ease;
 }
 
-/* =========================
-   Grid spacing improvement
-========================= */
+
+/* ==========================================================
+   PROFILE IMAGE
+========================================================== */
 
 .profile-img {
-    width: 200px;
-    max-width: 100%;
-    border-radius: 12px;
-    display: block;
-    margin: 0 auto;
+  width: 200px;
+  max-width: 100%;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto;
 }
+
+
+/* ==========================================================
+   QUARTO COLUMNS
+========================================================== */
 
 .columns {
-    display: flex;
-    align-items: center;
-    gap: 2.5rem;
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
 }
 
+
+/* ==========================================================
+   VISUALIZATION GALLERY
+========================================================== */
+
+#visualization-gallery {
+
+  display: grid !important;
+
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  gap: 2rem;
+
+  width: 100%;
+
+  max-width: 1400px;
+
+  margin: 2rem auto;
+
+  box-sizing: border-box;
+  
+}
+
+
+/* ==========================================================
+   INDIVIDUAL VISUALIZATION
+========================================================== */
+
+.visualization-item {
+  width: 100%;
+  min-width: 0;
+
+  cursor: pointer;
+
+  overflow: hidden;
+
+  border-radius: 12px;
+
+  background: #ffffff;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+
+.visualization-item:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+/* ==========================================================
+   VISUALIZATION THUMBNAILS
+========================================================== */
+
+.visualization-thumbnail {
+  display: block;
+
+  width: 100%;
+  max-width: 100%;
+
+  height: 280px;
+
+  object-fit: contain;
+
+  border-radius: 12px;
+
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+
+/* Prevent general image hover effect */
+
+.visualization-thumbnail:hover {
+  transform: none;
+}
+
+
+/* ==========================================================
+   FULL-SCREEN VIEWER
+========================================================== */
+
+.visualization-viewer {
+  position: fixed;
+
+  inset: 0;
+
+  z-index: 9999;
+
+  width: 100vw;
+  height: 100vh;
+
+  background: rgba(0, 0, 0, 0.85);
+
+  padding: 3rem;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  box-sizing: border-box;
+}
+
+
+/* Hidden viewer */
+
+.visualization-viewer.hidden {
+  display: none;
+}
+
+
+/* ==========================================================
+   CLOSE BUTTON
+========================================================== */
+
+.visualization-close {
+  position: fixed;
+
+  top: 1rem;
+  right: 1.5rem;
+
+  z-index: 10000;
+
+  border: none;
+
+  background: transparent;
+
+  color: white;
+
+  font-size: 2.5rem;
+
+  line-height: 1;
+
+  cursor: pointer;
+}
+
+
+/* ==========================================================
+   VIEWER CONTENT
+========================================================== */
+
+.visualization-viewer-content {
+  width: 100%;
+  max-width: 1200px;
+
+  margin: 2rem auto;
+
+  padding: 2rem;
+
+  background: white;
+
+  border-radius: 12px;
+
+  display: flex;
+
+  gap: 2rem;
+
+  align-items: flex-start;
+
+  box-sizing: border-box;
+
+  /* Very important for flexbox */
+  min-width: 0;
+}
+
+
+/* ==========================================================
+   LARGE VISUALIZATION
+========================================================== */
+
+#visualization-viewer-image {
+  display: block;
+
+  /*
+     Prevent the image from forcing the
+     viewer wider than the screen.
+  */
+  flex: 0 1 68%;
+
+  width: 68%;
+  max-width: 68%;
+
+  min-width: 0;
+
+  height: auto;
+
+  /*
+     Keep large images within the viewport.
+  */
+  max-height: 80vh;
+
+  object-fit: contain;
+
+  border-radius: 8px;
+
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+
+/* Prevent general hover effect */
+
+#visualization-viewer-image:hover {
+  transform: none;
+}
+
+
+/* ==========================================================
+   DESCRIPTION
+========================================================== */
+
+.visualization-information {
+  flex: 1 1 32%;
+
+  min-width: 0;
+
+  max-width: 32%;
+
+  overflow-wrap: break-word;
+
+  word-wrap: break-word;
+
+  box-sizing: border-box;
+}
+
+
+.visualization-information h2 {
+  margin-top: 0;
+
+  font-size: 18px;
+
+  line-height: 1.4;
+}
+
+
+.visualization-information p {
+  line-height: 1.7;
+
+  margin-top: 1rem;
+
+  overflow-wrap: break-word;
+}
+
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (max-width: 1000px) {
+
+  #visualization-gallery {
+    grid-template-columns:
+      repeat(auto-fit, minmax(260px, 1fr));
+
+    gap: 1.5rem;
+  }
+
+
+  /*
+     Give the viewer a little more room
+     on medium screens.
+  */
+
+  .visualization-viewer-content {
+    max-width: 95vw;
+    padding: 1.5rem;
+  }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  #visualization-gallery {
+    grid-template-columns: 1fr !important;
+
+    gap: 1.5rem;
+  }
+
+
+  .visualization-thumbnail {
+    height: auto;
+
+    max-height: 350px;
+  }
+
+
+  /* Viewer */
+
+  .visualization-viewer {
+    padding: 1rem;
+  }
+
+
+  /*
+     On mobile the image and description
+     stack vertically.
+  */
+
+  .visualization-viewer-content {
+    flex-direction: column;
+
+    width: 100%;
+    max-width: 100%;
+
+    margin: 1rem auto;
+
+    padding: 1rem;
+
+    gap: 1.5rem;
+  }
+
+
+  #visualization-viewer-image {
+    flex: none;
+
+    width: 100%;
+    max-width: 100%;
+
+    min-width: 0;
+
+    max-height: 70vh;
+  }
+
+
+  .visualization-information {
+    width: 100%;
+    max-width: 100%;
+  }
+
+}
+
+
+/* ==========================================================
+   VERY SMALL SCREENS
+========================================================== */
+
+@media (max-width: 480px) {
+
+  #visualization-gallery {
+    grid-template-columns: 1fr !important;
+
+    gap: 1rem;
+  }
+
+
+  .visualization-thumbnail {
+    height: auto;
+
+    max-height: 300px;
+  }
+
+
+  .visualization-viewer {
+    padding: 0.5rem;
+  }
+
+
+  .visualization-viewer-content {
+    padding: 0.75rem;
+
+    gap: 1rem;
+  }
+
+
+  #visualization-viewer-image {
+    max-height: 60vh;
+  }
+
+}
+```

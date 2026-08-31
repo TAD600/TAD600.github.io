@@ -2,51 +2,9 @@
   {
     "objectID": "visualizations.html",
     "href": "visualizations.html",
-    "title": "Tahia Anan Dhira",
+    "title": "Visualizations",
     "section": "",
-    "text": "Word cloud generated from a preliminary corpus of YouTube comments on Bangladeshi artists. The visualization provides an initial overview of the most frequently occurring words in the dataset. The vocabulary and relative frequencies will evolve as the corpus is expanded and finalized."
-  },
-  {
-    "objectID": "visualizations.html#word-cloud-from-youtube-comments-on-bangladeshi-artists",
-    "href": "visualizations.html#word-cloud-from-youtube-comments-on-bangladeshi-artists",
-    "title": "Tahia Anan Dhira",
-    "section": "",
-    "text": "Word cloud generated from a preliminary corpus of YouTube comments on Bangladeshi artists. The visualization provides an initial overview of the most frequently occurring words in the dataset. The vocabulary and relative frequencies will evolve as the corpus is expanded and finalized."
-  },
-  {
-    "objectID": "visualizations.html#global-migration-network",
-    "href": "visualizations.html#global-migration-network",
-    "title": "Tahia Anan Dhira",
-    "section": "Global Migration Network",
-    "text": "Global Migration Network\n\n\n\n\n\nEvolution of the global migration network’s core–periphery structure from 1990 to 2020. Core countries (orange) are identified using the Ma and Mondragón algorithm based on the incoming core–periphery (in-CP) measure, while peripheral countries are shown in blue. Node size represents weighted indegree (node strength). The migration system exhibits a highly persistent core, indicating that the world’s principal destination countries have remained largely unchanged despite the expansion of international migration."
-  },
-  {
-    "objectID": "visualizations.html#exporters-of-cultural-products",
-    "href": "visualizations.html#exporters-of-cultural-products",
-    "title": "Tahia Anan Dhira",
-    "section": "Exporters of Cultural Products",
-    "text": "Exporters of Cultural Products\n\n\n\n\n\nComparison of weighted outdegree centrality for exporters of unique cultural products, reproducible cultural products, and non-cultural products in 2000 and 2023. Darker shades indicate greater export centrality. The maps illustrate the evolution of global trade networks, highlighting the increasing prominence of China alongside the United States over time. While reproducible cultural products (e.g., books and recorded music) have seen the emergence of new exporters, exports of unique cultural products remain concentrated in a small number of European countries and the United States."
-  },
-  {
-    "objectID": "visualizations.html#evolution-of-emission-outsourcing-and-domestic-per-capita-co₂-emissions-across-countries-19952020",
-    "href": "visualizations.html#evolution-of-emission-outsourcing-and-domestic-per-capita-co₂-emissions-across-countries-19952020",
-    "title": "Tahia Anan Dhira",
-    "section": "Evolution of Emission Outsourcing and Domestic Per Capita CO₂ Emissions Across Countries (1995–2020)",
-    "text": "Evolution of Emission Outsourcing and Domestic Per Capita CO₂ Emissions Across Countries (1995–2020)\n\n\n\n\n\nThe map shows the evolution of countries’ net imports of CO₂ embodied in traded goods (left) and domestic per capita CO₂ emissions (right) between 1995 and 2020. Net embodied carbon imports are increasingly concentrated in advanced economies, particularly in North America, Western Europe, and Australia, indicating a growing reliance on carbon-intensive production located abroad. In contrast, domestic per capita emissions remain highest in many of these countries despite some moderation over time. The comparison highlights the growing disconnect between where emissions are produced and where the associated goods are consumed, reflecting the increasing globalization of carbon-intensive production."
-  },
-  {
-    "objectID": "visualizations.html#co₂-embodied-in-international-trade",
-    "href": "visualizations.html#co₂-embodied-in-international-trade",
-    "title": "Tahia Anan Dhira",
-    "section": "CO₂ Embodied in International Trade",
-    "text": "CO₂ Embodied in International Trade\n\n\n(a) Importers\n\n\n\n(b) Exporters\n\n\n\nRanking trajectories of the top 10 importers (a) and exporters (b) of CO₂ embodied in international trade. Countries are classified as advanced economies (blue) and emerging market economies (orange) according to the IMF classification. Advanced economies consistently account for approximately nine of the ten largest importers of embodied CO₂, whereas emerging market economies comprise around eight of the ten largest exporters, highlighting the geographical separation between the consumption and production of carbon-intensive goods."
-  },
-  {
-    "objectID": "visualizations.html#measures-of-health-insurance-satisfaction-in-bangladesh",
-    "href": "visualizations.html#measures-of-health-insurance-satisfaction-in-bangladesh",
-    "title": "Tahia Anan Dhira",
-    "section": "Measures of Health Insurance Satisfaction in Bangladesh",
-    "text": "Measures of Health Insurance Satisfaction in Bangladesh\n\n\n\n\n\nDistribution of satisfaction levels across major dimensions of health insurance services in Bangladesh, including quality of service, claim settlement, premium, coverage, deductible, insurance co-payment, documentation, and cooperation from insurance providers. The figure compares responses from individual and group insurance policyholders. Adapted from our published study in SSM – Health Systems."
+    "text": "×"
   },
   {
     "objectID": "index.html",
