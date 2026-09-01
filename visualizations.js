@@ -31,6 +31,12 @@
             },
 
             {
+                image: "images/ziph_law.png",
+                title: "Zipf's Law in YouTube Comments on Bangladeshi Artists",
+                description: "The log-log plot of word rank against word frequency in the YouTube comments corpus confirms Zipf's Law: a small number of words such as 'song', 'love', and 'good' dominate the corpus with very high frequencies, while the vast majority of words appear rarely. The smooth power-law decay curve is characteristic of natural language, validating the linguistic structure of the corpus and its suitability for further computational text analysis."
+            },
+
+            {
                 image: "images/mignet.png",
                 title: "Global Migration Network",
                 description: "Evolution of the global migration network's core–periphery structure from 1990 to 2020. Core countries are identified using the Ma and Mondragón algorithm based on the incoming core–periphery measure. Node size represents weighted indegree (node strength)."
