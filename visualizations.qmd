@@ -1,26 +1,42 @@
 ---
 title: "Visualizations"
+format:
+  html:
+    include-after-body:
+      text: |
+        <script src="visualizations.js"></script>
 ---
 
-<div id="visualization-gallery"></div>
+```{=html}
+<div class="visualization-page">
 
-<div id="visualization-viewer" class="visualization-viewer hidden">
-<button id="visualization-close"
-        class="visualization-close"
-        aria-label="Close">&times;</button>
+  <div id="visualization-gallery" class="visualization-gallery"></div>
 
-<div class="visualization-viewer-content">
-<img id="visualization-viewer-image"
-     src=""
-     alt="">
+  <div id="visualization-viewer" class="visualization-viewer hidden">
+    <button
+      id="visualization-close"
+      class="visualization-close"
+      type="button"
+      aria-label="Close">
+      &times;
+    </button>
 
-<div class="visualization-information">
-<h2 id="visualization-viewer-title"></h2>
+    <div class="visualization-viewer-content">
 
-<p id="visualization-viewer-description"></p>
+      <div class="visualization-image-container">
+        <img
+          id="visualization-viewer-image"
+          src=""
+          alt="">
+      </div>
+
+      <div class="visualization-information">
+        <h2 id="visualization-viewer-title"></h2>
+        <p id="visualization-viewer-description"></p>
+      </div>
+
+    </div>
+  </div>
+
 </div>
-
-</div>
-</div>
-
-<script src="visualizations.js"></script>
+```

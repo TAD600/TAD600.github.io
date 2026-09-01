@@ -9,7 +9,6 @@ resources:
 
 website:
   title: "Tahia Anan Dhira"
-  site-url: https://tahiaanandhira.com
 
   navbar:
     left:
@@ -39,7 +38,7 @@ website:
         href: https://www.linkedin.com/in/dhiraanan/
 
       - text: ORCID
-        href: https://orcid.org/0000-0001-7403-9862
+        href: https://orcid.org/0000-0002-XXXX-XXXX
 
 format:
   html:

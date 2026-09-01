@@ -1,235 +1,169 @@
-console.log("Visualizations gallery loaded.");
+(function () {
+
+    "use strict";
+
+    function initVisualizations() {
+
+        const gallery = document.getElementById("visualization-gallery");
+
+        if (!gallery) {
+            return;
+        }
+
+        const viewer = document.getElementById("visualization-viewer");
+        const viewerImage = document.getElementById("visualization-viewer-image");
+        const viewerTitle = document.getElementById("visualization-viewer-title");
+        const viewerDescription = document.getElementById("visualization-viewer-description");
+        const closeButton = document.getElementById("visualization-close");
+
+        if (!viewer || !viewerImage || !viewerTitle || !viewerDescription) {
+            console.error("Visualization viewer elements are missing.");
+            return;
+        }
 
 
-/* ==========================================================
-   VISUALIZATIONS
-========================================================== */
+        const visualizations = [
 
-const visualizations = [
+            {
+                image: "images/wordcloud.png",
+                title: "Word Cloud from YouTube Comments on Bangladeshi Artists",
+                description: "Word cloud generated from a preliminary corpus of YouTube comments on Bangladeshi artists. The visualization provides an initial overview of the most frequently occurring words in the dataset. The vocabulary and relative frequencies will evolve as the corpus is expanded and finalized."
+            },
 
-    {
-        image: "images/wordcloud.png",
-        title: "Word Cloud from YouTube Comments on Bangladeshi Artists",
-        description: "Word cloud generated from a preliminary corpus of YouTube comments on Bangladeshi artists. The visualization provides an initial overview of the most frequently occurring words in the dataset. The vocabulary and relative frequencies will evolve as the corpus is expanded and finalized."
-    },
+            {
+                image: "images/mignet.png",
+                title: "Global Migration Network",
+                description: "Evolution of the global migration network's core–periphery structure from 1990 to 2020. Core countries are identified using the Ma and Mondragón algorithm based on the incoming core–periphery measure. Node size represents weighted indegree (node strength)."
+            },
 
-    {
-        image: "images/mignet.png",
-        title: "Global Migration Network",
-        description: "Evolution of the global migration network's core–periphery structure from 1990 to 2020. Core countries (orange) are identified using the Ma and Mondragón algorithm based on the incoming core–periphery (in-CP) measure, while peripheral countries are shown in blue. Node size represents weighted indegree (node strength). The migration system exhibits a highly persistent core, indicating that the world's principal destination countries have remained largely unchanged despite the expansion of international migration."
-    },
+            {
+                image: "images/map.png",
+                title: "Exporters of Cultural Products",
+                description: "Comparison of weighted outdegree centrality for exporters of unique cultural products, reproducible cultural products, and non-cultural products in 2000 and 2023. Darker shades indicate greater export centrality."
+            },
 
-    {
-        image: "images/map.png",
-        title: "Exporters of Cultural Products",
-        description: "Comparison of weighted outdegree centrality for exporters of unique cultural products, reproducible cultural products, and non-cultural products in 2000 and 2023. Darker shades indicate greater export centrality. The maps illustrate the evolution of global trade networks, highlighting the increasing prominence of China alongside the United States over time. While reproducible cultural products (e.g., books and recorded music) have seen the emergence of new exporters, exports of unique cultural products remain concentrated in a small number of European countries and the United States."
-    },
+            {
+                image: "images/map_pollution.png",
+                title: "Evolution of Emission Outsourcing and Domestic Per Capita CO₂ Emissions Across Countries (1995–2020)",
+                description: "The map shows the evolution of countries’ net imports of CO₂ embodied in traded goods and domestic per capita CO₂ emissions between 1995 and 2020."
+            },
 
-    {
-        image: "images/map_pollution.png",
-        title: "Evolution of Emission Outsourcing and Domestic Per Capita CO₂ Emissions Across Countries (1995–2020)",
-        description: "The map shows the evolution of countries’ net imports of CO₂ embodied in traded goods (left) and domestic per capita CO₂ emissions (right) between 1995 and 2020. Net embodied carbon imports are increasingly concentrated in advanced economies, particularly in North America, Western Europe, and Australia, indicating a growing reliance on carbon-intensive production located abroad. In contrast, domestic per capita emissions remain highest in many of these countries despite some moderation over time. The comparison highlights the growing disconnect between where emissions are produced and where the associated goods are consumed, reflecting the increasing globalization of carbon-intensive production."
-    },
+            {
+                image: "images/importers_pollution.png",
+                title: "Top 10 Importers of CO₂ Embodied in International Trade",
+                description: "Ranking trajectories of the top 10 importers of CO₂ embodied in international trade. Advanced economies consistently account for approximately nine of the ten largest importers of embodied CO₂."
+            },
 
-    {
-        image: "images/importers_pollution.png",
-        title: "Top 10 Importers of CO₂ Embodied in International Trade",
-        description: "Ranking trajectories of the top 10 importers of CO₂ embodied in international trade. Countries are classified as advanced economies (blue) and emerging market economies (orange) according to the IMF classification. Advanced economies consistently account for approximately nine of the ten largest importers of embodied CO₂, highlighting the geographical separation between the consumption and production of carbon-intensive goods."
-    },
+            {
+                image: "images/exporter_pollution.png",
+                title: "Top 10 Exporters of CO₂ Embodied in International Trade",
+                description: "Ranking trajectories of the top 10 exporters of CO₂ embodied in international trade. Emerging market economies comprise around eight of the ten largest exporters."
+            },
 
-    {
-        image: "images/exporter_pollution.png",
-        title: "Top 10 Exporters of CO₂ Embodied in International Trade",
-        description: "Ranking trajectories of the top 10 exporters of CO₂ embodied in international trade. Countries are classified as advanced economies (blue) and emerging market economies (orange) according to the IMF classification. Emerging market economies comprise around eight of the ten largest exporters, highlighting the geographical separation between the consumption and production of carbon-intensive goods."
-    },
+            {
+                image: "images/HE.png",
+                title: "Measures of Health Insurance Satisfaction in Bangladesh",
+                description: "Distribution of satisfaction levels across major dimensions of health insurance services in Bangladesh, including quality of service, claim settlement, premium, coverage, deductible, insurance co-payment, documentation, and cooperation from insurance providers."
+            }
 
-    {
-        image: "images/HE.png",
-        title: "Measures of Health Insurance Satisfaction in Bangladesh",
-        description: "Distribution of satisfaction levels across major dimensions of health insurance services in Bangladesh, including quality of service, claim settlement, premium, coverage, deductible, insurance co-payment, documentation, and cooperation from insurance providers. The figure compares responses from individual and group insurance policyholders. Adapted from our published study in SSM – Health Systems."
-    }
-
-];
+        ];
 
 
-/* ==========================================================
-   ELEMENTS
-========================================================== */
+        /* =====================================================
+           CREATE GALLERY
+        ===================================================== */
 
-const gallery =
-    document.getElementById("visualization-gallery");
+        gallery.innerHTML = "";
 
-const viewer =
-    document.getElementById("visualization-viewer");
+        visualizations.forEach(function (visualization) {
 
-const viewerImage =
-    document.getElementById("visualization-viewer-image");
+            const item = document.createElement("article");
 
-const viewerTitle =
-    document.getElementById("visualization-viewer-title");
-
-const viewerDescription =
-    document.getElementById("visualization-viewer-description");
-
-const closeButton =
-    document.getElementById("visualization-close");
+            item.className = "visualization-item";
 
 
-/* ==========================================================
-   CHECK ELEMENTS
-========================================================== */
+            const image = document.createElement("img");
 
-if (!gallery) {
-    console.error("Visualization gallery not found.");
-}
+            image.className = "visualization-thumbnail";
 
-if (!viewer) {
-    console.error("Visualization viewer not found.");
-}
+            image.src = visualization.image;
+
+            image.alt = visualization.title;
+
+            image.loading = "lazy";
 
 
-/* ==========================================================
-   CREATE GALLERY
-========================================================== */
+            item.appendChild(image);
 
-if (gallery) {
-
-    visualizations.forEach((visualization) => {
-
-        /* Create visualization container */
-
-        const item =
-            document.createElement("article");
-
-        item.className =
-            "visualization-item";
+            gallery.appendChild(item);
 
 
-        /* Create image */
+            /* =================================================
+               CLICK IMAGE
+            ================================================= */
 
-        const img =
-            document.createElement("img");
+            item.addEventListener("click", function () {
 
-        img.src =
-            visualization.image;
+                viewerImage.src = visualization.image;
+                viewerImage.alt = visualization.title;
 
-        img.alt =
-            visualization.title;
+                viewerTitle.textContent = visualization.title;
 
-        img.className =
-            "visualization-thumbnail";
-
-        img.loading =
-            "lazy";
+                viewerDescription.textContent = visualization.description;
 
 
-        /* --------------------------------------------------
-           Open viewer when image is clicked
-        -------------------------------------------------- */
+                /*
+                 * IMPORTANT:
+                 * Remove "hidden".
+                 * Do NOT add it again.
+                 */
 
-        item.addEventListener("click", () => {
+                viewer.classList.remove("hidden");
 
-            openViewer(visualization);
+                document.body.classList.add(
+                    "visualization-viewer-open"
+                );
+
+            });
 
         });
 
 
-        /* Add image to item */
+        /* =====================================================
+           CLOSE
+        ===================================================== */
 
-        item.appendChild(img);
+        function closeViewer() {
 
+            viewer.classList.add("hidden");
 
-        /* Add item to gallery */
+            document.body.classList.remove(
+                "visualization-viewer-open"
+            );
 
-        gallery.appendChild(item);
-
-    });
-
-}
-
-
-/* ==========================================================
-   OPEN VIEWER
-========================================================== */
-
-function openViewer(visualization) {
-
-    if (!viewer || !viewerImage) {
-        return;
-    }
+        }
 
 
-    viewerImage.src =
-        visualization.image;
+        if (closeButton) {
 
-    viewerImage.alt =
-        visualization.title;
+            closeButton.addEventListener("click", function (event) {
 
+                event.preventDefault();
 
-    if (viewerTitle) {
+                event.stopPropagation();
 
-        viewerTitle.textContent =
-            visualization.title;
+                closeViewer();
 
-    }
+            });
 
-
-    if (viewerDescription) {
-
-        viewerDescription.textContent =
-            visualization.description;
-
-    }
+        }
 
 
-    viewer.classList.remove("hidden");
+        /* =====================================================
+           CLICK BACKGROUND
+        ===================================================== */
 
-    document.body.classList.add("viewer-open");
-
-}
-
-
-/* ==========================================================
-   CLOSE VIEWER
-========================================================== */
-
-function closeViewer() {
-
-    if (!viewer) {
-        return;
-    }
-
-
-    viewer.classList.add("hidden");
-
-    document.body.classList.remove("viewer-open");
-
-}
-
-
-/* ==========================================================
-   CLOSE BUTTON
-========================================================== */
-
-if (closeButton) {
-
-    closeButton.addEventListener(
-        "click",
-        closeViewer
-    );
-
-}
-
-
-/* ==========================================================
-   CLICK OUTSIDE CONTENT TO CLOSE
-========================================================== */
-
-if (viewer) {
-
-    viewer.addEventListener(
-        "click",
-        function(event) {
+        viewer.addEventListener("click", function (event) {
 
             if (event.target === viewer) {
 
@@ -237,25 +171,44 @@ if (viewer) {
 
             }
 
-        }
-    );
-
-}
+        });
 
 
-/* ==========================================================
-   ESCAPE KEY TO CLOSE
-========================================================== */
+        /* =====================================================
+           ESCAPE
+        ===================================================== */
 
-document.addEventListener(
-    "keydown",
-    function(event) {
+        document.addEventListener("keydown", function (event) {
 
-        if (event.key === "Escape") {
+            if (
+                event.key === "Escape" &&
+                !viewer.classList.contains("hidden")
+            ) {
 
-            closeViewer();
+                closeViewer();
 
-        }
+            }
+
+        });
 
     }
-);
+
+
+    /*
+     * Wait until the page exists.
+     */
+
+    if (document.readyState === "loading") {
+
+        document.addEventListener(
+            "DOMContentLoaded",
+            initVisualizations
+        );
+
+    } else {
+
+        initVisualizations();
+
+    }
+
+})();
