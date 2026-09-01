@@ -13,13 +13,11 @@ const visualizations = [
         description: "Word cloud generated from a preliminary corpus of YouTube comments on Bangladeshi artists. The visualization provides an initial overview of the most frequently occurring words in the dataset. The vocabulary and relative frequencies will evolve as the corpus is expanded and finalized."
     },
 
-
     {
         image: "images/mignet.png",
         title: "Global Migration Network",
         description: "Evolution of the global migration network's core–periphery structure from 1990 to 2020. Core countries (orange) are identified using the Ma and Mondragón algorithm based on the incoming core–periphery (in-CP) measure, while peripheral countries are shown in blue. Node size represents weighted indegree (node strength). The migration system exhibits a highly persistent core, indicating that the world's principal destination countries have remained largely unchanged despite the expansion of international migration."
     },
-
 
     {
         image: "images/map.png",
@@ -27,13 +25,11 @@ const visualizations = [
         description: "Comparison of weighted outdegree centrality for exporters of unique cultural products, reproducible cultural products, and non-cultural products in 2000 and 2023. Darker shades indicate greater export centrality. The maps illustrate the evolution of global trade networks, highlighting the increasing prominence of China alongside the United States over time. While reproducible cultural products (e.g., books and recorded music) have seen the emergence of new exporters, exports of unique cultural products remain concentrated in a small number of European countries and the United States."
     },
 
-
     {
         image: "images/map_pollution.png",
         title: "Evolution of Emission Outsourcing and Domestic Per Capita CO₂ Emissions Across Countries (1995–2020)",
         description: "The map shows the evolution of countries’ net imports of CO₂ embodied in traded goods (left) and domestic per capita CO₂ emissions (right) between 1995 and 2020. Net embodied carbon imports are increasingly concentrated in advanced economies, particularly in North America, Western Europe, and Australia, indicating a growing reliance on carbon-intensive production located abroad. In contrast, domestic per capita emissions remain highest in many of these countries despite some moderation over time. The comparison highlights the growing disconnect between where emissions are produced and where the associated goods are consumed, reflecting the increasing globalization of carbon-intensive production."
     },
-
 
     {
         image: "images/importers_pollution.png",
@@ -41,13 +37,11 @@ const visualizations = [
         description: "Ranking trajectories of the top 10 importers of CO₂ embodied in international trade. Countries are classified as advanced economies (blue) and emerging market economies (orange) according to the IMF classification. Advanced economies consistently account for approximately nine of the ten largest importers of embodied CO₂, highlighting the geographical separation between the consumption and production of carbon-intensive goods."
     },
 
-
     {
         image: "images/exporter_pollution.png",
         title: "Top 10 Exporters of CO₂ Embodied in International Trade",
         description: "Ranking trajectories of the top 10 exporters of CO₂ embodied in international trade. Countries are classified as advanced economies (blue) and emerging market economies (orange) according to the IMF classification. Emerging market economies comprise around eight of the ten largest exporters, highlighting the geographical separation between the consumption and production of carbon-intensive goods."
     },
-
 
     {
         image: "images/HE.png",
@@ -82,45 +76,76 @@ const closeButton =
 
 
 /* ==========================================================
+   CHECK ELEMENTS
+========================================================== */
+
+if (!gallery) {
+    console.error("Visualization gallery not found.");
+}
+
+if (!viewer) {
+    console.error("Visualization viewer not found.");
+}
+
+
+/* ==========================================================
    CREATE GALLERY
 ========================================================== */
 
-visualizations.forEach((visualization, index) => {
+if (gallery) {
 
-    const item =
-        document.createElement("article");
+    visualizations.forEach((visualization) => {
 
-    item.className = "visualization-item";
+        /* Create visualization container */
 
+        const item =
+            document.createElement("article");
 
-    const img =
-        document.createElement("img");
-
-    img.src = visualization.image;
-
-    img.alt = visualization.title;
-
-    img.className = "visualization-thumbnail";
-
-    img.loading = "lazy";
+        item.className =
+            "visualization-item";
 
 
-    /* ------------------------------------------------------
-       Open viewer when image is clicked
-    ------------------------------------------------------ */
+        /* Create image */
 
-    item.addEventListener("click", () => {
+        const img =
+            document.createElement("img");
 
-        openViewer(visualization);
+        img.src =
+            visualization.image;
+
+        img.alt =
+            visualization.title;
+
+        img.className =
+            "visualization-thumbnail";
+
+        img.loading =
+            "lazy";
+
+
+        /* --------------------------------------------------
+           Open viewer when image is clicked
+        -------------------------------------------------- */
+
+        item.addEventListener("click", () => {
+
+            openViewer(visualization);
+
+        });
+
+
+        /* Add image to item */
+
+        item.appendChild(img);
+
+
+        /* Add item to gallery */
+
+        gallery.appendChild(item);
 
     });
 
-
-    item.appendChild(img);
-
-    gallery.appendChild(item);
-
-});
+}
 
 
 /* ==========================================================
@@ -129,17 +154,32 @@ visualizations.forEach((visualization, index) => {
 
 function openViewer(visualization) {
 
+    if (!viewer || !viewerImage) {
+        return;
+    }
+
+
     viewerImage.src =
         visualization.image;
 
     viewerImage.alt =
         visualization.title;
 
-    viewerTitle.textContent =
-        visualization.title;
 
-    viewerDescription.textContent =
-        visualization.description;
+    if (viewerTitle) {
+
+        viewerTitle.textContent =
+            visualization.title;
+
+    }
+
+
+    if (viewerDescription) {
+
+        viewerDescription.textContent =
+            visualization.description;
+
+    }
 
 
     viewer.classList.remove("hidden");
@@ -155,6 +195,11 @@ function openViewer(visualization) {
 
 function closeViewer() {
 
+    if (!viewer) {
+        return;
+    }
+
+
     viewer.classList.add("hidden");
 
     document.body.classList.remove("viewer-open");
@@ -166,37 +211,51 @@ function closeViewer() {
    CLOSE BUTTON
 ========================================================== */
 
-closeButton.addEventListener(
-    "click",
-    closeViewer
-);
+if (closeButton) {
+
+    closeButton.addEventListener(
+        "click",
+        closeViewer
+    );
+
+}
 
 
 /* ==========================================================
-   CLICK OUTSIDE IMAGE TO CLOSE
+   CLICK OUTSIDE CONTENT TO CLOSE
 ========================================================== */
 
-viewer.addEventListener("click", function(event) {
+if (viewer) {
 
-    if (event.target === viewer) {
+    viewer.addEventListener(
+        "click",
+        function(event) {
 
-        closeViewer();
+            if (event.target === viewer) {
 
-    }
+                closeViewer();
 
-});
+            }
+
+        }
+    );
+
+}
 
 
 /* ==========================================================
    ESCAPE KEY TO CLOSE
 ========================================================== */
 
-document.addEventListener("keydown", function(event) {
+document.addEventListener(
+    "keydown",
+    function(event) {
 
-    if (event.key === "Escape") {
+        if (event.key === "Escape") {
 
-        closeViewer();
+            closeViewer();
+
+        }
 
     }
-
-});
+);
