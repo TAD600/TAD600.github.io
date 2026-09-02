@@ -75,7 +75,7 @@
             {
                 image: "images/HE.png",
                 title: "Measures of Health Insurance Satisfaction in Bangladesh",
-                description: "Distribution of satisfaction levels across major dimensions of health insurance services in Bangladesh, including quality of service, claim settlement, premium, coverage, deductible, insurance co-payment, documentation, and cooperation from insurance providers. This figure appears in a published research article: <a href='https://doi.org/10.1016/j.ssmhs.2025.100058' target='_blank' style='color: #0066cc;'>https://doi.org/10.1016/j.ssmhs.2025.100058</a>."
+                description: "Distribution of satisfaction levels across major dimensions of health insurance services in Bangladesh, including quality of service, claim settlement, premium, coverage, deductible, insurance co-payment, documentation, and cooperation from insurance providers. This figure appears in the research article: <a href='https://doi.org/10.1016/j.ssmhs.2025.100058' target='_blank' style='color: #0066cc;'>https://doi.org/10.1016/j.ssmhs.2025.100058</a>."
             }
 
         ];
