@@ -25,9 +25,13 @@ Currently I study global migration networks, international trade networks, and g
 
 ---
 
+::: {.home-content}
+
 ## Research Interests
 
 - Migration & Development
 - International Trade
 - Social Network Analysis
 - Text as Data / Computational Methods
+
+:::

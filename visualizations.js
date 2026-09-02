@@ -37,6 +37,12 @@
             },
 
             {
+                image: "images/classifying_art_gender.png",
+                title: "Annotation Pipeline for Gender and Art-Category Classification",
+                description: "The annotation pipeline for gender and art-category classification of YouTube videos by Bangladeshi artists. Artist gender and art-category annotation is performed at two levels: channel-level annotation for personal artist channels, and video-level annotation for entertainment channels using the Gemini API. LLM-assisted preliminary annotations are then verified and corrected by the author, producing final verified gender and art categories. Videos featuring clickbait, irrelevant, unknown, or mixed-gender performers are excluded from the final dataset."     
+            },
+
+            {
                 image: "images/mignet.png",
                 title: "Global Migration Network",
                 description: "Evolution of the global migration network's core–periphery structure from 1990 to 2020. Core countries are identified using the Ma and Mondragón algorithm based on the incoming core–periphery measure. Node size represents weighted indegree (node strength)."
@@ -69,7 +75,7 @@
             {
                 image: "images/HE.png",
                 title: "Measures of Health Insurance Satisfaction in Bangladesh",
-                description: "Distribution of satisfaction levels across major dimensions of health insurance services in Bangladesh, including quality of service, claim settlement, premium, coverage, deductible, insurance co-payment, documentation, and cooperation from insurance providers."
+                description: "Distribution of satisfaction levels across major dimensions of health insurance services in Bangladesh, including quality of service, claim settlement, premium, coverage, deductible, insurance co-payment, documentation, and cooperation from insurance providers. This figure appears in a published research article: <a href='https://doi.org/10.1016/j.ssmhs.2025.100058' target='_blank' style='color: #0066cc;'>https://doi.org/10.1016/j.ssmhs.2025.100058</a>."
             }
 
         ];
@@ -115,7 +121,7 @@
 
                 viewerTitle.textContent = visualization.title;
 
-                viewerDescription.textContent = visualization.description;
+                viewerDescription.innerHTML = visualization.description;
 
 
                 /*

@@ -1,7 +1,8 @@
 ---
-title: "Visualizations"
+title: ""
 format:
   html:
+    page-layout: full
     include-after-body:
       text: |
         <script src="visualizations.js"></script>
