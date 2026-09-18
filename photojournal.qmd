@@ -1,0 +1,906 @@
+---
+title: "Photo Journal"
+page-layout: full
+---
+
+```{=html}
+<style>
+
+/* ==========================================================
+   PHOTO JOURNAL — PAGE
+========================================================== */
+
+body:has(#tahia-photojournal) #quarto-content,
+body:has(#tahia-photojournal) #quarto-document-content,
+body:has(#tahia-photojournal) main.content {
+    max-width: none !important;
+}
+
+
+/* ==========================================================
+   FULL-WIDTH GALLERY CONTAINER
+========================================================== */
+
+#tahia-photojournal {
+    position: relative !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+
+    margin: 0 !important;
+    padding: 8px !important;
+
+    box-sizing: border-box !important;
+
+    background: #ffffff !important;
+}
+
+
+/* ==========================================================
+   PHOTO GRID
+========================================================== */
+
+#tahia-photo-grid {
+    display: grid !important;
+
+    grid-template-columns:
+        repeat(6, minmax(0, 1fr)) !important;
+
+    gap: 8px !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    box-sizing: border-box !important;
+}
+
+
+/* ==========================================================
+   INDIVIDUAL PHOTO
+========================================================== */
+
+#tahia-photo-grid .tahia-photo {
+    position: relative !important;
+
+    display: block !important;
+
+    width: 100% !important;
+
+    aspect-ratio: 4 / 3 !important;
+
+    min-width: 0 !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    overflow: hidden !important;
+
+    background: #eeeeee !important;
+
+    cursor: pointer !important;
+}
+
+
+/* ==========================================================
+   THUMBNAIL IMAGE
+========================================================== */
+
+#tahia-photo-grid .tahia-photo > img {
+    position: absolute !important;
+
+    top: 0 !important;
+    left: 0 !important;
+
+    display: block !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    min-width: 0 !important;
+    max-width: none !important;
+
+    min-height: 0 !important;
+    max-height: none !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    object-fit: cover !important;
+    object-position: center !important;
+
+    border: none !important;
+    border-radius: 0 !important;
+
+    box-shadow: none !important;
+
+    transition: transform 0.25s ease !important;
+}
+
+#tahia-photo-grid .tahia-photo:hover > img {
+    transform: scale(1.02) !important;
+}
+
+
+/* ==========================================================
+   PHOTO TITLE
+========================================================== */
+
+#tahia-photo-grid .tahia-photo-name {
+    position: absolute !important;
+
+    left: 10px !important;
+    right: 10px !important;
+    bottom: 8px !important;
+
+    z-index: 10 !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    font-family: "Cormorant Garamond", serif !important;
+
+    font-size: 15px !important;
+    line-height: 1.1 !important;
+
+    font-weight: 500 !important;
+
+    color: #ffffff !important;
+
+    text-shadow:
+        0 1px 3px rgba(0, 0, 0, 0.95),
+        0 2px 6px rgba(0, 0, 0, 0.75);
+
+    pointer-events: none !important;
+}
+
+
+/* ==========================================================
+   LIGHTBOX
+========================================================== */
+
+#tahia-lightbox {
+    position: fixed !important;
+
+    inset: 0 !important;
+
+    z-index: 999999 !important;
+
+    display: none !important;
+
+    width: 100vw !important;
+    height: 100vh !important;
+
+    margin: 0 !important;
+    padding: 60px 80px 70px !important;
+
+    box-sizing: border-box !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    background: rgba(255, 255, 255, 0.98) !important;
+}
+
+#tahia-lightbox.tahia-open {
+    display: flex !important;
+}
+
+
+/* ==========================================================
+   FULL-SIZE IMAGE
+========================================================== */
+
+#tahia-lightbox-image {
+    position: static !important;
+
+    display: block !important;
+
+    width: auto !important;
+    height: auto !important;
+
+    min-width: 0 !important;
+    min-height: 0 !important;
+
+    max-width: calc(100vw - 190px) !important;
+    max-height: calc(100vh - 145px) !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    object-fit: contain !important;
+
+    border: none !important;
+    border-radius: 0 !important;
+
+    box-shadow: none !important;
+
+    transform: none !important;
+}
+
+
+/* ==========================================================
+   LIGHTBOX TITLE
+========================================================== */
+
+#tahia-lightbox-title {
+    position: fixed !important;
+
+    left: 50% !important;
+    bottom: 18px !important;
+
+    transform: translateX(-50%) !important;
+
+    width: auto !important;
+    max-width: 80vw !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    font-family: "Cormorant Garamond", serif !important;
+
+    font-size: 18px !important;
+    line-height: 1.2 !important;
+
+    font-weight: 500 !important;
+
+    color: #333333 !important;
+
+    text-align: center !important;
+}
+
+
+/* ==========================================================
+   LIGHTBOX BUTTONS
+========================================================== */
+
+#tahia-close,
+#tahia-prev,
+#tahia-next {
+    position: fixed !important;
+
+    z-index: 1000000 !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    width: 44px !important;
+    height: 44px !important;
+
+    min-width: 44px !important;
+    min-height: 44px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    border: 1px solid #dddddd !important;
+    border-radius: 0 !important;
+
+    background: #ffffff !important;
+
+    color: #222222 !important;
+
+    font-family: Arial, sans-serif !important;
+
+    line-height: 1 !important;
+
+    cursor: pointer !important;
+
+    box-shadow: none !important;
+}
+
+
+/* Close */
+
+#tahia-close {
+    top: 80px !important;
+    right: 24px !important;
+
+    font-size: 27px !important;
+}
+
+
+/* Previous / next */
+
+#tahia-prev,
+#tahia-next {
+    top: 50% !important;
+
+    transform: translateY(-50%) !important;
+
+    font-size: 29px !important;
+}
+
+#tahia-prev {
+    left: 22px !important;
+}
+
+#tahia-next {
+    right: 22px !important;
+}
+
+
+/* ==========================================================
+   RESPONSIVE — MEDIUM DESKTOP
+========================================================== */
+
+@media (max-width: 1300px) {
+
+    #tahia-photo-grid {
+        grid-template-columns:
+            repeat(5, minmax(0, 1fr)) !important;
+    }
+
+}
+
+
+/* ==========================================================
+   RESPONSIVE — TABLET
+========================================================== */
+
+@media (max-width: 1000px) {
+
+    #tahia-photo-grid {
+        grid-template-columns:
+            repeat(4, minmax(0, 1fr)) !important;
+    }
+
+}
+
+
+@media (max-width: 750px) {
+
+    #tahia-photo-grid {
+        grid-template-columns:
+            repeat(3, minmax(0, 1fr)) !important;
+    }
+
+}
+
+
+/* ==========================================================
+   RESPONSIVE — MOBILE
+========================================================== */
+
+@media (max-width: 520px) {
+
+    #tahia-photojournal {
+        padding: 5px !important;
+    }
+
+    #tahia-photo-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr)) !important;
+
+        gap: 5px !important;
+    }
+
+    #tahia-photo-grid .tahia-photo-name {
+        left: 7px !important;
+        right: 7px !important;
+        bottom: 6px !important;
+
+        font-size: 13px !important;
+    }
+
+    #tahia-lightbox {
+        padding: 55px 15px 65px !important;
+    }
+
+    #tahia-lightbox-image {
+        max-width: 94vw !important;
+        max-height: 80vh !important;
+    }
+
+    #tahia-prev {
+        left: 5px !important;
+    }
+
+    #tahia-next {
+        right: 5px !important;
+    }
+
+}
+
+
+/* ==========================================================
+   GALLERY HTML
+========================================================== */
+
+</style>
+
+
+<div id="tahia-photojournal">
+
+<div id="tahia-photo-grid">
+
+
+<div class="tahia-photo" data-image="images/pic1.jpg" data-title="On Naf river, Teknaf, Bangladesh">
+<img src="images/pic1.jpg" alt="On Naf river, Teknaf, Bangladesh">
+<div class="tahia-photo-name">On Naf river, Teknaf, Bangladesh</div>
+</div>
+
+
+<div class="tahia-photo" data-image="images/pic2.jpg" data-title="Shomoshkholshi village, Natore, Bangladesh">
+<img src="images/pic2.jpg" alt="Shomoshkholshi village, Natore, Bangladesh">
+<div class="tahia-photo-name">Shomoshkholshi village, Natore, Bangladesh</div>
+</div>
+
+
+<div class="tahia-photo" data-image="images/pic3.jpg" data-title="Nabami, Dalimpur, Bagatipara, Natore, Bangladesh">
+<img src="images/pic3.jpg" alt="Nabami, Dalimpur, Bagatipara, Natore, Bangladesh">
+<div class="tahia-photo-name">Nabami, Dalimpur, Bagatipara, Natore, Bangladesh</div>
+</div>
+
+
+<div class="tahia-photo" data-image="images/pic4.jpg" data-title="Shillong, India">
+<img src="images/pic4.jpg" alt="Shillong, India">
+<div class="tahia-photo-name">Shillong, India</div>
+</div>
+
+
+<div class="tahia-photo" data-image="images/pic5.jpg" data-title="Meghalaya, India">
+<img src="images/pic5.jpg" alt="Meghalaya, India">
+<div class="tahia-photo-name">Meghalaya, India</div>
+</div>
+
+
+<div class="tahia-photo" data-image="images/pic6.jpg" data-title="Meghalaya, India">
+<img src="images/pic6.jpg" alt="Meghalaya, India">
+<div class="tahia-photo-name">Meghalaya, India</div>
+</div>
+
+
+<div class="tahia-photo" data-image="images/pic7.jpg" data-title="Natore, Bangladesh">
+<img src="images/pic7.jpg" alt="Natore, Bangladesh">
+<div class="tahia-photo-name">Natore, Bangladesh</div>
+</div>
+
+
+<div class="tahia-photo" data-image="images/pic8.jpg" data-title="Natore, Bangladesh">
+<img src="images/pic8.jpg" alt="Natore, Bangladesh">
+<div class="tahia-photo-name">Natore, Bangladesh</div>
+</div>
+
+
+<div class="tahia-photo" data-image="images/pic9.jpg" data-title="Naogaon, Bangladesh">
+<img src="images/pic9.jpg" alt="Naogaon, Bangladesh">
+<div class="tahia-photo-name">Naogaon, Bangladesh</div>
+</div>
+
+
+<div class="tahia-photo" data-image="images/pic10.jpg" data-title="Hardinge Bridge, Pakshi, Pabna, Bangladesh">
+<img src="images/pic10.jpg" alt="Hardinge Bridge, Pakshi, Pabna, Bangladesh">
+<div class="tahia-photo-name">Hardinge Bridge, Pakshi, Pabna, Bangladesh</div>
+</div>
+
+
+<div class="tahia-photo" data-image="images/pic11.jpg" data-title="Haystack, Pabna, Bangladesh">
+<img src="images/pic11.jpg" alt="Haystack, Pabna, Bangladesh">
+<div class="tahia-photo-name">Haystack, Pabna, Bangladesh</div>
+</div>
+
+
+<div class="tahia-photo" data-image="images/pic12.jpg" data-title="Jute Mill, Natore, Bangladesh">
+<img src="images/pic12.jpg" alt="Jute Mill, Natore, Bangladesh">
+<div class="tahia-photo-name">Jute Mill, Natore, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic13.jpg" data-title="Dighapatia Palace, Natore, Bangladesh">
+<img src="images/pic13.jpg" alt="Dighapatia Palace, Natore, Bangladesh">
+<div class="tahia-photo-name">Dighapatia Palace, Natore, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic14.jpg" data-title="Brick Lane, London">
+<img src="images/pic14.jpg" alt="Brick Lane, London">
+<div class="tahia-photo-name">Brick Lane, London</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic15.jpg" data-title="Brick Lane, London">
+<img src="images/pic15.jpg" alt="Brick Lane, London">
+<div class="tahia-photo-name">Brick Lane, London</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic16.jpg" data-title="Brick Lane, London">
+<img src="images/pic16.jpg" alt="Brick Lane, London">
+<div class="tahia-photo-name">Brick Lane, London</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic17.jpg" data-title="Brick Lane, London">
+<img src="images/pic17.jpg" alt="Brick Lane, London">
+<div class="tahia-photo-name">Brick Lane, London</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic18.jpg" data-title="Brick Lane, London">
+<img src="images/pic18.jpg" alt="Brick Lane, London">
+<div class="tahia-photo-name">Brick Lane, London</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic19.jpg" data-title="Brick Lane, London">
+<img src="images/pic19.jpg" alt="Brick Lane, London">
+<div class="tahia-photo-name">Brick Lane, London</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic20.jpg" data-title="Brick Lane, London">
+<img src="images/pic20.jpg" alt="Brick Lane, London">
+<div class="tahia-photo-name">Brick Lane, London</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic21.jpg" data-title="Natore, Bangladesh">
+<img src="images/pic21.jpg" alt="Natore, Bangladesh">
+<div class="tahia-photo-name">Natore, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic22.jpg" data-title="Kathmandu, Nepal">
+<img src="images/pic22.jpg" alt="Kathmandu, Nepal">
+<div class="tahia-photo-name">Kathmandu, Nepal</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic23.jpg" data-title="Kathmandu, Nepal">
+<img src="images/pic23.jpg" alt="Kathmandu, Nepal">
+<div class="tahia-photo-name">Kathmandu, Nepal</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic24.jpg" data-title="Kathmandu, Nepal">
+<img src="images/pic24.jpg" alt="Kathmandu, Nepal">
+<div class="tahia-photo-name">Kathmandu, Nepal</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic25.jpg" data-title="Kathmandu, Nepal">
+<img src="images/pic25.jpg" alt="Kathmandu, Nepal">
+<div class="tahia-photo-name">Kathmandu, Nepal</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic26.jpg" data-title="Kathmandu, Nepal">
+<img src="images/pic26.jpg" alt="Kathmandu, Nepal">
+<div class="tahia-photo-name">Kathmandu, Nepal</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic27.jpg" data-title="Kathmandu, Nepal">
+<img src="images/pic27.jpg" alt="Kathmandu, Nepal">
+<div class="tahia-photo-name">Kathmandu, Nepal</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic28.jpg" data-title="Kathmandu, Nepal">
+<img src="images/pic28.jpg" alt="Kathmandu, Nepal">
+<div class="tahia-photo-name">Kathmandu, Nepal</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic29.jpg" data-title="Kathmandu, Nepal">
+<img src="images/pic29.jpg" alt="Kathmandu, Nepal">
+<div class="tahia-photo-name">Kathmandu, Nepal</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic30.jpg" data-title="Kathmandu, Nepal">
+<img src="images/pic30.jpg" alt="Kathmandu, Nepal">
+<div class="tahia-photo-name">Kathmandu, Nepal</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic31.jpg" data-title="Kathmandu, Nepal">
+<img src="images/pic31.jpg" alt="Kathmandu, Nepal">
+<div class="tahia-photo-name">Kathmandu, Nepal</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic32.jpg" data-title="Mecca, Saudi Arabia">
+<img src="images/pic32.jpg" alt="Mecca, Saudi Arabia">
+<div class="tahia-photo-name">Mecca, Saudi Arabia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic33.jpg" data-title="Mecca, Saudi Arabia">
+<img src="images/pic33.jpg" alt="Mecca, Saudi Arabia">
+<div class="tahia-photo-name">Mecca, Saudi Arabia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic34.jpg" data-title="Mecca, Saudi Arabia">
+<img src="images/pic34.jpg" alt="Mecca, Saudi Arabia">
+<div class="tahia-photo-name">Mecca, Saudi Arabia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic35.jpg" data-title="Mecca, Saudi Arabia">
+<img src="images/pic35.jpg" alt="Mecca, Saudi Arabia">
+<div class="tahia-photo-name">Mecca, Saudi Arabia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic36.jpg" data-title="Mecca, Saudi Arabia">
+<img src="images/pic36.jpg" alt="Mecca, Saudi Arabia">
+<div class="tahia-photo-name">Mecca, Saudi Arabia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic37.jpg" data-title="Mecca, Saudi Arabia">
+<img src="images/pic37.jpg" alt="Mecca, Saudi Arabia">
+<div class="tahia-photo-name">Mecca, Saudi Arabia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic38.jpg" data-title="Mecca, Saudi Arabia">
+<img src="images/pic38.jpg" alt="Mecca, Saudi Arabia">
+<div class="tahia-photo-name">Mecca, Saudi Arabia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic39.jpg" data-title="Mecca, Saudi Arabia">
+<img src="images/pic39.jpg" alt="Mecca, Saudi Arabia">
+<div class="tahia-photo-name">Mecca, Saudi Arabia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic40.jpg" data-title="Mecca, Saudi Arabia">
+<img src="images/pic40.jpg" alt="Mecca, Saudi Arabia">
+<div class="tahia-photo-name">Mecca, Saudi Arabia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic41.jpg" data-title="Mecca, Saudi Arabia">
+<img src="images/pic41.jpg" alt="Mecca, Saudi Arabia">
+<div class="tahia-photo-name">Mecca, Saudi Arabia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic42.jpg" data-title="Mecca, Saudi Arabia">
+<img src="images/pic42.jpg" alt="Mecca, Saudi Arabia">
+<div class="tahia-photo-name">Mecca, Saudi Arabia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic43.jpg" data-title="Mecca, Saudi Arabia">
+<img src="images/pic43.jpg" alt="Mecca, Saudi Arabia">
+<div class="tahia-photo-name">Mecca, Saudi Arabia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic40.1.jpg" data-title="Mecca, Saudi Arabia">
+<img src="images/pic40.1.jpg" alt="Mecca, Saudi Arabia">
+<div class="tahia-photo-name">Mecca, Saudi Arabia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic44.jpg" data-title="Mecca, Saudi Arabia">
+<img src="images/pic44.jpg" alt="Mecca, Saudi Arabia">
+<div class="tahia-photo-name">Mecca, Saudi Arabia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic45.jpg" data-title="Mecca, Saudi Arabia">
+<img src="images/pic45.jpg" alt="Mecca, Saudi Arabia">
+<div class="tahia-photo-name">Mecca, Saudi Arabia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic46.jpg" data-title="Mecca, Saudi Arabia">
+<img src="images/pic46.jpg" alt="Mecca, Saudi Arabia">
+<div class="tahia-photo-name">Mecca, Saudi Arabia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic47.jpg" data-title="Jeddah, Saudi Arabia">
+<img src="images/pic47.jpg" alt="Jeddah, Saudi Arabia">
+<div class="tahia-photo-name">Jeddah, Saudi Arabia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic48.jpg" data-title="Jeddah, Saudi Arabia">
+<img src="images/pic48.jpg" alt="Jeddah, Saudi Arabia">
+<div class="tahia-photo-name">Jeddah, Saudi Arabia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic49.jpg" data-title="Jeddah, Saudi Arabia">
+<img src="images/pic49.jpg" alt="Jeddah, Saudi Arabia">
+<div class="tahia-photo-name">Jeddah, Saudi Arabia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic50.jpg" data-title="Jeddah, Saudi Arabia">
+<img src="images/pic50.jpg" alt="Jeddah, Saudi Arabia">
+<div class="tahia-photo-name">Jeddah, Saudi Arabia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic51.jpg" data-title="Jeddah, Saudi Arabia">
+<img src="images/pic51.jpg" alt="Jeddah, Saudi Arabia">
+<div class="tahia-photo-name">Jeddah, Saudi Arabia</div>
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ==========================================================
+     LIGHTBOX
+========================================================== -->
+
+<div id="tahia-lightbox">
+
+<button id="tahia-close" type="button" aria-label="Close">&times;</button>
+
+<button id="tahia-prev" type="button" aria-label="Previous">&#8249;</button>
+
+<img id="tahia-lightbox-image" src="" alt="">
+
+<button id="tahia-next" type="button" aria-label="Next">&#8250;</button>
+
+<div id="tahia-lightbox-title"></div>
+
+</div>
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const photos = Array.from(
+        document.querySelectorAll("#tahia-photo-grid .tahia-photo")
+    );
+
+    const lightbox =
+        document.getElementById("tahia-lightbox");
+
+    const lightboxImage =
+        document.getElementById("tahia-lightbox-image");
+
+    const lightboxTitle =
+        document.getElementById("tahia-lightbox-title");
+
+    const closeButton =
+        document.getElementById("tahia-close");
+
+    const previousButton =
+        document.getElementById("tahia-prev");
+
+    const nextButton =
+        document.getElementById("tahia-next");
+
+    let currentIndex = 0;
+
+
+    /* ======================================================
+       SHOW PHOTO
+    ====================================================== */
+
+    function showPhoto(index) {
+
+        if (index < 0) {
+            index = photos.length - 1;
+        }
+
+        if (index >= photos.length) {
+            index = 0;
+        }
+
+        currentIndex = index;
+
+        const photo = photos[currentIndex];
+
+        lightboxImage.src =
+            photo.dataset.image;
+
+        lightboxImage.alt =
+            photo.dataset.title;
+
+        lightboxTitle.textContent =
+            photo.dataset.title;
+
+    }
+
+
+    /* ======================================================
+       OPEN LIGHTBOX
+    ====================================================== */
+
+    function openLightbox(index) {
+
+        showPhoto(index);
+
+        lightbox.classList.add("tahia-open");
+
+        document.body.style.overflow = "hidden";
+
+    }
+
+
+    /* ======================================================
+       CLOSE LIGHTBOX
+    ====================================================== */
+
+    function closeLightbox() {
+
+        lightbox.classList.remove("tahia-open");
+
+        document.body.style.overflow = "";
+
+    }
+
+
+    /* ======================================================
+       CLICK PHOTOS
+    ====================================================== */
+
+    photos.forEach(function (photo, index) {
+
+        photo.addEventListener("click", function () {
+
+            openLightbox(index);
+
+        });
+
+    });
+
+
+    /* ======================================================
+       CLOSE
+    ====================================================== */
+
+    closeButton.addEventListener("click", function (event) {
+
+        event.stopPropagation();
+
+        closeLightbox();
+
+    });
+
+
+    /* ======================================================
+       PREVIOUS
+    ====================================================== */
+
+    previousButton.addEventListener("click", function (event) {
+
+        event.stopPropagation();
+
+        showPhoto(currentIndex - 1);
+
+    });
+
+
+    /* ======================================================
+       NEXT
+    ====================================================== */
+
+    nextButton.addEventListener("click", function (event) {
+
+        event.stopPropagation();
+
+        showPhoto(currentIndex + 1);
+
+    });
+
+
+    /* ======================================================
+       CLICK BACKGROUND TO CLOSE
+    ====================================================== */
+
+    lightbox.addEventListener("click", function (event) {
+
+        if (event.target === lightbox) {
+
+            closeLightbox();
+
+        }
+
+    });
+
+
+    /* ======================================================
+       KEYBOARD
+    ====================================================== */
+
+    document.addEventListener("keydown", function (event) {
+
+        if (!lightbox.classList.contains("tahia-open")) {
+            return;
+        }
+
+        if (event.key === "Escape") {
+
+            closeLightbox();
+
+        }
+
+        if (event.key === "ArrowLeft") {
+
+            showPhoto(currentIndex - 1);
+
+        }
+
+        if (event.key === "ArrowRight") {
+
+            showPhoto(currentIndex + 1);
+
+        }
+
+    });
+
+});
+
+</script>
+```

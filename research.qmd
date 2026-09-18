@@ -1,33 +1,53 @@
+---
+title: "Research"
+---
+
 ## Working Papers
 
-**Rethinking the Income-Emissions Relationship: Evidence from Trade-Embodied  CO₂ Emissions Networks** (working paper, 2026)
+### Gender Stereotypes in Social Media Audience Discourse: Evidence from Bangladeshi Artists
 
-- Developed reproducible computational workflows for integrating and processing large-scale international datasets on embodied carbon emissions, trade, and macroeconomic indicators.
-- Constructed weighted global trade networks and implemented longitudinal network analyses to characterize the evolution of global embodied carbon trade networks.
-- Integrated network analysis and panel econometrics to examine how economic development and network position shape domestic and trade-embodied CO₂ emissions across advanced and developing economies.
+**Abstract.** This study examines gendered audience perceptions of artists in Bangladesh by analyzing discourse in YouTube comment sections. In the contemporary digital environment, social media platforms have become important spaces where cultural evaluations and gender stereotypes are publicly articulated. Drawing on a corpus of YouTube comments, the study employs sentiment analysis, keyness analysis, and structural topic modeling to investigate how audiences respond to male and female artists across different artistic professions and how these perceptions vary over time.
 
----
-
-**Global migration network and the geography of development ** (working paper, 2026)
-
-- Created a longitudinal panel of directed, weighted bilateral migration networks spanning 23 years to examine global migration dynamics. 
-- Developed reproducible computational workflows for network construction, visualization, and longitudinal analysis using R. 
-- Contributed to network model development, core-periphery detection, interpretation of network statistics, and manuscript preparation.
+The findings show that audience perceptions are not uniformly gendered but vary systematically across artistic domains. Certain artistic practices, such as dancing, culinary arts, and painting, appear to resonate more strongly with the feminine sphere. Intriguingly, a different pattern emerges for actors and chefs, with male artists receiving more favorable audience responses than their female counterparts. Singers present a contrasting case: female singers receive more favorable public sentiment, while singing itself appears to be associated more strongly with masculine stereotypes. These patterns suggest the presence of gender stereotypes within artistic professions, with audience responses reflecting socially embedded expectations about which artistic roles are considered more appropriate for men or women. By examining audience responses across multiple artistic professions, this study contributes to understanding how digital publics reproduce and negotiate gendered cultural hierarchies within the Bangladeshi cultural sphere.
 
 ---
 
-**Product Reproducibility and International Trade Patterns: Evidence from Cultural Goods** (under review, 2026)
+### Bilateral Convergence across the World: Does International Migration Matter?
 
-- Constructed computational pipelines for harmonizing, processing, and analyzing large-scale international trade data covering 190 countries. 
-- Combined structural gravity modelling (PPML) with dynamic network modelling (STERGM) to examine the formation and persistence of international trade relationships.
-- Developed reproducible research workflows integrating data processing, statistical modelling, visualization, version control, and documentation using Python, R, and Git.
-- Prepared and submitted the manuscript as the corresponding author.
+**Abstract.** While previous studies document global convergence in development indicators such as literacy, health, and nutrition, driven in part by the diffusion of technology and international agreements, the role of bilateral migration as a channel for closing or widening development gaps remains largely unexamined. We argue that migration's relationship with convergence is not uniform but depends on a country pair's position within the global migration network.
+
+Using bilateral migration stock data for 205 countries from 1990 to 2022, we construct a directed, weighted migration network for each year and apply the core-periphery detection algorithm of Ma and Mondragón (2015) to classify countries as core or peripheral. This produces four migration corridors—core-core, core-periphery, periphery-core, and periphery-periphery—which we use to examine whether the relationship between migration and convergence across twelve development indicators varies by network position.
+
+Controlling for bilateral gravity-type factors, country-pair and year fixed effects, and instrumenting for the endogeneity of migration stock, we find that periphery-to-core migration is the corridor most consistently associated with weaker convergence, particularly for infant mortality, nourishment, employment, literacy, and GDP per capita—a pattern consistent with brain-drain and remittance-dependency mechanisms that may limit development spillovers to sending regions. By contrast, core-periphery and core-core corridors are more often associated with faster convergence, notably for HDI and education indicators, while corridor position makes no significant difference for labor-force participation or life expectancy. These results suggest that a country's structural position in the global migration network, rather than migration volume alone, shapes whether migration narrows or widens development gaps, offering a network-based perspective on the relationship between migration and global development.
 
 ---
 
-**Gendered Cultural Hierarchies in Social Media Audience Discourse: Evidence from Bangladeshi Artists** (working paper, 2026)
+## Submitted to Journals
 
-- Developed scalable Python pipelines using the YouTube Data API v3 for automated collection, preprocessing, and analysis of over 8 million multilingual social media comments. 
-- Applied computational text mining and natural language processing techniques, including sentiment analysis (VADER) and structural topic modelling (quanteda/STM), to identify patterns in audience discourse and sentiment across artists, genders, and artistic categories.
-- Developed a human-in-the-loop classification workflow for a large-scale YouTube video dataset, using the Gemini API for preliminary classification of artist gender and artistic category from video titles, followed by manual validation and correction of approximately 48,000 videos. 
-- Built reproducible computational pipelines integrating automated data collection, preprocessing, statistical modelling, visualization, and documentation using Python and R.
+### Rethinking the Income-Emissions Relationship: Evidence from Trade-Embodied CO₂ Emissions Networks
+
+**Abstract.** The environmental footprint of economic development is often evaluated through territorial emissions, although international trade, by separating the location of production from the location of consumption, allows countries to effectively "buy" cleaner borders. This study investigates whether countries' positions within trade-embodied CO₂ emissions networks condition the income-emissions relationship.
+
+Using bilateral emissions embodied in international trade data for 79 economies over 1995–2022, we distinguish net imports of embodied CO₂ from territorial CO₂ emissions and estimate nonlinear income-emissions relationships separately for advanced and developing economies. Network position is measured primarily using standardized PageRank centrality, while standardized weighted in-degree and out-degree centralities are employed as alternative measures.
+
+For domestic CO₂ emissions, the results support a robust nonlinear income-emissions relationship for both country groups, yet the associated income turning points vary systematically with network position. Advanced economies that are more central to the network exhibit higher income turning points, while more central developing economies exhibit lower turning points. The relationship is more heterogeneous for net embodied CO₂ imports, with several estimated turning points lying beyond the observed income range. The main interaction patterns are preserved when alternative centrality measures are used, although evidence for a nonlinear relationship in embodied emissions is weaker with weighted out-degree centrality. Overall, the findings suggest that a single unconditional income-emissions relationship provides an incomplete depiction of environmental trajectories once countries' positions within emissions-embodied-in-trade networks are taken into account. The results therefore demonstrate the value of complementing territorial emissions measures with network-aware approaches to understanding sustainable development.
+
+---
+
+### Product Reproducibility and International Trade Patterns: Evidence from Cultural Goods
+
+**Abstract.** International trade research recognizes that products differ systematically in their responses to gravity-model determinants, yet the role of product reproducibility remains largely unexplored. This study conceptualizes product reproducibility as a distinct dimension of product heterogeneity and examines whether it systematically conditions gravity-model relationships.
+
+Using bilateral trade data for 190 countries during 1995–2023, products are classified into unique cultural, reproducible cultural, and non-cultural categories. Separable Temporal Exponential Random Graph Models (STERGMs) and Poisson Pseudo-Maximum Likelihood (PPML) estimation are employed to examine trade-tie dynamics and trade intensity. The results show that more reproducible products exhibit weaker sensitivity to trade frictions, stronger conformity to gravity-model predictions, and more stable trade relationships. These findings suggest that product reproducibility constitutes an important dimension of product heterogeneity, with implications for structural gravity models and product-level trade analysis.
+
+---
+
+## Publications
+
+Dhira, T. A., Rahman, M. A., Sarker, A. R., & Mehareen, J. (2021). Validity and reliability of the Generalized Anxiety Disorder-7 (GAD-7) among university students of Bangladesh. *PLoS ONE, 16*(12). [DOI](https://doi.org/10.1371/journal.pone.0261590)
+
+Huque, R., Abdullah, S. M., Dhira, T. A., Siddiqua, S., Barua, D., Abdullah, M., Sabur, M. A., Begum, N., Dogar, O., Amin, M. N., & Mahmud, M. S. H. (2025). Unveiling health insurance satisfaction: Exploring key determinants and bottlenecks in Bangladesh. *SSM – Health Systems, 4*, 100058. [DOI](https://doi.org/10.1016/j.ssmhs.2025.100058)
+
+Mehareen, J., Rahman, M. A., Dhira, T. A., & Sarker, A. R. (2021). Prevalence and socio-demographic correlates of depression, anxiety, and co-morbidity during COVID-19: A cross-sectional study among public and private university students of Bangladesh. *Journal of Affective Disorders Reports, 5*, 100179. [DOI](https://doi.org/10.1016/j.jadr.2021.100179)
+
+Rahman, M. A., Dhira, T. A., Sarker, A. R., & Mehareen, J. (2022). Validity and reliability of the Patient Health Questionnaire scale (PHQ-9) among university students of Bangladesh. *PLoS ONE, 17*(6). [DOI](https://doi.org/10.1371/journal.pone.0269634)

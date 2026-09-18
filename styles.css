@@ -1,25 +1,539 @@
 /* ==========================================================
+   FONT
+========================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
+
+
+/* ==========================================================
+   GLOBAL
+========================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    font-family: "Cormorant Garamond", serif !important;
+    font-size: 18px;
+    line-height: 1.3;
+
+    color: #222222;
+    background: #ffffff;
+}
+
+
+/* ==========================================================
+   GLOBAL TYPOGRAPHY
+========================================================== */
+
+p,
+li,
+span,
+div,
+a,
+strong,
+em,
+button,
+input,
+textarea,
+table,
+th,
+td {
+    font-family: "Cormorant Garamond", serif;
+}
+
+
+/* ==========================================================
+   HEADINGS
+========================================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Cormorant Garamond", serif !important;
+    color: #222222;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2.4rem;
+    line-height: 1.15;
+}
+
+h2 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    margin-top: 2.2rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+    line-height: 1.25;
+    margin-top: 1.8rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+
+/* ==========================================================
+   PARAGRAPHS
+========================================================== */
+
+p {
+    font-family: "Cormorant Garamond", serif !important;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+
+/* ==========================================================
+   LINKS
+========================================================== */
+
+a {
+    color: #6A9A78;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4f7d5f;
+    text-decoration: underline;
+}
+
+
+/* ==========================================================
+   NAVBAR
+========================================================== */
+
+.navbar {
+    font-family: "Cormorant Garamond", serif !important;
+
+    background: #ffffff;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.navbar-nav,
+.navbar-nav .nav-link,
+.navbar .dropdown-menu,
+.navbar .dropdown-item {
+    font-family: "Cormorant Garamond", serif !important;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link.active {
+    color: #6A9A78 !important;
+    font-weight: 600;
+}
+
+
+/* Dropdown */
+
+.navbar .dropdown-menu {
+    background: #ffffff;
+
+    border: 1px solid #eeeeee;
+    border-radius: 3px;
+
+    padding: 0.4rem 0;
+
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.06);
+}
+
+.navbar .dropdown-item {
+    font-size: 17px;
+
+    color: #222222;
+
+    padding: 0.45rem 1rem;
+}
+
+.navbar .dropdown-item:hover,
+.navbar .dropdown-item:focus {
+    color: #6A9A78;
+
+    background: #fafafa;
+
+    text-decoration: none;
+}
+
+
+/* Hide website name from navbar */
+
+.navbar-brand {
+    display: none !important;
+}
+
+
+/* ==========================================================
+   QUARTO TITLE BLOCK
+========================================================== */
+
+.quarto-title-block {
+    display: none !important;
+}
+
+
+/* ==========================================================
+   HOME PAGE
+========================================================== */
+
+.home-hero {
+    display: flex !important;
+
+    flex-direction: row !important;
+
+    align-items: flex-start !important;
+    justify-content: space-between;
+
+    gap: 4rem;
+
+    width: 100%;
+    max-width: 1000px;
+
+    margin: 3.5rem auto 4rem auto;
+
+    padding: 0 1.5rem;
+}
+
+
+/* ==========================================================
+   HOME — TEXT COLUMN
+========================================================== */
+
+.home-text {
+    flex: 1 1 auto;
+
+    min-width: 0;
+    max-width: 680px;
+}
+
+
+/* ==========================================================
+   HOME — NAME
+========================================================== */
+
+.home-name {
+    font-family: "Cormorant Garamond", serif !important;
+
+    font-size: 46px;
+    line-height: 1.05;
+
+    font-weight: 600;
+
+    margin: 0 0 1.4rem 0;
+
+    padding: 0;
+
+    color: #222222;
+}
+
+
+/* ==========================================================
+   HOME — BIO
+========================================================== */
+
+.home-bio {
+    font-family: "Cormorant Garamond", serif !important;
+
+    font-size: 18px;
+    line-height: 1.3;
+
+    margin: 0 0 1.1rem 0;
+
+    color: #222222;
+}
+
+
+/* ==========================================================
+   HOME — CONTACT SENTENCE
+========================================================== */
+
+.home-contact {
+    font-family: "Cormorant Garamond", serif !important;
+
+    font-size: 18px;
+    line-height: 1.3;
+
+    margin: 1.4rem 0 0 0;
+
+    color: #222222;
+}
+
+
+/* ==========================================================
+   HOME — CV + CODE SAMPLE LINKS
+========================================================== */
+
+.home-links {
+    display: flex;
+
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 0.55rem;
+
+    margin-top: 1.4rem;
+
+    font-family: "Cormorant Garamond", serif !important;
+
+    font-size: 16px;
+}
+
+.home-links a {
+    font-family: "Cormorant Garamond", serif !important;
+
+    color: #6A9A78;
+
+    font-weight: 600;
+
+    text-decoration: none;
+}
+
+.home-links a:hover {
+    color: #4f7d5f;
+
+    text-decoration: underline;
+}
+
+.home-links span {
+    color: #aaaaaa;
+
+    font-weight: 300;
+}
+
+
+/* ==========================================================
+   HOME — PROFILE COLUMN
+========================================================== */
+
+.home-profile-column {
+    flex: 0 0 260px;
+
+    width: 260px;
+
+    margin-top: 5.5rem;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+
+/* ==========================================================
+   HOME — PROFILE PHOTO
+========================================================== */
+
+.home-photo {
+    width: 260px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+}
+
+.home-profile-img {
+    display: block !important;
+
+    width: 260px !important;
+    height: 260px !important;
+
+    max-width: 260px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    object-fit: cover !important;
+    object-position: center !important;
+
+    border-radius: 50% !important;
+
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.home-profile-img:hover {
+    transform: none !important;
+}
+
+
+/* ==========================================================
+   HOME — SOCIAL / CONTACT LINKS
+========================================================== */
+
+.home-social {
+    width: 100%;
+
+    margin-top: 1.25rem;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 1rem;
+}
+
+.home-social a {
+    font-family: "Cormorant Garamond", serif !important;
+
+    color: #6A9A78;
+
+    font-size: 19px;
+
+    line-height: 1;
+
+    text-decoration: none;
+
+    transition: color 0.2s ease;
+}
+
+.home-social a:hover {
+    color: #4f7d5f;
+
+    text-decoration: none;
+}
+
+.home-social .bi {
+    font-size: 19px;
+}
+
+.home-orcid {
+    font-family: "Cormorant Garamond", serif !important;
+
+    font-size: 16px !important;
+
+    font-weight: 600;
+
+    letter-spacing: 0.02em;
+}
+
+
+/* ==========================================================
+   HOME — TABLET / MOBILE
+========================================================== */
+
+@media (max-width: 800px) {
+
+    .home-hero {
+        flex-direction: column-reverse !important;
+
+        align-items: flex-start !important;
+
+        gap: 2rem;
+
+        margin-top: 2.5rem;
+
+        padding: 0 1.25rem;
+    }
+
+    .home-profile-column {
+        flex: none;
+
+        width: 210px;
+
+        margin-top: 0;
+
+        align-self: center;
+    }
+
+    .home-photo {
+        width: 210px;
+    }
+
+    .home-profile-img {
+        width: 210px !important;
+        height: 210px !important;
+
+        max-width: 210px !important;
+    }
+
+    .home-social {
+        margin-top: 1rem;
+    }
+
+    .home-text {
+        width: 100%;
+
+        max-width: 650px;
+    }
+
+    .home-name {
+        font-size: 36px;
+    }
+
+    .home-bio,
+    .home-contact {
+        font-size: 17px;
+    }
+
+}
+
+
+/* ==========================================================
+   BLOG — COMING SOON
+========================================================== */
+
+.coming-soon {
+    font-family: "Cormorant Garamond", serif !important;
+
+    font-size: 28px;
+
+    font-style: italic;
+
+    color: #777777;
+
+    margin-top: 3rem;
+}
+
+
+/* ==========================================================
    VISUALIZATION PAGE
 ========================================================== */
 
 .visualization-page {
     width: 100%;
+
     max-width: 100% !important;
+
     margin: 0 !important;
+
     padding: 20px 0 60px;
+
     box-sizing: border-box;
 }
 
 
 /* ==========================================================
-   MASONRY GALLERY
+   VISUALIZATION — MASONRY GALLERY
 ========================================================== */
 
 .visualization-gallery {
     width: 100%;
+
     display: block !important;
 
     column-count: 5;
+
     column-gap: 16px;
 
     box-sizing: border-box;
@@ -27,7 +541,7 @@
 
 
 /* ==========================================================
-   INDIVIDUAL VISUALIZATION
+   VISUALIZATION — INDIVIDUAL ITEM
 ========================================================== */
 
 .visualization-item {
@@ -36,12 +550,15 @@
     display: inline-block !important;
 
     margin: 0 0 16px 0 !important;
+
     padding: 0 !important;
 
     vertical-align: top;
 
     break-inside: avoid;
+
     -webkit-column-break-inside: avoid;
+
     page-break-inside: avoid;
 
     cursor: pointer;
@@ -53,22 +570,26 @@
 
 
 /* ==========================================================
-   THUMBNAIL
+   VISUALIZATION — THUMBNAIL
 ========================================================== */
 
 .visualization-thumbnail {
     display: block !important;
 
     width: 100% !important;
+
     height: auto !important;
 
     max-width: 100% !important;
+
     max-height: none !important;
 
     margin: 0 !important;
+
     padding: 0 !important;
 
     border: 0 !important;
+
     border-radius: 4px;
 
     cursor: pointer;
@@ -82,19 +603,15 @@
         opacity 0.2s ease;
 }
 
-
-/* ==========================================================
-   GALLERY HOVER
-========================================================== */
-
 .visualization-item:hover .visualization-thumbnail {
     transform: scale(1.015);
+
     opacity: 0.94;
 }
 
 
 /* ==========================================================
-   LIGHTBOX / FULL-SCREEN VIEWER
+   VISUALIZATION — FULL-SCREEN VIEWER
 ========================================================== */
 
 .visualization-viewer {
@@ -114,6 +631,7 @@
     max-height: none !important;
 
     margin: 0 !important;
+
     padding: 40px !important;
 
     box-sizing: border-box !important;
@@ -123,6 +641,7 @@
     z-index: 2147483647 !important;
 
     align-items: center !important;
+
     justify-content: center !important;
 
     overflow: auto !important;
@@ -134,19 +653,22 @@
 
 
 /* ==========================================================
-   VIEWER CONTENT
+   VISUALIZATION — VIEWER CONTENT
 ========================================================== */
 
 .visualization-viewer-content {
     position: relative !important;
 
     width: 94vw !important;
+
     max-width: 1400px !important;
 
     height: auto !important;
+
     max-height: 90vh !important;
 
     margin: 0 auto !important;
+
     padding: 0 !important;
 
     box-sizing: border-box !important;
@@ -156,6 +678,7 @@
     flex-direction: row !important;
 
     align-items: center !important;
+
     justify-content: center !important;
 
     gap: 45px !important;
@@ -163,7 +686,7 @@
 
 
 /* ==========================================================
-   IMAGE CONTAINER
+   VISUALIZATION — IMAGE CONTAINER
 ========================================================== */
 
 .visualization-image-container {
@@ -177,11 +700,13 @@
     max-width: calc(100% - 345px) !important;
 
     margin: 0 !important;
+
     padding: 0 !important;
 
     display: flex !important;
 
     align-items: center !important;
+
     justify-content: center !important;
 
     box-sizing: border-box !important;
@@ -189,22 +714,25 @@
 
 
 /* ==========================================================
-   LARGE VIEWER IMAGE
+   VISUALIZATION — LARGE VIEWER IMAGE
 ========================================================== */
 
 #visualization-viewer-image {
     display: block !important;
 
     width: auto !important;
+
     height: auto !important;
 
     max-width: 100% !important;
+
     max-height: 82vh !important;
 
     min-width: 0 !important;
     min-height: 0 !important;
 
     margin: 0 !important;
+
     padding: 0 !important;
 
     border: none !important;
@@ -218,18 +746,20 @@
 
 
 /* ==========================================================
-   INFORMATION PANEL
+   VISUALIZATION — INFORMATION PANEL
 ========================================================== */
 
 .visualization-information {
     flex: 0 0 300px !important;
 
     width: 300px !important;
+
     max-width: 300px !important;
 
     max-height: 75vh !important;
 
     margin: 0 !important;
+
     padding: 10px 0 !important;
 
     box-sizing: border-box !important;
@@ -241,18 +771,22 @@
 
 
 /* ==========================================================
-   VIEWER TITLE
+   VISUALIZATION — VIEWER TITLE
 ========================================================== */
 
 #visualization-viewer-title {
     display: block !important;
 
     margin: 0 0 18px 0 !important;
+
     padding: 0 !important;
 
     color: #222222 !important;
 
+    font-family: "Cormorant Garamond", serif !important;
+
     font-size: 1.5rem !important;
+
     line-height: 1.3 !important;
 
     font-weight: 600 !important;
@@ -260,46 +794,55 @@
 
 
 /* ==========================================================
-   VIEWER DESCRIPTION
+   VISUALIZATION — VIEWER DESCRIPTION
 ========================================================== */
 
 #visualization-viewer-description {
     display: block !important;
 
     margin: 0 !important;
+
     padding: 0 !important;
 
     color: rgba(0, 0, 0, 0.75) !important;
 
-    font-size: 1rem !important;
-    line-height: 1.65 !important;
+    font-family: "Cormorant Garamond", serif !important;
+
+    font-size: 18px !important;
+
+    line-height: 1.3 !important;
 
     font-weight: 400 !important;
 }
 
 
 /* ==========================================================
-   CLOSE BUTTON
+   VISUALIZATION — CLOSE BUTTON
 ========================================================== */
 
 .visualization-close {
     position: fixed !important;
 
     top: 70px !important;
+
     right: 28px !important;
 
     z-index: 2147483648 !important;
 
     width: 48px !important;
+
     height: 48px !important;
 
     min-width: 48px !important;
+
     min-height: 48px !important;
 
     margin: 0 !important;
+
     padding: 0 !important;
 
     border: none !important;
+
     border-radius: 50% !important;
 
     background: rgba(0, 0, 0, 0.10) !important;
@@ -307,6 +850,7 @@
     color: #222222 !important;
 
     font-size: 34px !important;
+
     line-height: 48px !important;
 
     font-family: Arial, sans-serif !important;
@@ -316,36 +860,29 @@
     display: flex !important;
 
     align-items: center !important;
+
     justify-content: center !important;
 
     box-shadow: none !important;
 
     appearance: none !important;
+
     -webkit-appearance: none !important;
 }
-
-
-/* ==========================================================
-   CLOSE BUTTON HOVER
-========================================================== */
 
 .visualization-close:hover {
     background: rgba(0, 0, 0, 0.15) !important;
 }
 
-
-/* ==========================================================
-   CLOSE BUTTON FOCUS
-========================================================== */
-
 .visualization-close:focus {
     outline: 2px solid rgba(0, 0, 0, 0.4) !important;
+
     outline-offset: 3px !important;
 }
 
 
 /* ==========================================================
-   PREVENT BACKGROUND SCROLL
+   VISUALIZATION — PREVENT BACKGROUND SCROLL
 ========================================================== */
 
 body.visualization-viewer-open {
@@ -354,13 +891,43 @@ body.visualization-viewer-open {
 
 
 /* ==========================================================
-   TABLET GALLERY
+   VISUALIZATION — FULL WIDTH
+========================================================== */
+
+body:has(.visualization-page) #quarto-content.page-layout-full {
+    padding-left: 0 !important;
+
+    padding-right: 0 !important;
+
+    grid-template-columns: 100vw !important;
+}
+
+body:has(.visualization-page) .page-columns .column-page {
+    grid-column: 1 / -1 !important;
+}
+
+body:has(.visualization-page) .page-columns .content {
+    grid-column: 1 / -1 !important;
+}
+
+body:has(.visualization-page) .visualization-page {
+    width: 100vw !important;
+
+    padding-right: 0 !important;
+
+    margin-right: 0 !important;
+}
+
+
+/* ==========================================================
+   VISUALIZATION — TABLET GALLERY
 ========================================================== */
 
 @media (max-width: 1100px) {
 
     .visualization-gallery {
         column-count: 3;
+
         column-gap: 14px;
     }
 
@@ -368,13 +935,14 @@ body.visualization-viewer-open {
 
 
 /* ==========================================================
-   MOBILE GALLERY
+   VISUALIZATION — MOBILE GALLERY
 ========================================================== */
 
 @media (max-width: 650px) {
 
     .visualization-page {
         padding-left: 12px;
+
         padding-right: 12px;
     }
 
@@ -390,7 +958,7 @@ body.visualization-viewer-open {
 
 
 /* ==========================================================
-   MOBILE LIGHTBOX
+   VISUALIZATION — MOBILE VIEWER
 ========================================================== */
 
 @media (max-width: 800px) {
@@ -405,9 +973,11 @@ body.visualization-viewer-open {
 
     .visualization-viewer-content {
         width: 100% !important;
+
         max-width: 100% !important;
 
         height: auto !important;
+
         max-height: none !important;
 
         flex-direction: column !important;
@@ -419,6 +989,7 @@ body.visualization-viewer-open {
 
     .visualization-image-container {
         width: 100% !important;
+
         max-width: 100% !important;
 
         height: auto !important;
@@ -426,9 +997,11 @@ body.visualization-viewer-open {
 
     #visualization-viewer-image {
         width: auto !important;
+
         height: auto !important;
 
         max-width: 100% !important;
+
         max-height: 60vh !important;
     }
 
@@ -436,9 +1009,8 @@ body.visualization-viewer-open {
         flex: none !important;
 
         width: 100% !important;
-        max-width: 100% !important;
 
-        max-height: none !important;
+        max-width: 100% !important;
 
         overflow: visible !important;
 
@@ -450,67 +1022,15 @@ body.visualization-viewer-open {
     }
 
     #visualization-viewer-description {
-        font-size: 0.95rem !important;
+        font-size: 17px !important;
+
         line-height: 1.6 !important;
     }
 
     .visualization-close {
         top: 12px !important;
+
         right: 14px !important;
     }
 
-}
-
-
-/* ==========================================================
-   HOMEPAGE PROFILE
-========================================================== */
-
-.profile-img {
-    width: 100%;
-    border-radius: 4px;
-    display: block;
-}
-
-div.columns {
-    display: flex !important;
-    flex-direction: row !important;
-    gap: 40px !important;
-    align-items: center !important;
-    margin-bottom: 2rem !important;
-}
-
-
-/* ==========================================================
-   HOMEPAGE CONTENT
-========================================================== */
-
-.home-content h2 {
-    font-size: 1.3rem !important;
-    font-weight: 600 !important;
-    margin-top: 1.5rem !important;
-}
-
-/* ==========================================================
-   FULL WIDTH VISUALIZATION FIX
-========================================================== */
-
-#quarto-content.page-layout-full {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    grid-template-columns: 100vw !important;
-}
-
-body:has(.visualization-page) .page-columns .column-page {
-    grid-column: 1 / -1 !important;
-}
-
-body:has(.visualization-page) .page-columns .content {
-    grid-column: 1 / -1 !important;
-}
-
-body:has(.visualization-page) .visualization-page {
-    width: 100vw !important;
-    padding-right: 0 !important;
-    margin-right: 0 !important;
 }

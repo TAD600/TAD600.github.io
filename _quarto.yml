@@ -6,39 +6,41 @@ resources:
   - CNAME
   - images
   - visualizations.js
+  - TahiaAnanDhira_CV.pdf
+  - Code_Sample_R.pdf
+  - Code_Sample_Python.pdf
+  - code_sample_STATA.pdf
 
 website:
   title: "Tahia Anan Dhira"
 
   navbar:
+    title: false
+
     left:
+      - href: index.qmd
+        text: Home
+
       - href: research.qmd
         text: Research
 
-      - href: cv.qmd
-        text: CV
+      - href: teaching.qmd
+        text: Teaching
 
       - href: visualizations.qmd
         text: Visualizations
 
-      - href: code.qmd
-        text: Code
-
-      - href: https://art.tahiaanandhira.com
-        text: Elsewhere
+      - href: blog.qmd
+        text: Blog
 
     right:
-      - icon: envelope-fill
-        href: mailto:dhiraanan3@gmail.com
+      - text: "Beyond Academia"
+        menu:
+          - href: photojournal.qmd
+            text: Photo Journal
 
-      - icon: github
-        href: https://github.com/TAD600
-
-      - icon: linkedin
-        href: https://www.linkedin.com/in/dhiraanan/
-        
-      - text: ORCID
-        href: https://orcid.org/0000-0001-7403-9862
+          - href: https://art.tahiaanandhira.com
+            text: Paintings
 
 format:
   html:

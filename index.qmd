@@ -2,36 +2,60 @@
 title: ""
 ---
 
-::: {.columns}
+<div class="home-hero">
 
-::: {.column width="30%"}
+<div class="home-text">
 
-![](pic1.jpg){.profile-img}
+<h1 class="home-name">Tahia Anan Dhira</h1>
 
-:::
+<p class="home-bio">
+While working on international trade, trade-embodied emissions, and population migration networks, I became increasingly curious about whether culture and information, much like people, capital, goods, and services, can diffuse across networks. At the same time, as I watched how cultural, linguistic, and political discourse in Bangladesh transformed through social media, and how digital communication fanned the flames in the student-led mass movement of 2024, I became increasingly fascinated with studying digital discourse and online communication networks. Hence, I intend to use computational methods to grasp how social and political phenomena, such as stereotypes, polarization, and cynicism, emerge and spread through online interactions.
+</p>
 
-::: {.column width="70%"}
+<p class="home-bio">
+Born and raised in Dhaka, I am currently an Assistant Professor in the Department of Economics at the University of Dhaka.
+</p>
 
-## Tahia Anan Dhira
+<p class="home-contact">
+I welcome academic conversations and potential research collaborations.
+</p>
 
-Assistant Professor  
-Department of Economics, University of Dhaka
+<div class="home-links">
+<a href="TahiaAnanDhira_CV.pdf" target="_blank">CV</a>
+<span>·</span>
+<a href="Code_Sample_R.pdf" target="_blank">R</a>
+<span>·</span>
+<a href="Code_Sample_Python.pdf" target="_blank">Python</a>
+<span>·</span>
+<a href="code_sample_STATA.pdf" target="_blank">Stata</a>
+</div>
 
-Currently I study global migration networks, international trade networks, and gendered platform discourse using computational methods.
+</div>
 
-:::
+<div class="home-profile-column">
 
-:::
+<div class="home-photo">
+<img src="pic1.jpg" class="home-profile-img" alt="Tahia Anan Dhira">
+</div>
 
----
+<div class="home-social">
 
-::: {.home-content}
+<a href="mailto:dhiraanan3@gmail.com" title="Email" aria-label="Email">
+<i class="bi bi-envelope-fill"></i>
+</a>
 
-## Research Interests
+<a href="https://github.com/TAD600" target="_blank" title="GitHub" aria-label="GitHub">
+<i class="bi bi-github"></i>
+</a>
 
-- Migration & Development
-- International Trade
-- Social Network Analysis
-- Text as Data / Computational Methods
+<a href="https://www.linkedin.com/in/dhiraanan/" target="_blank" title="LinkedIn" aria-label="LinkedIn">
+<i class="bi bi-linkedin"></i>
+</a>
 
-:::
+<a href="https://orcid.org/0000-0001-7403-9862" target="_blank" class="home-orcid">ORCID</a>
+
+</div>
+
+</div>
+
+</div>
