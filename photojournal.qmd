@@ -430,6 +430,10 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo-name">Shomoshkholshi village, Natore, Bangladesh</div>
 </div>
 
+<div class="tahia-photo" data-image="images/pic2a.jpg" data-title="Shomoshkholshi village, Natore, Bangladesh">
+<img src="images/pic2a.jpg" alt="Shomoshkholshi village, Natore, Bangladesh">
+<div class="tahia-photo-name">Shomoshkholshi village, Natore, Bangladesh</div>
+</div>
 
 <div class="tahia-photo" data-image="images/pic3.jpg" data-title="Nabami, Dalimpur, Bagatipara, Natore, Bangladesh">
 <img src="images/pic3.jpg" alt="Nabami, Dalimpur, Bagatipara, Natore, Bangladesh">
@@ -457,6 +461,11 @@ body:has(#tahia-photojournal) main.content {
 
 <div class="tahia-photo" data-image="images/pic7.jpg" data-title="Natore, Bangladesh">
 <img src="images/pic7.jpg" alt="Natore, Bangladesh">
+<div class="tahia-photo-name">Natore, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic7a.jpg" data-title="Natore, Bangladesh">
+<img src="images/pic7a.jpg" alt="Natore, Bangladesh">
 <div class="tahia-photo-name">Natore, Bangladesh</div>
 </div>
 
