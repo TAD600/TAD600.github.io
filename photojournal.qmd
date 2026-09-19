@@ -975,6 +975,116 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo-name">Ramshagar Dighi, Dinajpur, Bangladesh</div>
 </div>
 
+<div class="tahia-photo" data-image="images/pic109.jpg" data-title="Kantajew Temple, Dinajpur, Bangladesh">
+<img src="images/pic109.jpg" alt="Kantajew Temple, Dinajpur, Bangladesh">
+<div class="tahia-photo-name">Kantajew Temple, Dinajpur, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic110.jpg" data-title="Cockpit of B721, the first air craft of Bangladesh Air Force">
+<img src="images/pic110.jpg" alt="Cockpit of B721, the first air craft of Bangladesh Air Force">
+<div class="tahia-photo-name">Cockpit of B721, the first air craft of Bangladesh Air Force</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic112.jpg" data-title="Nusa Penida, Bali, Indonesia">
+<img src="images/pic112.jpg" alt="Nusa Penida, Bali, Indonesia">
+<div class="tahia-photo-name">Nusa Penida, Bali, Indonesia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic113.jpg" data-title="Bali, Indonesia">
+<img src="images/pic113.jpg" alt="Bali, Indonesia">
+<div class="tahia-photo-name">Bali, Indonesia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic114.jpg" data-title="Bali, Indonesia">
+<img src="images/pic114.jpg" alt="Bali, Indonesia">
+<div class="tahia-photo-name">Bali, Indonesia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic115.jpg" data-title="Bali, Indonesia">
+<img src="images/pic115.jpg" alt="Bali, Indonesia">
+<div class="tahia-photo-name">Bali, Indonesia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic116.jpg" data-title="Armenian Street, Penang, Malaysia">
+<img src="images/pic116.jpg" alt="Armenian Street, Penang, Malaysia">
+<div class="tahia-photo-name">Armenian Street, Penang, Malaysia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic117.jpg" data-title="Armenian Street, Penang, Malaysia">
+<img src="images/pic117.jpg" alt="Armenian Street, Penang, Malaysia">
+<div class="tahia-photo-name">Armenian Street, Penang, Malaysia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic118.jpg" data-title="Armenian Street, Penang, Malaysia">
+<img src="images/pic118.jpg" alt="Armenian Street, Penang, Malaysia">
+<div class="tahia-photo-name">Armenian Street, Penang, Malaysia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic119.jpg" data-title="Armenian Street, Penang, Malaysia">
+<img src="images/pic119.jpg" alt="Armenian Street, Penang, Malaysia">
+<div class="tahia-photo-name">Armenian Street, Penang, Malaysia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic120.jpg" data-title="Armenian Street, Penang, Malaysia">
+<img src="images/pic120.jpg" alt="Armenian Street, Penang, Malaysia">
+<div class="tahia-photo-name">Armenian Street, Penang, Malaysia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic121.jpg" data-title="Armenian Street, Penang, Malaysia">
+<img src="images/pic121.jpg" alt="Armenian Street, Penang, Malaysia">
+<div class="tahia-photo-name">Armenian Street, Penang, Malaysia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic122.jpg" data-title="Armenian Street, Penang, Malaysia">
+<img src="images/pic122.jpg" alt="Armenian Street, Penang, Malaysia">
+<div class="tahia-photo-name">Armenian Street, Penang, Malaysia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic123.jpg" data-title="Armenian Street, Penang, Malaysia">
+<img src="images/pic123.jpg" alt="Armenian Street, Penang, Malaysia">
+<div class="tahia-photo-name">Armenian Street, Penang, Malaysia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic124.jpg" data-title="Armenian Street, Penang, Malaysia">
+<img src="images/pic124.jpg" alt="Armenian Street, Penang, Malaysia">
+<div class="tahia-photo-name">Armenian Street, Penang, Malaysia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic125.jpg" data-title="Chinadanga Beel, Natore, Bangladesh">
+<img src="images/pic125.jpg" alt="Chinadanga Beel, Natore, Bangladesh">
+<div class="tahia-photo-name">Chinadanga Beel, Natore, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic126.jpg" data-title="Chinadanga Beel, Natore, Bangladesh">
+<img src="images/pic126.jpg" alt="Chinadanga Beel, Natore, Bangladesh">
+<div class="tahia-photo-name">Chinadanga Beel, Natore, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic127.jpg" data-title="Chinadanga Beel, Natore, Bangladesh">
+<img src="images/pic127.jpg" alt="Chinadanga Beel, Natore, Bangladesh">
+<div class="tahia-photo-name">Chinadanga Beel, Natore, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic128.jpg" data-title="Chinadanga Beel, Natore, Bangladesh">
+<img src="images/pic128.jpg" alt="Chinadanga Beel, Natore, Bangladesh">
+<div class="tahia-photo-name">Chinadanga Beel, Natore, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic129.jpg" data-title="Chinadanga Beel, Natore, Bangladesh">
+<img src="images/pic129.jpg" alt="Chinadanga Beel, Natore, Bangladesh">
+<div class="tahia-photo-name">Chinadanga Beel, Natore, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic130.jpg" data-title="Chinadanga Beel, Natore, Bangladesh">
+<img src="images/pic130.jpg" alt="Chinadanga Beel, Natore, Bangladesh">
+<div class="tahia-photo-name">Chinadanga Beel, Natore, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic131.jpg" data-title="At the Shrine of Hazrat Shah Ali (R), Dhaka, Bangladesh">
+<img src="images/pic131.jpg" alt="At the Shrine of Hazrat Shah Ali (R), Dhaka, Bangladesh">
+<div class="tahia-photo-name">At the Shrine of Hazrat Shah Ali (R), Dhaka, Bangladesh</div>
+</div>
+
 </div>
 
 </div>
