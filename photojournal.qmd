@@ -1090,13 +1090,13 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo-name">At the Shrine of Hazrat Shah Ali (R), Dhaka, Bangladesh</div>
 </div>
 
-<div class="tahia-photo" data-image="images/pic131.0.jpg" data-title="At the Shrine of Hazrat Shah Ali (R), Dhaka, Bangladesh">
-<img src="images/pic131.jpg" alt="At the Shrine of Hazrat Shah Ali (R), Dhaka, Bangladesh">
+<div class="tahia-photo" data-image="images/pic131a.jpg" data-title="At the Shrine of Hazrat Shah Ali (R), Dhaka, Bangladesh">
+<img src="images/pic131a.jpg" alt="At the Shrine of Hazrat Shah Ali (R), Dhaka, Bangladesh">
 <div class="tahia-photo-name">At the Shrine of Hazrat Shah Ali (R), Dhaka, Bangladesh</div>
 </div>
 
-<div class="tahia-photo" data-image="images/pic131.1.jpg" data-title="At the Shrine of Hazrat Shah Ali (R), Dhaka, Bangladesh">
-<img src="images/pic131.jpg" alt="At the Shrine of Hazrat Shah Ali (R), Dhaka, Bangladesh">
+<div class="tahia-photo" data-image="images/pic131b.jpg" data-title="At the Shrine of Hazrat Shah Ali (R), Dhaka, Bangladesh">
+<img src="images/pic131b.jpg" alt="At the Shrine of Hazrat Shah Ali (R), Dhaka, Bangladesh">
 <div class="tahia-photo-name">At the Shrine of Hazrat Shah Ali (R), Dhaka, Bangladesh</div>
 </div>
 
@@ -1220,19 +1220,14 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo-name">Chamundeshwari Temple, Mysore, India</div>
 </div>
 
-<div class="tahia-photo" data-image="images/pic154.0.jpg" data-title="Chamundeshwari Temple, Mysore, India">
-<img src="images/pic154.0.jpg" alt="Chamundeshwari Temple, Mysore, India">
+<div class="tahia-photo" data-image="images/pic154a.jpg" data-title="Chamundeshwari Temple, Mysore, India">
+<img src="images/pic154a.jpg" alt="Chamundeshwari Temple, Mysore, India">
 <div class="tahia-photo-name">Chamundeshwari Temple, Mysore, India</div>
 </div>
 
-<div class="tahia-photo" data-image="images/pic154.1.jpg" data-title="Chamundeshwari Temple, Mysore, India">
-<img src="images/pic154.1.jpg" alt="Chamundeshwari Temple, Mysore, India">
+<div class="tahia-photo" data-image="images/pic154b.jpg" data-title="Chamundeshwari Temple, Mysore, India">
+<img src="images/pic154b.jpg" alt="Chamundeshwari Temple, Mysore, India">
 <div class="tahia-photo-name">Chamundeshwari Temple, Mysore, India</div>
-</div>
-
-<div class="tahia-photo" data-image="images/pic155.jpg" data-title="Keraniganj, Bangladesh">
-<img src="images/pic155.jpg" alt="Keraniganj, Bangladesh">
-<div class="tahia-photo-name">Keraniganj, Bangladesh</div>
 </div>
 
 <div class="tahia-photo" data-image="images/pic155.jpg" data-title="Keraniganj, Bangladesh">
@@ -1261,7 +1256,7 @@ body:has(#tahia-photojournal) main.content {
 </div>
 
 <div class="tahia-photo" data-image="images/pic160.jpg" data-title="Cotswold village, UK">
-<img src="images/pic159.jpg" alt="Cotswold village, UK">
+<img src="images/pic160.jpg" alt="Cotswold village, UK">
 <div class="tahia-photo-name">Cotswold village, UK</div>
 </div>
 
