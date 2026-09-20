@@ -9,7 +9,7 @@ title: ""
 <h1 class="home-name">Tahia Anan Dhira</h1>
 
 <p class="home-bio">
-While working on international trade, trade-embodied emissions, and population migration networks, I became increasingly curious about whether culture and information, much like people, capital, goods, and services, can diffuse across networks. At the same time, as I watched how cultural, linguistic, and political discourse in Bangladesh transformed through social media, and how digital communication fanned the flames in the student-led mass movement of 2024, I became increasingly fascinated with studying digital discourse and online communication networks. Hence, I intend to use computational methods to grasp how social and political phenomena, such as stereotypes, polarization, and cynicism, emerge and spread through online interactions.
+While working on international trade, trade-embodied emissions, and population migration networks, I became increasingly curious about the diffusion of culture and information, much like people, capital, goods, and services, across networks. At the same time, as I watched how cultural, linguistic, and political discourse in Bangladesh transformed through social media, and how digital communication fanned the flames in the student-led mass movement of 2024, I became increasingly fascinated with studying digital discourse and online communication networks. Hence, I intend to use computational methods to grasp how social and political phenomena, such as stereotypes, polarization, and cynicism, emerge and spread through online interactions.
 </p>
 
 <p class="home-bio">
