@@ -528,6 +528,11 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo-name">Naogaon, Bangladesh</div>
 </div>
 
+<div class="tahia-photo" data-image="images/pic9a.jpg" data-title="Naogaon, Bangladesh">
+<img src="images/pic9a.jpg" alt="Naogaon, Bangladesh">
+<div class="tahia-photo-name">Naogaon, Bangladesh</div>
+</div>
+
 <div class="tahia-photo" data-image="images/pic10a.jpg" data-title="Hardinge Bridge, Pakshi, Pabna, Bangladesh">
 <img src="images/pic10a.jpg" alt="Hardinge Bridge, Pakshi, Pabna, Bangladesh">
 <div class="tahia-photo-name">Hardinge Bridge, Pakshi, Pabna, Bangladesh</div>
@@ -538,6 +543,10 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo-name">Hardinge Bridge, Pakshi, Pabna, Bangladesh</div>
 </div>
 
+<div class="tahia-photo" data-image="images/pic10b.jpg" data-title="Hardinge Bridge, Pakshi, Pabna, Bangladesh">
+<img src="images/pic10b.jpg" alt="Hardinge Bridge, Pakshi, Pabna, Bangladesh">
+<div class="tahia-photo-name">Hardinge Bridge, Pakshi, Pabna, Bangladesh</div>
+</div>
 
 <div class="tahia-photo" data-image="images/pic11.jpg" data-title="Haystack, Pabna, Bangladesh">
 <img src="images/pic11.jpg" alt="Haystack, Pabna, Bangladesh">
@@ -635,9 +644,19 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo-name">Brick Lane, London</div>
 </div>
 
-<div class="tahia-photo" data-image="images/pic17.jpg" data-title="Brick Lane, London">
-<img src="images/pic17.jpg" alt="Brick Lane, London">
-<div class="tahia-photo-name">Brick Lane, London</div>
+<div class="tahia-photo" data-image="images/pic17.jpg" data-title="St Matthew’s Church, Bethnal Green, London">
+<img src="images/pic17.jpg" alt="St Matthew’s Church, Bethnal Green, London">
+<div class="tahia-photo-name">St Matthew’s Church, Bethnal Green, London</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic17a.jpg" data-title="St Matthew’s Church, Bethnal Green, London">
+<img src="images/pic17a.jpg" alt="St Matthew’s Church, Bethnal Green, London">
+<div class="tahia-photo-name">St Matthew’s Church, Bethnal Green, London</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic17b.jpg" data-title="St Matthew’s Church, Bethnal Green, London">
+<img src="images/pic17b.jpg" alt="St Matthew’s Church, Bethnal Green, London">
+<div class="tahia-photo-name">St Matthew’s Church, Bethnal Green, London</div>
 </div>
 
 <div class="tahia-photo" data-image="images/pic18.jpg" data-title="Brick Lane, London">
@@ -670,7 +689,12 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo-name">Kathmandu, Nepal</div>
 </div>
 
-<div class="tahia-photo" data-image="images/pic23.jpg" data-title="Kathmandu, Nepal">
+<div class="tahia-photo" data-image="images/pic23a.jpg" data-title="Thamel, Kathmandu, Nepal">
+<img src="images/pic23a.jpg" alt="Kathmandu, Nepal">
+<div class="tahia-photo-name">Kathmandu, Nepal</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic23.jpg" data-title="Thamel, Kathmandu, Nepal">
 <img src="images/pic23.jpg" alt="Kathmandu, Nepal">
 <div class="tahia-photo-name">Kathmandu, Nepal</div>
 </div>
@@ -1116,6 +1140,11 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo-name">Resident of Alutila Cave, Khagrachari, Bangladesh</div>
 </div>
 
+<div class="tahia-photo" data-image="images/pic99e.jpg" data-title="Resang waterfall, Khagrachari, Bangladesh">
+<img src="images/pic99e.jpg" alt="Resang waterfall, Khagrachari, Bangladesh">
+<div class="tahia-photo-name">Resang waterfall, Khagrachari, Bangladesh</div>
+</div>
+
 <div class="tahia-photo" data-image="images/pic97.jpg" data-title="Saint Martin, Bangladesh">
 <img src="images/pic97.jpg" alt="Saint Martin, Bangladesh">
 <div class="tahia-photo-name">Saint Martin, Bangladesh</div>
@@ -1186,6 +1215,31 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo-name">Kantajew Temple, Dinajpur, Bangladesh</div>
 </div>
 
+<div class="tahia-photo" data-image="images/pic109a.jpg" data-title="Pancha Ratna Govinda Temple, Puthia, Rajshahi , Bangladesh">
+<img src="images/pic109a.jpg" alt="Pancha Ratna Govinda Temple, Puthia, Rajshahi , Bangladesh">
+<div class="tahia-photo-name">Pancha Ratna Govinda Temple, Puthia, Rajshahi , Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic109b.jpg" data-title="Pancha Ratna Govinda Temple, Puthia, Rajshahi , Bangladesh">
+<img src="images/pic109b.jpg" alt="Pancha Ratna Govinda Temple, Puthia, Rajshahi , Bangladesh">
+<div class="tahia-photo-name">Pancha Ratna Govinda Temple, Puthia, Rajshahi , Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic109c.jpg" data-title="Pancha Ratna Govinda Temple, Puthia, Rajshahi , Bangladesh">
+<img src="images/pic109c.jpg" alt="Pancha Ratna Govinda Temple, Puthia, Rajshahi , Bangladesh">
+<div class="tahia-photo-name">Pancha Ratna Govinda Temple, Puthia, Rajshahi , Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic109d.jpg" data-title="Pancha Ratna Govinda Temple, Puthia, Rajshahi , Bangladesh">
+<img src="images/pic109d.jpg" alt="Pancha Ratna Govinda Temple, Puthia, Rajshahi , Bangladesh">
+<div class="tahia-photo-name">Pancha Ratna Govinda Temple, Puthia, Rajshahi , Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic109e.jpg" data-title="Pancha Ratna Govinda Temple, Puthia, Rajshahi , Bangladesh">
+<img src="images/pic109e.jpg" alt="Pancha Ratna Govinda Temple, Puthia, Rajshahi , Bangladesh">
+<div class="tahia-photo-name">Pancha Ratna Govinda Temple, Puthia, Rajshahi , Bangladesh</div>
+</div>
+
 <div class="tahia-photo" data-image="images/pic110.jpg" data-title="Cockpit of B721, the first air craft of Bangladesh Air Force">
 <img src="images/pic110.jpg" alt="Cockpit of B721, the first air craft of Bangladesh Air Force">
 <div class="tahia-photo-name">Cockpit of B721, the first air craft of Bangladesh Air Force</div>
@@ -1213,6 +1267,11 @@ body:has(#tahia-photojournal) main.content {
 
 <div class="tahia-photo" data-image="images/pic112bbbb.jpg" data-title="Bali, Indonesia">
 <img src="images/pic112bbbb.jpg" alt="Bali, Indonesia">
+<div class="tahia-photo-name">Bali, Indonesia</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic112g.jpg" data-title="Bali, Indonesia">
+<img src="images/pic112g.jpg" alt="Bali, Indonesia">
 <div class="tahia-photo-name">Bali, Indonesia</div>
 </div>
 
@@ -1379,6 +1438,31 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo" data-image="images/pic135.jpg" data-title="Norail, Bangladesh">
 <img src="images/pic135.jpg" alt="Norail, Bangladesh">
 <div class="tahia-photo-name">Norail, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic134a.jpg" data-title="Norail, Bangladesh">
+<img src="images/pic134a.jpg" alt="Norail, Bangladesh">
+<div class="tahia-photo-name">Norail, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic135a.jpg" data-title="Dargah of Lalon Shai, Kushtia, Bangladesh">
+<img src="images/pic135a.jpg" alt="Dargah of Lalon Shai, Kushtia, Bangladesh">
+<div class="tahia-photo-name">Dargah of Lalon Shai, Kushtia, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic135b.jpg" data-title="Dargah of Lalon Shai, Kushtia, Bangladesh">
+<img src="images/pic135b.jpg" alt="Dargah of Lalon Shai, Kushtia, Bangladesh">
+<div class="tahia-photo-name">Dargah of Lalon Shai, Kushtia, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic135c.jpg" data-title="Dargah of Lalon Shai, Kushtia, Bangladesh">
+<img src="images/pic135c.jpg" alt="Dargah of Lalon Shai, Kushtia, Bangladesh">
+<div class="tahia-photo-name">Dargah of Lalon Shai, Kushtia, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic135d.jpg" data-title="Dargah of Lalon Shai, Kushtia, Bangladesh">
+<img src="images/pic135d.jpg" alt="Dargah of Lalon Shai, Kushtia, Bangladesh">
+<div class="tahia-photo-name">Dargah of Lalon Shai, Kushtia, Bangladesh</div>
 </div>
 
 <div class="tahia-photo" data-image="images/pic136.jpg" data-title="Mysore Palace, Mysore, Karnataka, India">
@@ -1551,6 +1635,11 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo-name">Keraniganj, Bangladesh</div>
 </div>
 
+<div class="tahia-photo" data-image="images/pic155i.jpg" data-title="Keraniganj, Bangladesh">
+<img src="images/pic155i.jpg" alt="Keraniganj, Bangladesh">
+<div class="tahia-photo-name">Keraniganj, Bangladesh</div>
+</div>
+
 <div class="tahia-photo" data-image="images/pic156.jpg" data-title="Shrine of Hazrat Ghashi Dewan (R), Natore, Bangladesh">
 <img src="images/pic156.jpg" alt="Shrine of Hazrat Ghashi Dewan (R), Natore, Bangladesh">
 <div class="tahia-photo-name">Shrine of Hazrat Ghashi Dewan (R), Natore, Bangladesh</div>
@@ -1701,6 +1790,11 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo-name">Jamuna Bridge, Sirajgonj, Bangladesh</div>
 </div>
 
+<div class="tahia-photo" data-image="images/pic171a.jpg" data-title="Sirajgonj, Bangladesh">
+<img src="images/pic171a.jpg" alt="Sirajgonj, Bangladesh">
+<div class="tahia-photo-name">Sirajgonj, Bangladesh</div>
+</div>
+
 <div class="tahia-photo" data-image="images/pic172.jpg" data-title="On the highway to Bagura, Bangladesh">
 <img src="images/pic172.jpg" alt="On the highway to Bagura, Bangladesh">
 <div class="tahia-photo-name">On the highway to Bagura, Bangladesh</div>
@@ -1766,6 +1860,16 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo-name">Kaptai Lake, Rangamati, Bangladesh</div>
 </div>
 
+<div class="tahia-photo" data-image="images/pic184a.jpg" data-title="Kaptai Lake, Rangamati, Bangladesh">
+<img src="images/pic184a.jpg" alt="Kaptai Lake, Rangamati, Bangladesh">
+<div class="tahia-photo-name">Kaptai Lake, Rangamati, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic185a.jpg" data-title="Patenga Sea Beach Road, Chittagong, Bangladesh">
+<img src="images/pic185a.jpg" alt="Patenga Sea Beach Road, Chittagong, Bangladesh">
+<div class="tahia-photo-name">Patenga Sea Beach Road, Chittagong, Bangladesh</div>
+</div>
+
 <div class="tahia-photo" data-image="images/pic185.jpg" data-title="Residents of Imambara, Dhaka, Bangladesh">
 <img src="images/pic185.jpg" alt="Residents of Imambara, Dhaka, Bangladesh">
 <div class="tahia-photo-name">Residents of Imambara, Dhaka, Bangladesh</div>
@@ -1816,6 +1920,65 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo-name">Illford, London</div>
 </div>
 
+<div class="tahia-photo" data-image="images/pic192.jpg" data-title="At the Shrine of Hazrat Maowlana Jannsharif Shah Sureshwari (R), Bangladesh">
+<img src="images/pic192.jpg" alt="At the Shrine of Hazrat Maowlana Jannsharif Shah Sureshwari (R), Bangladesh">
+<div class="tahia-photo-name">At the Shrine of Hazrat Maowlana Jannsharif Shah Sureshwari (R), Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic193.jpg" data-title="At the Shrine of Hazrat Maowlana Jannsharif Shah Sureshwari (R), Bangladesh">
+<img src="images/pic193.jpg" alt="At the Shrine of Hazrat Maowlana Jannsharif Shah Sureshwari (R), Bangladesh">
+<div class="tahia-photo-name">At the Shrine of Hazrat Maowlana Jannsharif Shah Sureshwari (R), Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic193a.jpg" data-title="At the Shrine of Hazrat Maowlana Jannsharif Shah Sureshwari (R), Bangladesh">
+<img src="images/pic193a.jpg" alt="At the Shrine of Hazrat Maowlana Jannsharif Shah Sureshwari (R), Bangladesh">
+<div class="tahia-photo-name">At the Shrine of Hazrat Maowlana Jannsharif Shah Sureshwari (R), Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic194.jpg" data-title="At the Shrine of Hazrat Ghulam Mawla Hossasini Chishty Shampuri (R), Bangladesh">
+<img src="images/pic194.jpg" alt="At the Shrine of Hazrat Ghulam Mawla Hossasini Chishty Shampuri (R), Bangladesh">
+<div class="tahia-photo-name">At the Shrine of Hazrat Ghulam Mawla Hossasini Chishty Shampuri (R), Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic195.jpg" data-title="At the Shrine of Hazrat Ghulam Mawla Hossasini Chishty Shampuri (R), Bangladesh">
+<img src="images/pic195.jpg" alt="At the Shrine of Hazrat Ghulam Mawla Hossasini Chishty Shampuri (R), Bangladesh">
+<div class="tahia-photo-name">At the Shrine of Hazrat Ghulam Mawla Hossasini Chishty Shampuri (R), Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic196.jpg" data-title="At the Shrine of Hazrat Ghulam Mawla Hossasini Chishty Shampuri (R), Bangladesh">
+<img src="images/pic196.jpg" alt="At the Shrine of Hazrat Ghulam Mawla Hossasini Chishty Shampuri (R), Bangladesh">
+<div class="tahia-photo-name">At the Shrine of Hazrat Ghulam Mawla Hossasini Chishty Shampuri (R), Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic197.jpg" data-title="At the Shrine of Hazrat Ghulam Mawla Hossasini Chishty Shampuri (R), Bangladesh">
+<img src="images/pic197.jpg" alt="At the Shrine of Hazrat Ghulam Mawla Hossasini Chishty Shampuri (R), Bangladesh">
+<div class="tahia-photo-name">At the Shrine of Hazrat Ghulam Mawla Hossasini Chishty Shampuri (R), Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic197a.jpg" data-title="At the Shrine of Hazrat Ghulam Mawla Hossasini Chishty Shampuri (R), Bangladesh">
+<img src="images/pic197a.jpg" alt="At the Shrine of Hazrat Ghulam Mawla Hossasini Chishty Shampuri (R), Bangladesh">
+<div class="tahia-photo-name">At the Shrine of Hazrat Ghulam Mawla Hossasini Chishty Shampuri (R), Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic198.jpg" data-title="At the Shrine of Hazrat Ghulam Mawla Hossasini Chishty Shampuri (R), Bangladesh">
+<img src="images/pic198.jpg" alt="At the Shrine of Hazrat Ghulam Mawla Hossasini Chishty Shampuri (R), Bangladesh">
+<div class="tahia-photo-name">At the Shrine of Hazrat Ghulam Mawla Hossasini Chishty Shampuri (R), Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic199.jpg" data-title="At the Shrine of Hazrat Ghulam Mawla Hossasini Chishty Shampuri (R), Bangladesh">
+<img src="images/pic199.jpg" alt="At the Shrine of Hazrat Ghulam Mawla Hossasini Chishty Shampuri (R), Bangladesh">
+<div class="tahia-photo-name">At the Shrine of Hazrat Ghulam Mawla Hossasini Chishty Shampuri (R), Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic200.jpg" data-title="Jagannath Hall, Dhaka University, Bangladesh">
+<img src="images/pic200.jpg" alt="Jagannath Hall, Dhaka University, Bangladesh">
+<div class="tahia-photo-name">Jagannath Hall, Dhaka University, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic201.jpg" data-title="Natore, Bangladesh">
+<img src="images/pic201.jpg" alt="Natore, Bangladesh">
+<div class="tahia-photo-name">Natore, Bangladesh</div>
+</div>
 
 </div>
 
