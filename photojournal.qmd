@@ -934,6 +934,11 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo-name">Chennai, India</div>
 </div>
 
+<div class="tahia-photo" data-image="images/pic72a.jpg" data-title="Chennai, India">
+<img src="images/pic72a.jpg" alt="Chennai, India">
+<div class="tahia-photo-name">Chennai, India</div>
+</div>
+
 <div class="tahia-photo" data-image="images/pic73.jpg" data-title="Chennai, India">
 <img src="images/pic73.jpg" alt="Chennai, India">
 <div class="tahia-photo-name">Chennai, India</div>
@@ -1055,6 +1060,11 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo-name">Ramu, Cox Bazar, Bangladesh</div>
 </div>
 
+<div class="tahia-photo" data-image="images/pic88a.jpg" data-title="Ramu, Cox Bazar, Bangladesh">
+<img src="images/pic88a.jpg" alt="Ramu, Cox Bazar, Bangladesh">
+<div class="tahia-photo-name">Ramu, Cox Bazar, Bangladesh</div>
+</div>
+
 <div class="tahia-photo" data-image="images/pic88a.jpg" data-title="Bandorban, Bangladesh">
 <img src="images/pic88a.jpg" alt="Bandorban, Bangladesh">
 <div class="tahia-photo-name">Bandorban, Bangladesh</div>
@@ -1155,6 +1165,11 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo-name">Saint Martin, Bangladesh</div>
 </div>
 
+<div class="tahia-photo" data-image="images/pic97a.jpg" data-title="Saint Martin, Bangladesh">
+<img src="images/pic97a.jpg" alt="Saint Martin, Bangladesh">
+<div class="tahia-photo-name">Saint Martin, Bangladesh</div>
+</div>
+
 <div class="tahia-photo" data-image="images/pic100.jpg" data-title="Shunajanagar Highway, Bangladesh">
 <img src="images/pic100.jpg" alt="Shunajanagar Highway, Bangladesh">
 <div class="tahia-photo-name">Shunajanagar Highway, Bangladesh</div>
@@ -1167,6 +1182,26 @@ body:has(#tahia-photojournal) main.content {
 
 <div class="tahia-photo" data-image="images/pic102.jpg" data-title="Natore, Bangladesh">
 <img src="images/pic102.jpg" alt="Natore, Bangladesh">
+<div class="tahia-photo-name">Natore, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic102b.jpg" data-title="Natore, Bangladesh">
+<img src="images/pic102b.jpg" alt="Natore, Bangladesh">
+<div class="tahia-photo-name">Natore, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic102c.jpg" data-title="Natore, Bangladesh">
+<img src="images/pic102c.jpg" alt="Natore, Bangladesh">
+<div class="tahia-photo-name">Natore, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic102a.jpg" data-title="Dragon Tree, Natore, Bangladesh">
+<img src="images/pic102a.jpg" alt="Dragon Tree, Natore, Bangladesh">
+<div class="tahia-photo-name">Dragon Tree, Natore, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic102d.jpg" data-title="Natore, Bangladesh">
+<img src="images/pic102d.jpg" alt="Natore, Bangladesh">
 <div class="tahia-photo-name">Natore, Bangladesh</div>
 </div>
 
@@ -1470,6 +1505,11 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo-name">Dargah of Lalon Shai, Kushtia, Bangladesh</div>
 </div>
 
+<div class="tahia-photo" data-image="images/pic136a.jpg" data-title="On the way to Mysore, Karnataka, India">
+<img src="images/pic136a.jpg" alt="On the way to Mysore, Karnataka, India">
+<div class="tahia-photo-name">On the way to Mysore, Karnataka, India</div>
+</div>
+
 <div class="tahia-photo" data-image="images/pic136.jpg" data-title="Mysore Palace, Mysore, Karnataka, India">
 <img src="images/pic136.jpg" alt="Mysore Palace, Mysore, Karnataka, India">
 <div class="tahia-photo-name">Mysore Palace, Mysore, Karnataka, India</div>
@@ -1580,6 +1620,11 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo-name">Chamundeshwari Temple, Mysore, India</div>
 </div>
 
+<div class="tahia-photo" data-image="images/pic153a.jpg" data-title="Chamundeshwari Temple, Mysore, India">
+<img src="images/pic153a.jpg" alt="Chamundeshwari Temple, Mysore, India">
+<div class="tahia-photo-name">Chamundeshwari Temple, Mysore, India</div>
+</div>
+
 <div class="tahia-photo" data-image="images/pic154.jpg" data-title="Chamundeshwari Temple, Mysore, India">
 <img src="images/pic154.jpg" alt="Chamundeshwari Temple, Mysore, India">
 <div class="tahia-photo-name">Chamundeshwari Temple, Mysore, India</div>
@@ -1647,6 +1692,11 @@ body:has(#tahia-photojournal) main.content {
 
 <div class="tahia-photo" data-image="images/pic155j.jpg" data-title="Keraniganj, Bangladesh">
 <img src="images/pic155j.jpg" alt="Keraniganj, Bangladesh">
+<div class="tahia-photo-name">Keraniganj, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic155k.jpg" data-title="Keraniganj, Bangladesh">
+<img src="images/pic155k.jpg" alt="Keraniganj, Bangladesh">
 <div class="tahia-photo-name">Keraniganj, Bangladesh</div>
 </div>
 
@@ -1735,6 +1785,11 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo-name">Ooty, India</div>
 </div>
 
+<div class="tahia-photo" data-image="images/pic161a.jpg" data-title="Ooty, India">
+<img src="images/pic161a.jpg" alt="Ooty, India">
+<div class="tahia-photo-name">Ooty, India</div>
+</div>
+
 <div class="tahia-photo" data-image="images/pic162.jpg" data-title="Doddabetta peak, Ooty, India">
 <img src="images/pic162.jpg" alt="Doddabetta peak, Ooty, India">
 <div class="tahia-photo-name">Doddabetta peak, Ooty, India</div>
@@ -1768,6 +1823,16 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo" data-image="images/pic168.jpg" data-title="Ooty, India">
 <img src="images/pic168.jpg" alt="Ooty, India">
 <div class="tahia-photo-name">Ooty, India</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic168a.jpg" data-title="Shrine of sufi Sadar Uddin Ahmad Chisty (R), Dhaka">
+<img src="images/pic168a.jpg" alt="Shrine of sufi Sadar Uddin Ahmad Chisty (R), Dhaka">
+<div class="tahia-photo-name">Shrine of sufi Sadar Uddin Ahmad Chisty (R), Dhaka</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic168b.jpg" data-title="Shrine of sufi Sadar Uddin Ahmad Chisty (R), Dhaka">
+<img src="images/pic168b.jpg" alt="Shrine of sufi Sadar Uddin Ahmad Chisty (R), Dhaka">
+<div class="tahia-photo-name">Shrine of sufi Sadar Uddin Ahmad Chisty (R), Dhaka</div>
 </div>
 
 <div class="tahia-photo" data-image="images/pic169aa.jpg" data-title="Sylhet, Bangladesh">
@@ -1985,9 +2050,64 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo-name">Jagannath Hall, Dhaka University, Bangladesh</div>
 </div>
 
+<div class="tahia-photo" data-image="images/pic200a.jpg" data-title="Dhaka University, Bangladesh">
+<img src="images/pic200a.jpg" alt="Dhaka University, Bangladesh">
+<div class="tahia-photo-name">Dhaka University, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic200b.jpg" data-title="Dhaka University, Bangladesh">
+<img src="images/pic200b.jpg" alt="Dhaka University, Bangladesh">
+<div class="tahia-photo-name">Dhaka University, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic200c.jpg" data-title="Mirpur Post Office, Dhaka, Bangladesh">
+<img src="images/pic200c.jpg" alt="Mirpur Post Office, Dhaka, Bangladesh">
+<div class="tahia-photo-name">Mirpur Post Office, Dhaka,Bangladesh</div>
+</div>
+
 <div class="tahia-photo" data-image="images/pic201.jpg" data-title="Natore, Bangladesh">
 <img src="images/pic201.jpg" alt="Natore, Bangladesh">
 <div class="tahia-photo-name">Natore, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic201a.jpg" data-title="Natore, Bangladesh">
+<img src="images/pic201a.jpg" alt="Natore, Bangladesh">
+<div class="tahia-photo-name">Natore, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic201b.jpg" data-title="Nandokuja River, Natore, Bangladesh">
+<img src="images/pic201b.jpg" alt="Nandokuja River, Natore, Bangladesh">
+<div class="tahia-photo-name">Nandokuja River, Natore, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic202.jpg" data-title="Rainkhola, Dhaka, Bangladesh">
+<img src="images/pic202.jpg" alt="Rainkhola, Dhaka, Bangladesh">
+<div class="tahia-photo-name">Rainkhola, Dhaka, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic203.jpg" data-title="Rainkhola, Dhaka, Bangladesh">
+<img src="images/pic203.jpg" alt="Rainkhola, Dhaka, Bangladesh">
+<div class="tahia-photo-name">Rainkhola, Dhaka, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic204.jpg" data-title="Dhaka, Bangladesh">
+<img src="images/pic204.jpg" alt="Dhaka, Bangladesh">
+<div class="tahia-photo-name">Dhaka, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic205.jpg" data-title="Dhaka, Bangladesh">
+<img src="images/pic205.jpg" alt="Dhaka, Bangladesh">
+<div class="tahia-photo-name">Dhaka, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic206.jpg" data-title="Dhaka, Bangladesh">
+<img src="images/pic206.jpg" alt="Dhaka, Bangladesh">
+<div class="tahia-photo-name">Dhaka, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic207.jpg" data-title="Dhaka, Bangladesh">
+<img src="images/pic207.jpg" alt="Dhaka, Bangladesh">
+<div class="tahia-photo-name">Dhaka, Bangladesh</div>
 </div>
 
 </div>
