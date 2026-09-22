@@ -1090,6 +1090,11 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo-name">Saint Martin, Bangladesh</div>
 </div>
 
+<div class="tahia-photo" data-image="images/pic92a.jpg" data-title="Saint Martin, Bangladesh">
+<img src="images/pic92a.jpg" alt="Saint Martin, Bangladesh">
+<div class="tahia-photo-name">Saint Martin, Bangladesh</div>
+</div>
+
 <div class="tahia-photo" data-image="images/pic93.jpg" data-title="Saint Martin, Bangladesh">
 <img src="images/pic93.jpg" alt="Saint Martin, Bangladesh">
 <div class="tahia-photo-name">Saint Martin, Bangladesh</div>
@@ -1637,6 +1642,11 @@ body:has(#tahia-photojournal) main.content {
 
 <div class="tahia-photo" data-image="images/pic155i.jpg" data-title="Keraniganj, Bangladesh">
 <img src="images/pic155i.jpg" alt="Keraniganj, Bangladesh">
+<div class="tahia-photo-name">Keraniganj, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic155j.jpg" data-title="Keraniganj, Bangladesh">
+<img src="images/pic155j.jpg" alt="Keraniganj, Bangladesh">
 <div class="tahia-photo-name">Keraniganj, Bangladesh</div>
 </div>
 

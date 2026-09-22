@@ -2,9 +2,9 @@
 title: "Teaching"
 ---
 
-I currently teach two compulsory undergraduate courses in the Department of Economics at the University of Dhaka: **ECON 308: Public Economics** and **ECON 103: Mathematics I — Linear Algebra and Calculus**.
-
 ## Current Courses
+
+I currently teach two compulsory undergraduate courses in the Department of Economics at the University of Dhaka:
 
 **ECON 308: Public Economics**  
 *Compulsory*
