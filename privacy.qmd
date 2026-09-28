@@ -1,0 +1,36 @@
+---
+title: "Privacy Policy"
+---
+
+**Project:** Audience Discourse on Bangladeshi Artists Research Client\
+**Operator:** Tahia Anan Dhira, independent researcher\
+**Last updated:** 28 September 2026
+
+This is a non-commercial, non-funded, independent academic research project.
+It uses the YouTube Data API v3 to retrieve publicly available comments from a
+defined set of Bangladeshi artist and entertainment channels, for aggregate
+analysis of audience discourse.
+
+**What is accessed.** Only public data returned by the API, such as comment
+text, comment dates, and video and channel identifiers. The project does not
+access private accounts, does not ask YouTube users to sign in or authorize
+anything, and does not offer a service to the public.
+
+**How it is used.** The data is analyzed for aggregate patterns, such as
+sentiment and topic statistics. Only aggregate findings are reported.
+
+**What is shared.** Raw comments and commenter identifiers are not published,
+sold, or redistributed.
+
+**Storage.** API data is stored on the researcher's own devices and handled in
+line with the YouTube API Services Developer Policies.
+
+**Removal requests.** If you wrote a comment and want it excluded from this
+research, contact the email below.
+
+Use of YouTube API Services is subject to the
+[YouTube Terms of Service](https://www.youtube.com/t/terms). Google's data
+practices are described in the
+[Google Privacy Policy](http://www.google.com/policies/privacy).
+
+**Contact:** dhiraanan3@gmail.com
