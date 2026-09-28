@@ -1,0 +1,17 @@
+---
+title: "Product Reproducibility and International Trade Patterns: Evidence from Cultural Goods"
+---
+
+# Product Reproducibility and International Trade Patterns: Evidence from Cultural Goods {.paper-title}
+
+*(Under review)*
+
+## Abstract
+
+International trade research recognizes that products differ systematically in their responses to gravity-model determinants, yet the role of product reproducibility remains largely unexplored. This study conceptualizes product reproducibility as a distinct dimension of product heterogeneity and examines whether it systematically conditions gravity-model relationships.
+
+Using bilateral trade data for 190 countries during 1995–2023, products are classified into unique cultural, reproducible cultural, and non-cultural categories. Separable Temporal Exponential Random Graph Models (STERGMs) and Poisson Pseudo-Maximum Likelihood (PPML) estimation are employed to examine trade-tie dynamics and trade intensity. The results show that more reproducible products exhibit weaker sensitivity to trade frictions, stronger conformity to gravity-model predictions, and more stable trade relationships. These findings suggest that product reproducibility constitutes an important dimension of product heterogeneity, with implications for structural gravity models and product-level trade analysis.
+
+[Replication code](https://github.com/TAD600/Global_Cultural_Trade_Network)
+
+[← Back to research](../research.qmd)

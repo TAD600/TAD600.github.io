@@ -22,7 +22,7 @@ website:
 
     left:
       - href: index.qmd
-        text: Home
+        text: "<span id='site-name'>Tahia Anan Dhira</span>" 
 
       - href: research.qmd
         text: Research

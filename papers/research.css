@@ -1,0 +1,39 @@
+.research-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 4rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  align-items: start;
+}
+
+.research-grid h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  border-bottom: 3px solid #6A9A78;
+  display: inline-block;
+  padding-bottom: 4px;
+  margin-bottom: 1.5rem;
+}
+
+.entry {
+  margin-bottom: 1.8rem;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+.entry p { margin: 0.3rem 0; }
+
+.entry .who     { color: #555555; font-size: 0.95rem; }
+.entry .summary { color: #555555; font-size: 0.95rem; }
+
+.entry a.link {
+  color: #6A9A78;
+  font-weight: 600;
+  margin-right: 0.9rem;
+}
+.entry a.link:hover { color: #4f7d5f; text-decoration: underline; }
+.entry a.link::after { content: "."; }
+
+@media (max-width: 800px) {
+  .research-grid { grid-template-columns: 1fr; }
+}

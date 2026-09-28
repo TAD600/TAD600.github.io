@@ -1,0 +1,20 @@
+---
+title: "Bilateral Convergence across the World: Does International Migration Matter?"
+---
+# Bilateral Convergence across the World: Does International Migration Matter? {.paper-title}
+
+*(Working paper)*
+
+
+## Abstract
+
+While previous studies document global convergence in development indicators such as literacy, health, and nutrition, driven in part by the diffusion of technology and international agreements, the role of bilateral migration as a channel for closing or widening development gaps remains largely unexamined. We argue that migration's relationship with convergence is not uniform but depends on a country pair's position within the global migration network.
+
+Using bilateral migration stock data for 205 countries from 1990 to 2022, we construct a directed, weighted migration network for each year and apply the core-periphery detection algorithm of Ma and Mondragón (2015) to classify countries as core or peripheral. This produces four migration corridors—core-core, core-periphery, periphery-core, and periphery-periphery—which we use to examine whether the relationship between migration and convergence across twelve development indicators varies by network position.
+
+Controlling for bilateral gravity-type factors, country-pair and year fixed effects, and instrumenting for the endogeneity of migration stock, we find that periphery-to-core migration is the corridor most consistently associated with weaker convergence, particularly for infant mortality, nourishment, employment, literacy, and GDP per capita—a pattern consistent with brain-drain and remittance-dependency mechanisms that may limit development spillovers to sending regions. By contrast, core-periphery and core-core corridors are more often associated with faster convergence, notably for HDI and education indicators, while corridor position makes no significant difference for labor-force participation or life expectancy. These results suggest that a country's structural position in the global migration network, rather than migration volume alone, shapes whether migration narrows or widens development gaps, offering a network-based perspective on the relationship between migration and global development.
+
+
+(coauthors: M Moniruzzaman, SN Wadood)
+
+[← Back to research](../research.qmd)

@@ -1,0 +1,21 @@
+---
+title: "Rethinking the Income-Emissions Relationship: Evidence from Trade-Embodied CO₂ Emissions Networks"
+---
+
+# Rethinking the Income-Emissions Relationship: Evidence from Trade-Embodied CO₂ Emissions Networks {.paper-title}
+
+*(Submitted)*
+
+
+## Abstract
+
+The environmental footprint of economic development is often evaluated through territorial emissions, although international trade, by separating the location of production from the location of consumption, allows countries to effectively "buy" cleaner borders. This study investigates whether countries' positions within trade-embodied CO₂ emissions networks condition the income-emissions relationship.
+
+Using bilateral emissions embodied in international trade data for 79 economies over 1995–2022, we distinguish net imports of embodied CO₂ from territorial CO₂ emissions and estimate nonlinear income-emissions relationships separately for advanced and developing economies. Network position is measured primarily using standardized PageRank centrality, while standardized weighted in-degree and out-degree centralities are employed as alternative measures.
+
+For domestic CO₂ emissions, the results support a robust nonlinear income-emissions relationship for both country groups, yet the associated income turning points vary systematically with network position. Advanced economies that are more central to the network exhibit higher income turning points, while more central developing economies exhibit lower turning points. The relationship is more heterogeneous for net embodied CO₂ imports, with several estimated turning points lying beyond the observed income range. The main interaction patterns are preserved when alternative centrality measures are used, although evidence for a nonlinear relationship in embodied emissions is weaker with weighted out-degree centrality. Overall, the findings suggest that a single unconditional income-emissions relationship provides an incomplete depiction of environmental trajectories once countries' positions within emissions-embodied-in-trade networks are taken into account. The results therefore demonstrate the value of complementing territorial emissions measures with network-aware approaches to understanding sustainable development.
+
+
+[Replication code](https://github.com/TAD600/Trading_Pollution)
+
+[← Back to research](../research.qmd)
