@@ -142,7 +142,8 @@ a:hover {
 }
 
 .navbar-nav .nav-item {
-    flex: 0 0 auto;
+    display: flex;
+    align-items: baseline;
 }
 
 .navbar-nav .nav-link {
@@ -162,12 +163,12 @@ a:hover {
 
 #site-name {
     font-family: "Cormorant Garamond", serif !important;
-    font-size: 26pt !important;
+    font-size: 22pt !important;
     font-weight: 700 !important;
     color: #222222 !important;
     letter-spacing: 0.01em;
     white-space: nowrap !important;
-    display: inline-block;
+    margin-right: 2.5rem;
 }
 
 .navbar-nav .nav-link.active {
