@@ -8,7 +8,7 @@ title: "Privacy Policy"
 
 This is a non-commercial, non-funded, independent academic research project.
 It uses the YouTube Data API v3 to retrieve publicly available comments from a
-defined set of Bangladeshi artist and entertainment channels, for aggregate
+defined set of Bangladeshi artists' and entertainment channels, for aggregate
 analysis of audience discourse.
 
 **What is accessed.** Only public data returned by the API, such as comment
