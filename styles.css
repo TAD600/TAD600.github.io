@@ -2,7 +2,7 @@
    FONT (upright + true italics)
 ========================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
 
 
 /* ==========================================================
@@ -19,9 +19,9 @@ html {
 
 html,
 body {
-    font-family: "Newsreader", serif !important;
-    font-size: 19px;
-    line-height: 1.35;
+    font-family: "Cormorant Garamond", serif !important;
+    font-size: 17px;
+    line-height: 1.3;
 
     color: #222222;
     background: #ffffff;
@@ -45,7 +45,7 @@ textarea,
 table,
 th,
 td {
-    font-family: "Newsreader", serif;
+    font-family: "Cormorant Garamond", serif;
 }
 
 
@@ -59,30 +59,32 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Newsreader", serif !important;
+    font-family: "Cormorant Garamond", serif !important;
     color: #222222;
     font-weight: 600;
 }
 
 h1 {
-    font-size: 2.4rem;
-    line-height: 1.15;
+    font-size: 1.9rem;
+    line-height: 1.2;
 }
 
 h2 {
-    font-size: 1.8rem;
-    line-height: 1.2;
-    margin-top: 2.2rem;
+    font-size: 1.5rem;
+    line-height: 1.25;
+    margin-top: 2rem;
 }
 
 h3 {
-    font-size: 1.4rem;
-    line-height: 1.25;
-    margin-top: 1.8rem;
+    font-size: 1.15rem;
+    line-height: 1.3;
+    margin-top: 1.5rem;
+    font-weight: 700;
 }
 
 h4 {
-    font-size: 1.2rem;
+    font-size: 1.05rem;
+    font-weight: 700;
 }
 
 
@@ -91,9 +93,9 @@ h4 {
 ========================================================== */
 
 p {
-    font-family: "Newsreader", serif !important;
-    font-size: 19px;
-    line-height: 1.35;
+    font-family: "Cormorant Garamond", serif !important;
+    font-size: 17px;
+    line-height: 1.3;
 }
 
 
@@ -117,59 +119,31 @@ a:hover {
 ========================================================== */
 
 .navbar {
-    font-family: "Newsreader", serif !important;
+    font-family: "Cormorant Garamond", serif !important;
 
     background: #ffffff;
     border-bottom: 1px solid #e8e8e8;
-}
-
-/* Keep the navbar row on one line at desktop widths.
-   !important is needed here because Bootstrap's own utility
-   classes and navbar rules use selectors that would
-   otherwise win the cascade even after this stylesheet loads. */
-
-.navbar .navbar-collapse,
-.navbar .navbar-nav {
-    flex-wrap: nowrap !important;
 }
 
 .navbar-nav,
 .navbar-nav .nav-link,
 .navbar .dropdown-menu,
 .navbar .dropdown-item {
-    font-family: "Newsreader", serif !important;
-}
-
-.navbar-nav .nav-item {
-    flex: 0 0 auto;
-    display: flex;
-    align-items: baseline;
+    font-family: "Cormorant Garamond", serif !important;
 }
 
 .navbar-nav .nav-link {
-    font-size: 19px;
-    line-height: 1.35;
+    font-size: 16px;
     font-weight: 500;
-    white-space: nowrap !important;
 }
 
-
-/* Site name, rendered as the first nav item.
-   In _quarto.yml, the first left nav entry must be:
-   - href: index.qmd
-     text: "<span id='site-name'>Tahia Anan Dhira</span>"
-   (Quarto's navbar schema has no "id:" field, so the id
-   has to be embedded inside "text" as inline HTML instead.) */
-
-#site-name {
-    font-family: "Newsreader", serif !important;
-    font-size: 27px !important;
+#navbar-name,
+#navbar-name.active,
+a.nav-link:has(#navbar-name) {
+    font-size: 26px !important;
     font-weight: 700 !important;
     color: #222222 !important;
     letter-spacing: 0.01em;
-    white-space: nowrap !important;
-    vertical-align: baseline;
-    margin-right: 2.5rem;
 }
 
 .navbar-nav .nav-link.active {
@@ -192,7 +166,7 @@ a:hover {
 }
 
 .navbar .dropdown-item {
-    font-size: 18px;
+    font-size: 15px;
 
     color: #222222;
 
@@ -206,6 +180,23 @@ a:hover {
     background: #fafafa;
 
     text-decoration: none;
+}
+
+
+/* Navbar brand (site name, when rendered via website.navbar.title) */
+
+.navbar-brand {
+    display: block !important;
+    font-family: "Cormorant Garamond", serif !important;
+    font-size: 26px !important;
+    font-weight: 700 !important;
+    color: #222222 !important;
+    letter-spacing: 0.01em;
+}
+
+.navbar-brand:hover {
+    color: #222222 !important;
+    text-decoration: none !important;
 }
 
 
@@ -265,12 +256,30 @@ a:hover {
 
 
 /* ==========================================================
+   HOME — NAME (2pt larger than body text)
+========================================================== */
+
+.home-name {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    font-family: "Cormorant Garamond", serif !important;
+    font-size: calc(17px + 2pt) !important;
+    line-height: 1.2;
+    font-weight: 600;
+    margin: 0 0 0.75rem 0;
+    padding: 0;
+    color: #222222 !important;
+}
+
+
+/* ==========================================================
    HOME — BIO
 ========================================================== */
 
 .home-bio {
-    font-family: "Newsreader", serif !important;
-    font-size: 20px;
+    font-family: "Cormorant Garamond", serif !important;
+    font-size: 17px;
     line-height: 1.35;
 
     margin: 0 0 1.1rem 0;
@@ -284,8 +293,8 @@ a:hover {
 ========================================================== */
 
 .home-contact {
-    font-family: "Newsreader", serif !important;
-    font-size: 20px;
+    font-family: "Cormorant Garamond", serif !important;
+    font-size: 17px;
     line-height: 1.35;
     margin: 1rem 0 0 0;
     color: #222222;
@@ -322,13 +331,13 @@ a:hover {
 
     margin: 0;
 
-    font-family: "Newsreader", serif !important;
+    font-family: "Cormorant Garamond", serif !important;
 
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .home-links a {
-    font-family: "Newsreader", serif !important;
+    font-family: "Cormorant Garamond", serif !important;
 
     color: #6A9A78;
 
@@ -384,11 +393,11 @@ a:hover {
 }
 
 .home-social a {
-    font-family: "Newsreader", serif !important;
+    font-family: "Cormorant Garamond", serif !important;
 
     color: #6A9A78;
 
-    font-size: 20px;
+    font-size: 17px;
 
     line-height: 1;
 
@@ -406,13 +415,13 @@ a:hover {
 }
 
 .home-social .bi {
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .home-orcid {
-    font-family: "Newsreader", serif !important;
+    font-family: "Cormorant Garamond", serif !important;
 
-    font-size: 19px !important;
+    font-size: 16px !important;
 
     font-weight: 600;
 
@@ -441,10 +450,13 @@ a:hover {
         max-width: 650px;
     }
 
+    .home-name {
+        font-size: calc(16px + 2pt) !important;
+    }
+
     .home-bio,
     .home-contact {
-        font-size: 19px;
-        line-height: 1.35;
+        font-size: 16px;
     }
 
     .home-links-row {
@@ -455,41 +467,13 @@ a:hover {
 
 
 /* ==========================================================
-   NAVBAR — MOBILE
-   (keeps the tab labels readable if they wrap onto the
-   collapsed / hamburger menu on narrow screens; nowrap and
-   the extra name spacing are only meant for desktop widths)
-========================================================== */
-
-@media (max-width: 991px) {
-
-    .navbar .navbar-collapse,
-    .navbar .navbar-nav {
-        flex-wrap: wrap !important;
-    }
-
-    .navbar-nav .nav-link {
-        font-size: 19px;
-        white-space: normal !important;
-    }
-
-    #site-name {
-        font-size: 23px !important;
-        white-space: normal !important;
-        margin-right: 0;
-    }
-
-}
-
-
-/* ==========================================================
    BLOG — COMING SOON
 ========================================================== */
 
 .coming-soon {
-    font-family: "Newsreader", serif !important;
+    font-family: "Cormorant Garamond", serif !important;
 
-    font-size: 29px;
+    font-size: 24px;
 
     font-style: italic;
 
@@ -776,7 +760,7 @@ a:hover {
 
     color: #222222 !important;
 
-    font-family: "Newsreader", serif !important;
+    font-family: "Cormorant Garamond", serif !important;
 
     font-size: 1.5rem !important;
 
@@ -799,9 +783,9 @@ a:hover {
 
     color: rgba(0, 0, 0, 0.75) !important;
 
-    font-family: "Newsreader", serif !important;
+    font-family: "Cormorant Garamond", serif !important;
 
-    font-size: 18px !important;
+    font-size: 16px !important;
 
     line-height: 1.3 !important;
 
@@ -1015,7 +999,7 @@ body:has(.visualization-page) .visualization-page {
     }
 
     #visualization-viewer-description {
-        font-size: 17px !important;
+        font-size: 15px !important;
 
         line-height: 1.6 !important;
     }
