@@ -20,7 +20,7 @@ html {
 html,
 body {
     font-family: "Cormorant Garamond", serif !important;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 1.3;
 
     color: #222222;
@@ -65,12 +65,12 @@ h6 {
 }
 
 h1 {
-    font-size: 1.9rem;
+    font-size: 2rem;
     line-height: 1.2;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     line-height: 1.25;
     margin-top: 2rem;
 }
@@ -94,7 +94,7 @@ h4 {
 
 p {
     font-family: "Cormorant Garamond", serif !important;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 1.3;
 }
 
@@ -133,14 +133,14 @@ a:hover {
 }
 
 .navbar-nav .nav-link {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
 }
 
 #navbar-name,
 #navbar-name.active,
 a.nav-link:has(#navbar-name) {
-    font-size: 26px !important;
+    font-size: 27px !important;
     font-weight: 700 !important;
     color: #222222 !important;
     letter-spacing: 0.01em;
@@ -166,7 +166,7 @@ a.nav-link:has(#navbar-name) {
 }
 
 .navbar .dropdown-item {
-    font-size: 15px;
+    font-size: 18px;
 
     color: #222222;
 
@@ -188,7 +188,7 @@ a.nav-link:has(#navbar-name) {
 .navbar-brand {
     display: block !important;
     font-family: "Cormorant Garamond", serif !important;
-    font-size: 26px !important;
+    font-size: 28px !important;
     font-weight: 700 !important;
     color: #222222 !important;
     letter-spacing: 0.01em;
@@ -218,7 +218,7 @@ a.nav-link:has(#navbar-name) {
 ========================================================== */
 
 .paper-title {
-    font-size: 1.9rem;
+    font-size: 2rem;
     line-height: 1.2;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
@@ -264,7 +264,7 @@ a.nav-link:has(#navbar-name) {
     visibility: visible !important;
     opacity: 1 !important;
     font-family: "Cormorant Garamond", serif !important;
-    font-size: calc(17px + 2pt) !important;
+    font-size: calc(18px + 2pt) !important;
     line-height: 1.2;
     font-weight: 600;
     margin: 0 0 0.75rem 0;
@@ -279,7 +279,7 @@ a.nav-link:has(#navbar-name) {
 
 .home-bio {
     font-family: "Cormorant Garamond", serif !important;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 1.35;
 
     margin: 0 0 1.1rem 0;
@@ -294,7 +294,7 @@ a.nav-link:has(#navbar-name) {
 
 .home-contact {
     font-family: "Cormorant Garamond", serif !important;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 1.35;
     margin: 1rem 0 0 0;
     color: #222222;
@@ -333,7 +333,7 @@ a.nav-link:has(#navbar-name) {
 
     font-family: "Cormorant Garamond", serif !important;
 
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .home-links a {
@@ -397,7 +397,7 @@ a.nav-link:has(#navbar-name) {
 
     color: #6A9A78;
 
-    font-size: 17px;
+    font-size: 18px;
 
     line-height: 1;
 
@@ -415,13 +415,13 @@ a.nav-link:has(#navbar-name) {
 }
 
 .home-social .bi {
-    font-size: 20px;
+    font-size: 21px;
 }
 
 .home-orcid {
     font-family: "Cormorant Garamond", serif !important;
 
-    font-size: 16px !important;
+    font-size: 18px !important;
 
     font-weight: 600;
 
@@ -451,12 +451,12 @@ a.nav-link:has(#navbar-name) {
     }
 
     .home-name {
-        font-size: calc(16px + 2pt) !important;
+        font-size: calc(18px + 2pt) !important;
     }
 
     .home-bio,
     .home-contact {
-        font-size: 16px;
+        font-size: 17px;
     }
 
     .home-links-row {
@@ -762,7 +762,7 @@ a.nav-link:has(#navbar-name) {
 
     font-family: "Cormorant Garamond", serif !important;
 
-    font-size: 1.5rem !important;
+    font-size: 1.7rem !important;
 
     line-height: 1.3 !important;
 
@@ -785,7 +785,7 @@ a.nav-link:has(#navbar-name) {
 
     font-family: "Cormorant Garamond", serif !important;
 
-    font-size: 16px !important;
+    font-size: 18px !important;
 
     line-height: 1.3 !important;
 
@@ -826,7 +826,7 @@ a.nav-link:has(#navbar-name) {
 
     color: #222222 !important;
 
-    font-size: 34px !important;
+    font-size: 36px !important;
 
     line-height: 48px !important;
 
@@ -995,11 +995,11 @@ body:has(.visualization-page) .visualization-page {
     }
 
     #visualization-viewer-title {
-        font-size: 1.3rem !important;
+        font-size: 1.5rem !important;
     }
 
     #visualization-viewer-description {
-        font-size: 15px !important;
+        font-size: 18px !important;
 
         line-height: 1.6 !important;
     }
