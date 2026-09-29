@@ -4,7 +4,7 @@ title: "Teaching"
 
 ## Current Courses
 
-I currently teach two compulsory undergraduate courses in the Department of Economics at the University of Dhaka:
+I currently teach the following compulsory undergraduate courses in the Department of Economics at the University of Dhaka:
 
 **ECON 308: Public Economics**  
 *Compulsory*
@@ -12,12 +12,13 @@ I currently teach two compulsory undergraduate courses in the Department of Econ
 **ECON 103: Mathematics I — Linear Algebra and Calculus**  
 *Compulsory*
 
+**ECON 104: Mathematics II — Optimization Techniques**  
+*Compulsory*
+
 ## Courses Taught
 
 In addition to my current courses, I have taught the following undergraduate courses at least once, either independently or jointly with a colleague:
 
-**ECON 104: Mathematics II — Optimization Techniques**  
-*Compulsory*
 
 **ECON 317: Software Application for Economics**
 *Compulsory, half credit*
@@ -43,3 +44,4 @@ In addition to my current courses, I have taught the following undergraduate cou
 ---
 
 The undergraduate syllabus for the BSS in Economics is available through the [Department of Economics, University of Dhaka](https://ssl.du.ac.bd/fontView/images/syllabus/1708411177BSSHonoursSyllabus\(Session2012-13to2014-15\).pdf).
+
