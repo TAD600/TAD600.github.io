@@ -1770,6 +1770,11 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo-name">Somewhere near London</div>
 </div>
 
+<div class="tahia-photo" data-image="images/pic159f.jpg" data-title="Buckingham Palace Garden, London">
+<img src="images/pic159f.jpg" alt="Buckingham Palace Garden, London">
+<div class="tahia-photo-name">Buckingham Palace Garden, London</div>
+</div>
+
 <div class="tahia-photo" data-image="images/pic160.jpg" data-title="Cotswold village, UK">
 <img src="images/pic160.jpg" alt="Cotswold village, UK">
 <div class="tahia-photo-name">Cotswold village, UK</div>

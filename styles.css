@@ -1,8 +1,8 @@
 /* ==========================================================
-   FONT (upright + true italics)
+   FONT: Newsreader (upright + true italics)
 ========================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..800;1,6..72,300..800&display=swap');
 
 
 /* ==========================================================
@@ -19,8 +19,8 @@ html {
 
 html,
 body {
-    font-family: "Cormorant Garamond", serif !important;
-    font-size: 18px;
+    font-family: "Newsreader", Georgia, serif !important;
+    font-size: calc(19px + 1pt);
     line-height: 1.3;
 
     color: #222222;
@@ -45,7 +45,7 @@ textarea,
 table,
 th,
 td {
-    font-family: "Cormorant Garamond", serif;
+    font-family: "Newsreader", Georgia, serif;
 }
 
 
@@ -59,13 +59,13 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Cormorant Garamond", serif !important;
+    font-family: "Newsreader", Georgia, serif !important;
     color: #222222;
     font-weight: 600;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     line-height: 1.2;
 }
 
@@ -93,8 +93,8 @@ h4 {
 ========================================================== */
 
 p {
-    font-family: "Cormorant Garamond", serif !important;
-    font-size: 18px;
+    font-family: "Newsreader", Georgia, serif !important;
+    font-size: calc(19px + 1pt);
     line-height: 1.3;
 }
 
@@ -119,7 +119,7 @@ a:hover {
 ========================================================== */
 
 .navbar {
-    font-family: "Cormorant Garamond", serif !important;
+    font-family: "Newsreader", Georgia, serif !important;
 
     background: #ffffff;
     border-bottom: 1px solid #e8e8e8;
@@ -129,21 +129,26 @@ a:hover {
 .navbar-nav .nav-link,
 .navbar .dropdown-menu,
 .navbar .dropdown-item {
-    font-family: "Cormorant Garamond", serif !important;
+    font-family: "Newsreader", Georgia, serif !important;
 }
 
 .navbar-nav .nav-link {
-    font-size: 18px;
+    font-size: calc(19px + 1pt);
     font-weight: 500;
 }
 
+/* Site name: at least 6pt larger than every other text (other text = 19px + 1pt) */
 #navbar-name,
 #navbar-name.active,
-a.nav-link:has(#navbar-name) {
-    font-size: 27px !important;
+a.nav-link:has(#navbar-name),
+.navbar-nav.me-auto > .nav-item:first-child > .nav-link,
+.navbar-nav.me-auto > .nav-item:first-child > .nav-link .menu-text,
+.navbar-title {
+    font-size: calc(19px + 9pt) !important;
     font-weight: 700 !important;
     color: #222222 !important;
     letter-spacing: 0.01em;
+    line-height: 1.2 !important;
 }
 
 .navbar-nav .nav-link.active {
@@ -166,7 +171,7 @@ a.nav-link:has(#navbar-name) {
 }
 
 .navbar .dropdown-item {
-    font-size: 18px;
+    font-size: calc(19px + 1pt);
 
     color: #222222;
 
@@ -187,8 +192,8 @@ a.nav-link:has(#navbar-name) {
 
 .navbar-brand {
     display: block !important;
-    font-family: "Cormorant Garamond", serif !important;
-    font-size: 28px !important;
+    font-family: "Newsreader", Georgia, serif !important;
+    font-size: calc(19px + 9pt) !important;
     font-weight: 700 !important;
     color: #222222 !important;
     letter-spacing: 0.01em;
@@ -256,15 +261,15 @@ a.nav-link:has(#navbar-name) {
 
 
 /* ==========================================================
-   HOME — NAME (2pt larger than body text)
+   HOME — NAME (well above body text)
 ========================================================== */
 
 .home-name {
     display: block !important;
     visibility: visible !important;
     opacity: 1 !important;
-    font-family: "Cormorant Garamond", serif !important;
-    font-size: calc(18px + 2pt) !important;
+    font-family: "Newsreader", Georgia, serif !important;
+    font-size: calc(19px + 9pt) !important;
     line-height: 1.2;
     font-weight: 600;
     margin: 0 0 0.75rem 0;
@@ -278,8 +283,8 @@ a.nav-link:has(#navbar-name) {
 ========================================================== */
 
 .home-bio {
-    font-family: "Cormorant Garamond", serif !important;
-    font-size: 18px;
+    font-family: "Newsreader", Georgia, serif !important;
+    font-size: calc(19px + 1pt);
     line-height: 1.35;
 
     margin: 0 0 1.1rem 0;
@@ -293,8 +298,8 @@ a.nav-link:has(#navbar-name) {
 ========================================================== */
 
 .home-contact {
-    font-family: "Cormorant Garamond", serif !important;
-    font-size: 18px;
+    font-family: "Newsreader", Georgia, serif !important;
+    font-size: calc(19px + 1pt);
     line-height: 1.35;
     margin: 1rem 0 0 0;
     color: #222222;
@@ -331,13 +336,13 @@ a.nav-link:has(#navbar-name) {
 
     margin: 0;
 
-    font-family: "Cormorant Garamond", serif !important;
+    font-family: "Newsreader", Georgia, serif !important;
 
-    font-size: 16px;
+    font-size: calc(17px + 1pt);
 }
 
 .home-links a {
-    font-family: "Cormorant Garamond", serif !important;
+    font-family: "Newsreader", Georgia, serif !important;
 
     color: #6A9A78;
 
@@ -393,7 +398,7 @@ a.nav-link:has(#navbar-name) {
 }
 
 .home-social a {
-    font-family: "Cormorant Garamond", serif !important;
+    font-family: "Newsreader", Georgia, serif !important;
 
     color: #6A9A78;
 
@@ -419,9 +424,9 @@ a.nav-link:has(#navbar-name) {
 }
 
 .home-orcid {
-    font-family: "Cormorant Garamond", serif !important;
+    font-family: "Newsreader", Georgia, serif !important;
 
-    font-size: 18px !important;
+    font-size: calc(18px + 1pt) !important;
 
     font-weight: 600;
 
@@ -451,12 +456,12 @@ a.nav-link:has(#navbar-name) {
     }
 
     .home-name {
-        font-size: calc(18px + 2pt) !important;
+        font-size: calc(19px + 9pt) !important;
     }
 
     .home-bio,
     .home-contact {
-        font-size: 17px;
+        font-size: calc(17px + 1pt);
     }
 
     .home-links-row {
@@ -471,9 +476,9 @@ a.nav-link:has(#navbar-name) {
 ========================================================== */
 
 .coming-soon {
-    font-family: "Cormorant Garamond", serif !important;
+    font-family: "Newsreader", Georgia, serif !important;
 
-    font-size: 24px;
+    font-size: calc(25px + 1pt);
 
     font-style: italic;
 
@@ -760,9 +765,9 @@ a.nav-link:has(#navbar-name) {
 
     color: #222222 !important;
 
-    font-family: "Cormorant Garamond", serif !important;
+    font-family: "Newsreader", Georgia, serif !important;
 
-    font-size: 1.7rem !important;
+    font-size: 1.8rem !important;
 
     line-height: 1.3 !important;
 
@@ -783,9 +788,9 @@ a.nav-link:has(#navbar-name) {
 
     color: rgba(0, 0, 0, 0.75) !important;
 
-    font-family: "Cormorant Garamond", serif !important;
+    font-family: "Newsreader", Georgia, serif !important;
 
-    font-size: 18px !important;
+    font-size: calc(19px + 1pt) !important;
 
     line-height: 1.3 !important;
 
@@ -995,11 +1000,11 @@ body:has(.visualization-page) .visualization-page {
     }
 
     #visualization-viewer-title {
-        font-size: 1.5rem !important;
+        font-size: 1.8rem !important;
     }
 
     #visualization-viewer-description {
-        font-size: 18px !important;
+        font-size: calc(18px + 1pt) !important;
 
         line-height: 1.6 !important;
     }
