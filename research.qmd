@@ -2,6 +2,7 @@
 title: "Research"
 page-layout: full
 css: research.css
+include-after-body: privacy-footer.html
 ---
 
 ::: {.research-grid}

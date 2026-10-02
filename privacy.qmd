@@ -31,6 +31,6 @@ research, contact the email below.
 Use of YouTube API Services is subject to the
 [YouTube Terms of Service](https://www.youtube.com/t/terms). Google's data
 practices are described in the
-[Google Privacy Policy](http://www.google.com/policies/privacy).
+[Google Privacy Policy](https://policies.google.com/privacy).
 
 **Contact:** dhiraanan3@gmail.com

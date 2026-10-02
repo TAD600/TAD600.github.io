@@ -14,9 +14,6 @@ resources:
 website:
   title: "Tahia Anan Dhira"
 
-  page-footer:
-    center: "[Privacy Policy](privacy.html)"
-
   navbar:
     title: false
 

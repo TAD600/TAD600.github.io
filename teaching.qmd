@@ -6,40 +6,30 @@ title: "Teaching"
 
 I currently teach the following compulsory undergraduate courses in the Department of Economics at the University of Dhaka:
 
-**ECON 308: Public Economics**  
-*Compulsory*
+**ECON 308: Public Economics** . *Compulsory*
 
-**ECON 103: Mathematics I — Linear Algebra and Calculus**  
-*Compulsory*
+**ECON 103: Mathematics I — Linear Algebra and Calculus** · *Compulsory*
 
-**ECON 104: Mathematics II — Optimization Techniques**  
-*Compulsory*
+**ECON 104: Mathematics II — Optimization Techniques** · *Compulsory*
 
 ## Courses Taught
 
 In addition to my current courses, I have taught the following undergraduate courses at least once, either independently or jointly with a colleague:
 
 
-**ECON 317: Software Application for Economics**
-*Compulsory, half credit*
+**ECON 317: Software Application for Economics** · *Compulsory, half credit*
 
-**ECON 203: Intermediate Macroeconomics I**  
-*Compulsory*
+**ECON 203: Intermediate Macroeconomics I** · *Compulsory*
 
-**ECON 201: Intermediate Microeconomics I**  
-*Compulsory*
+**ECON 201: Intermediate Microeconomics I** · *Compulsory*
 
-**ECON 310: International Finance**  
-*Optional*
+**ECON 310: International Finance** · *Optional*
 
-**ECON 409: Environmental Economics**  
-*Optional*
+**ECON 409: Environmental Economics** · *Optional*
 
-**ECON 102: Principles of Macroeconomics**  
-*Compulsory*
+**ECON 102: Principles of Macroeconomics** · *Compulsory*
 
-**ECON 101: Principles of Microeconomics**  
-*Compulsory*
+**ECON 101: Principles of Microeconomics** · *Compulsory*
 
 ---
 
