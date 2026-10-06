@@ -37,6 +37,12 @@
             },
 
             {
+                image: "images/BD.png",
+                title: "Mobile Phone and Internet Penetration in Bangladesh, 2022",
+                description: "Bangladesh can seem fully connected when viewed from its major cities or from inside social media echo chambers, but the actual landscape is highly variable. Mobile phone adoption and internet penetration are far from universal, and both vary sharply across districts and between genders. Dhaka and its surrounding districts lead on both measures, while many northern, southern and coastal districts lag behind, and women trail men almost everywhere. Studies based on social media discourse or online content analysis therefore cannot easily be generalized to the whole country, even though social media and the internet have become increasingly prominent in Bangladesh's political life in recent years. Source: Population and Housing Census 2022, Bangladesh Bureau of Statistics (BBS)."
+            },
+
+            {
                 image: "images/classifying_art_gender.png",
                 title: "Annotation Pipeline for Gender and Art-Category Classification",
                 description: "The annotation pipeline for gender and art-category classification of YouTube videos by Bangladeshi artists. Artist gender and art-category annotation is performed at two levels: channel-level annotation for personal artist channels, and video-level annotation for entertainment channels using the Gemini API. LLM-assisted preliminary annotations are then verified and corrected by the author, producing final verified gender and art categories. Videos featuring clickbait, irrelevant, unknown, or mixed-gender performers are excluded from the final dataset."     

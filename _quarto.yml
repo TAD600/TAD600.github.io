@@ -34,7 +34,7 @@ website:
         text: Blog
 
     right:
-      - text: "Beyond Academia"
+      - text: "Off-desk archive"
         menu:
           - href: photojournal.qmd
             text: Photo Journal

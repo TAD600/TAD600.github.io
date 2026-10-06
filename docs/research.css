@@ -37,9 +37,9 @@
 
 .entry .who {
   color: #555555;
-  font-size: 0.95rem;
+  font-size: calc(19px + 1pt);
+  line-height: 1.3;
 }
-
 .entry .summary {
   color: #555555;
   font-size: 0.95rem;

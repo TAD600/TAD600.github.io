@@ -188,6 +188,32 @@ a.nav-link:has(#navbar-name),
 }
 
 
+/* Keep site name and tabs on the same line (shared baseline) */
+
+.navbar .navbar-collapse,
+.navbar .navbar-container {
+    align-items: center !important;
+}
+
+.navbar-nav.me-auto,
+.navbar-nav.navbar-nav-scroll {
+    align-items: baseline !important;
+}
+
+.navbar-nav.me-auto > .nav-item,
+.navbar-nav.navbar-nav-scroll > .nav-item {
+    display: flex;
+    align-items: baseline;
+}
+
+.navbar-nav.me-auto > .nav-item > .nav-link,
+.navbar-nav.navbar-nav-scroll > .nav-item > .nav-link {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+
 /* Navbar brand (site name, when rendered via website.navbar.title) */
 
 .navbar-brand {
@@ -1015,4 +1041,17 @@ body:has(.visualization-page) .visualization-page {
         right: 14px !important;
     }
 
+}
+
+
+/* ==========================================================
+   COAUTHOR LISTS (same size as description text)
+========================================================== */
+
+small,
+.small,
+.coauthors,
+[style*="font-size"] {
+    font-size: calc(19px + 1pt) !important;
+    line-height: 1.3 !important;
 }

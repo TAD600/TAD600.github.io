@@ -441,9 +441,9 @@ body:has(#tahia-photojournal) main.content {
 </div>
 
 
-<div class="tahia-photo" data-image="images/pic4.jpg" data-title="Shillong, India">
-<img src="images/pic4.jpg" alt="Shillong, India">
-<div class="tahia-photo-name">Shillong, India</div>
+<div class="tahia-photo" data-image="images/pic4.jpg" data-title="Krangshuri Water Fall, Meghalaya, India">
+<img src="images/pic4.jpg" alt="Krangshuri Water Fall, Meghalaya, India">
+<div class="tahia-photo-name">Krangshuri Water Fall, Meghalaya, India</div>
 </div>
 
 
