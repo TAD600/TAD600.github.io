@@ -24,7 +24,7 @@ body {
     line-height: 1.3;
 
     color: #222222;
-    background: #ffffff;
+    background: #fafafa;
 }
 
 
@@ -121,7 +121,7 @@ a:hover {
 .navbar {
     font-family: "Newsreader", Georgia, serif !important;
 
-    background: #ffffff;
+    background: #fafafa;
     border-bottom: 1px solid #e8e8e8;
 }
 
@@ -160,7 +160,7 @@ a.nav-link:has(#navbar-name),
 /* Dropdown */
 
 .navbar .dropdown-menu {
-    background: #ffffff;
+    background: #fafafa;
 
     border: 1px solid #eeeeee;
     border-radius: 3px;
