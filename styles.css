@@ -6,6 +6,23 @@
 
 
 /* ==========================================================
+   SCALE — one knob for the whole site
+   0.8 = looks like the browser zoomed to 80%. Use 1 for full size.
+   Mobile (<= 800px) stays at full size.
+========================================================== */
+
+:root {
+    --s: 0.8;
+}
+
+@media (max-width: 800px) {
+    :root {
+        --s: 1;
+    }
+}
+
+
+/* ==========================================================
    GLOBAL
 ========================================================== */
 
@@ -20,7 +37,7 @@ html {
 html,
 body {
     font-family: "Newsreader", Georgia, serif !important;
-    font-size: calc(19px + 1pt);
+    font-size: calc((19px + 1pt) * var(--s));
     line-height: 1.3;
 
     color: #222222;
@@ -94,7 +111,7 @@ h4 {
 
 p {
     font-family: "Newsreader", Georgia, serif !important;
-    font-size: calc(19px + 1pt);
+    font-size: calc((19px + 1pt) * var(--s));
     line-height: 1.3;
 }
 
@@ -133,7 +150,7 @@ a:hover {
 }
 
 .navbar-nav .nav-link {
-    font-size: calc(19px + 1pt);
+    font-size: calc((19px + 1pt) * var(--s));
     font-weight: 500;
 }
 
@@ -144,7 +161,7 @@ a.nav-link:has(#navbar-name),
 .navbar-nav.me-auto > .nav-item:first-child > .nav-link,
 .navbar-nav.me-auto > .nav-item:first-child > .nav-link .menu-text,
 .navbar-title {
-    font-size: calc(19px + 9pt) !important;
+    font-size: calc((19px + 9pt) * var(--s)) !important;
     font-weight: 700 !important;
     color: #222222 !important;
     letter-spacing: 0.01em;
@@ -171,7 +188,7 @@ a.nav-link:has(#navbar-name),
 }
 
 .navbar .dropdown-item {
-    font-size: calc(19px + 1pt);
+    font-size: calc((19px + 1pt) * var(--s));
 
     color: #222222;
 
@@ -219,7 +236,7 @@ a.nav-link:has(#navbar-name),
 .navbar-brand {
     display: block !important;
     font-family: "Newsreader", Georgia, serif !important;
-    font-size: calc(19px + 9pt) !important;
+    font-size: calc((19px + 9pt) * var(--s)) !important;
     font-weight: 700 !important;
     color: #222222 !important;
     letter-spacing: 0.01em;
@@ -268,7 +285,7 @@ a.nav-link:has(#navbar-name),
     min-height: calc(100vh - 220px);
 
     width: 100%;
-    max-width: 1100px;
+    max-width: calc(1100px * var(--s));
     margin: 1.5rem auto 1rem auto;
     padding: 0 1.5rem;
 }
@@ -282,7 +299,7 @@ a.nav-link:has(#navbar-name),
     flex: 1 1 auto;
     width: 100%;
     min-width: 0;
-    max-width: 880px;
+    max-width: calc(880px * var(--s));
 }
 
 
@@ -295,7 +312,7 @@ a.nav-link:has(#navbar-name),
     visibility: visible !important;
     opacity: 1 !important;
     font-family: "Newsreader", Georgia, serif !important;
-    font-size: calc(19px + 9pt) !important;
+    font-size: calc((19px + 9pt) * var(--s)) !important;
     line-height: 1.2;
     font-weight: 600;
     margin: 0 0 0.75rem 0;
@@ -310,7 +327,7 @@ a.nav-link:has(#navbar-name),
 
 .home-bio {
     font-family: "Newsreader", Georgia, serif !important;
-    font-size: calc(19px + 1pt);
+    font-size: calc((19px + 1pt) * var(--s));
     line-height: 1.35;
 
     margin: 0 0 1.1rem 0;
@@ -325,7 +342,7 @@ a.nav-link:has(#navbar-name),
 
 .home-contact {
     font-family: "Newsreader", Georgia, serif !important;
-    font-size: calc(19px + 1pt);
+    font-size: calc((19px + 1pt) * var(--s));
     line-height: 1.35;
     margin: 1rem 0 0 0;
     color: #222222;
@@ -364,7 +381,7 @@ a.nav-link:has(#navbar-name),
 
     font-family: "Newsreader", Georgia, serif !important;
 
-    font-size: calc(17px + 1pt);
+    font-size: calc((17px + 1pt) * var(--s));
 }
 
 .home-links a {
@@ -428,7 +445,7 @@ a.nav-link:has(#navbar-name),
 
     color: #6A9A78;
 
-    font-size: 18px;
+    font-size: calc(18px * var(--s));
 
     line-height: 1;
 
@@ -446,13 +463,13 @@ a.nav-link:has(#navbar-name),
 }
 
 .home-social .bi {
-    font-size: 21px;
+    font-size: calc(21px * var(--s));
 }
 
 .home-orcid {
     font-family: "Newsreader", Georgia, serif !important;
 
-    font-size: calc(18px + 1pt) !important;
+    font-size: calc((18px + 1pt) * var(--s)) !important;
 
     font-weight: 600;
 
@@ -478,16 +495,16 @@ a.nav-link:has(#navbar-name),
     .home-text {
         width: 100%;
 
-        max-width: 650px;
+        max-width: calc(650px * var(--s));
     }
 
     .home-name {
-        font-size: calc(19px + 9pt) !important;
+        font-size: calc((19px + 9pt) * var(--s)) !important;
     }
 
     .home-bio,
     .home-contact {
-        font-size: calc(17px + 1pt);
+        font-size: calc((17px + 1pt) * var(--s));
     }
 
     .home-links-row {
@@ -504,7 +521,7 @@ a.nav-link:has(#navbar-name),
 .coming-soon {
     font-family: "Newsreader", Georgia, serif !important;
 
-    font-size: calc(25px + 1pt);
+    font-size: calc((25px + 1pt) * var(--s));
 
     font-style: italic;
 
@@ -525,7 +542,7 @@ a.nav-link:has(#navbar-name),
 
     margin: 0 !important;
 
-    padding: 20px 0 60px;
+    padding: calc(20px * var(--s)) 0 calc(60px * var(--s));
 
     box-sizing: border-box;
 }
@@ -542,7 +559,7 @@ a.nav-link:has(#navbar-name),
 
     column-count: 5;
 
-    column-gap: 16px;
+    column-gap: calc(16px * var(--s));
 
     box-sizing: border-box;
 }
@@ -557,7 +574,7 @@ a.nav-link:has(#navbar-name),
 
     display: inline-block !important;
 
-    margin: 0 0 16px 0 !important;
+    margin: 0 0 calc(16px * var(--s)) 0 !important;
 
     padding: 0 !important;
 
@@ -640,7 +657,7 @@ a.nav-link:has(#navbar-name),
 
     margin: 0 !important;
 
-    padding: 40px !important;
+    padding: calc(40px * var(--s)) !important;
 
     box-sizing: border-box !important;
 
@@ -669,7 +686,7 @@ a.nav-link:has(#navbar-name),
 
     width: 94vw !important;
 
-    max-width: 1400px !important;
+    max-width: calc(1400px * var(--s)) !important;
 
     height: auto !important;
 
@@ -689,7 +706,7 @@ a.nav-link:has(#navbar-name),
 
     justify-content: center !important;
 
-    gap: 45px !important;
+    gap: calc(45px * var(--s)) !important;
 }
 
 
@@ -760,15 +777,15 @@ a.nav-link:has(#navbar-name),
 .visualization-information {
     flex: 0 0 300px !important;
 
-    width: 300px !important;
+    width: calc(300px * var(--s)) !important;
 
-    max-width: 300px !important;
+    max-width: calc(300px * var(--s)) !important;
 
     max-height: 75vh !important;
 
     margin: 0 !important;
 
-    padding: 10px 0 !important;
+    padding: calc(10px * var(--s)) 0 !important;
 
     box-sizing: border-box !important;
 
@@ -785,7 +802,7 @@ a.nav-link:has(#navbar-name),
 #visualization-viewer-title {
     display: block !important;
 
-    margin: 0 0 18px 0 !important;
+    margin: 0 0 calc(18px * var(--s)) 0 !important;
 
     padding: 0 !important;
 
@@ -816,7 +833,7 @@ a.nav-link:has(#navbar-name),
 
     font-family: "Newsreader", Georgia, serif !important;
 
-    font-size: calc(19px + 1pt) !important;
+    font-size: calc((19px + 1pt) * var(--s)) !important;
 
     line-height: 1.3 !important;
 
@@ -837,13 +854,13 @@ a.nav-link:has(#navbar-name),
 
     z-index: 2147483648 !important;
 
-    width: 48px !important;
+    width: calc(48px * var(--s)) !important;
 
-    height: 48px !important;
+    height: calc(48px * var(--s)) !important;
 
-    min-width: 48px !important;
+    min-width: calc(48px * var(--s)) !important;
 
-    min-height: 48px !important;
+    min-height: calc(48px * var(--s)) !important;
 
     margin: 0 !important;
 
@@ -857,7 +874,7 @@ a.nav-link:has(#navbar-name),
 
     color: #222222 !important;
 
-    font-size: 36px !important;
+    font-size: calc(36px * var(--s)) !important;
 
     line-height: 48px !important;
 
@@ -936,7 +953,7 @@ body:has(.visualization-page) .visualization-page {
     .visualization-gallery {
         column-count: 3;
 
-        column-gap: 14px;
+        column-gap: calc(14px * var(--s));
     }
 
 }
@@ -949,9 +966,9 @@ body:has(.visualization-page) .visualization-page {
 @media (max-width: 650px) {
 
     .visualization-page {
-        padding-left: 12px;
+        padding-left: calc(12px * var(--s));
 
-        padding-right: 12px;
+        padding-right: calc(12px * var(--s));
     }
 
     .visualization-gallery {
@@ -959,7 +976,7 @@ body:has(.visualization-page) .visualization-page {
     }
 
     .visualization-item {
-        margin-bottom: 16px !important;
+        margin-bottom: calc(16px * var(--s)) !important;
     }
 
 }
@@ -972,7 +989,7 @@ body:has(.visualization-page) .visualization-page {
 @media (max-width: 800px) {
 
     .visualization-viewer {
-        padding: 65px 20px 25px 20px !important;
+        padding: calc(65px * var(--s)) calc(20px * var(--s)) calc(25px * var(--s)) calc(20px * var(--s)) !important;
 
         align-items: flex-start !important;
 
@@ -992,7 +1009,7 @@ body:has(.visualization-page) .visualization-page {
 
         align-items: center !important;
 
-        gap: 25px !important;
+        gap: calc(25px * var(--s)) !important;
     }
 
     .visualization-image-container {
@@ -1022,7 +1039,7 @@ body:has(.visualization-page) .visualization-page {
 
         overflow: visible !important;
 
-        padding: 0 0 30px 0 !important;
+        padding: 0 0 calc(30px * var(--s)) 0 !important;
     }
 
     #visualization-viewer-title {
@@ -1030,7 +1047,7 @@ body:has(.visualization-page) .visualization-page {
     }
 
     #visualization-viewer-description {
-        font-size: calc(18px + 1pt) !important;
+        font-size: calc((18px + 1pt) * var(--s)) !important;
 
         line-height: 1.6 !important;
     }
@@ -1052,6 +1069,6 @@ small,
 .small,
 .coauthors,
 [style*="font-size"] {
-    font-size: calc(19px + 1pt) !important;
+    font-size: calc((19px + 1pt) * var(--s)) !important;
     line-height: 1.3 !important;
 }
