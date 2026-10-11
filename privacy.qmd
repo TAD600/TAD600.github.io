@@ -4,7 +4,7 @@ title: "Privacy Policy"
 
 **Project:** Audience Discourse on Bangladeshi Artists Research Client\
 **Operator:** Tahia Anan Dhira, independent researcher\
-**Last updated:** 28 September 2026
+**Last updated:** 10 October 2026
 
 This is a non-commercial, non-funded, independent academic research project.
 It uses the YouTube Data API v3 to retrieve publicly available comments from a
