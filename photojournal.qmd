@@ -2155,6 +2155,11 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo-name">Rainkhola, Dhaka, Bangladesh</div>
 </div>
 
+<div class="tahia-photo" data-image="images/pic202a.jpg" data-title="Rainkhola, Dhaka, Bangladesh">
+<img src="images/pic202a.jpg" alt="Rainkhola, Dhaka, Bangladesh">
+<div class="tahia-photo-name">Rainkhola, Dhaka, Bangladesh</div>
+</div>
+
 <div class="tahia-photo" data-image="images/pic203.jpg" data-title="Rainkhola, Dhaka, Bangladesh">
 <img src="images/pic203.jpg" alt="Rainkhola, Dhaka, Bangladesh">
 <div class="tahia-photo-name">Rainkhola, Dhaka, Bangladesh</div>
@@ -2188,6 +2193,11 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo" data-image="images/pic208.jpg" data-title="Dhaka, Bangladesh">
 <img src="images/pic208.jpg" alt="Dhaka, Bangladesh">
 <div class="tahia-photo-name">Dhaka, Bangladesh</div>
+</div>
+
+<div class="tahia-photo" data-image="images/pic209.jpg" data-title="From Natore to Dhaka, Bangladesh">
+<img src="images/pic209.jpg" alt="From Natore to Dhaka, Bangladesh">
+<div class="tahia-photo-name">From Natore to Dhaka, Bangladesh</div>
 </div>
 
 </div>
