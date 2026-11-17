@@ -2200,6 +2200,11 @@ body:has(#tahia-photojournal) main.content {
 <div class="tahia-photo-name">From Natore to Dhaka, Bangladesh</div>
 </div>
 
+<div class="tahia-photo" data-image="images/pic210.jpg" data-title="Mirpur, Dhaka, Bangladesh">
+<img src="images/pic210.jpg" alt = "Mirpur, Dhaka, Bangladesh">
+<div class="tahia-photo-name">Mirpur, Dhaka, Bangladesh</div>
+</div>
+
 </div>
 
 </div>
